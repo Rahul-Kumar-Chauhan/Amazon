@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_Amazon_Login_001</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>778de317-2267-48cf-9ef4-b2bf8d9e786c</testCaseGuid>
-</TestCaseEntity>

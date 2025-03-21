@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Amazon_RemovingProductFromWishlist_017</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e75ead79-02e5-43c4-a854-f2f1a734b170</testCaseGuid>
+</TestCaseEntity>

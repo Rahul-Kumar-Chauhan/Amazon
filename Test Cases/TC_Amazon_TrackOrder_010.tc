@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Amazon_TrackOrder_010</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ef5473a0-25ca-4e11-8d7f-764c8b151aa8</testCaseGuid>
+</TestCaseEntity>

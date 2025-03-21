@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Privacy Notice</name>
+   <tag></tag>
+   <elementGuidId>71f1ddd3-ee5d-488f-b860-d6d172f633f8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.navFooterLine.navFooterLinkLine.navFooterPadItemLine.navFooterCopyright > ul > li:nth-of-type(2) > a.nav_a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[@id=''])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Privacy Notice&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>81879600-4b06-408e-89cc-b10ee93c3c88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/gp/help/customer/display.html?nodeId=200534380&amp;ref_=footer_privacy</value>
+      <webElementGuid>388671d3-fd5e-4aec-b405-a9a04205e684</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav_a</value>
+      <webElementGuid>e6bb39fa-2a34-4c52-92b3-67ac2968c0db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Privacy Notice</value>
+      <webElementGuid>ba9221eb-2e29-420f-ba3a-42a9b773a0e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navFooter&quot;)/div[@class=&quot;navFooterLine navFooterLinkLine navFooterPadItemLine navFooterCopyright&quot;]/ul[1]/li[2]/a[@class=&quot;nav_a&quot;]</value>
+      <webElementGuid>e9e38929-da35-4237-8c1d-4b2f079f1752</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//a[@id=''])[2]</value>
+      <webElementGuid>118b142c-c1e0-4cd1-ac0c-b26bd84432da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navFooter']/div[5]/ul/li[2]/a</value>
+      <webElementGuid>1d5583b5-807a-40c5-8ed7-32e77ca95b6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Privacy Notice')]</value>
+      <webElementGuid>8c94322c-8461-458d-9340-4efd7aa0c327</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Conditions of Use &amp; Sale'])[1]/following::a[1]</value>
+      <webElementGuid>c60988b5-a23d-460c-b3da-8bfc1fc5dce7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Amazon Prime Music'])[1]/following::a[2]</value>
+      <webElementGuid>64c3fb09-d51c-4f08-9b8b-9a6b5901f165</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Interest-Based Ads'])[1]/preceding::a[1]</value>
+      <webElementGuid>4753e940-44ad-4387-af9c-e54c1e5a23c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© 1996-2025, Amazon.com, Inc. or its affiliates'])[1]/preceding::a[2]</value>
+      <webElementGuid>3424560e-5fdd-4918-82ac-6ac96c7ec4ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Privacy Notice']/parent::*</value>
+      <webElementGuid>fcdae0fd-5491-4595-be59-f49a5dd6dc6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/gp/help/customer/display.html?nodeId=200534380&amp;ref_=footer_privacy')]</value>
+      <webElementGuid>5c2def35-b854-4acf-83d9-9e16eaefad5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/ul/li[2]/a</value>
+      <webElementGuid>c54dd092-7c0e-41d0-b37a-d85c74172d49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/gp/help/customer/display.html?nodeId=200534380&amp;ref_=footer_privacy' and (text() = 'Privacy Notice' or . = 'Privacy Notice')]</value>
+      <webElementGuid>b1ccaaa3-ebbd-4cbd-ba3a-546e2f877aa6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

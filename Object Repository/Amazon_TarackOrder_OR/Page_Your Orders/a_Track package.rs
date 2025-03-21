@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Track package</name>
+   <tag></tag>
+   <elementGuidId>ea48e7d7-abc6-4c2e-86f7-6391f73251a9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#a-autoid-2-announce</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='a-autoid-2-announce']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Track package&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>f62c6ff0-e876-4743-b86c-0b3d279db42e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/gp/your-account/ship-track?itemId=mnmjnwmrmotuuo&amp;ref=ppx_yo2ov_dt_b_track_package&amp;orderId=407-9204132-8266715</value>
+      <webElementGuid>975c8f07-e6fd-42b8-86d5-16b4b0349fcf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-button-text</value>
+      <webElementGuid>590ab972-6ca0-4988-9ca8-86c4b703fbff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e375f0b3-dfbc-44e2-8e7a-141b96128794</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>a-autoid-2-announce</value>
+      <webElementGuid>10da80ac-3dcf-4aa6-89cb-a2deb16a63df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            Track package
+        </value>
+      <webElementGuid>ccfe1ee1-5701-4c81-9491-5deda0ad69c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a-autoid-2-announce&quot;)</value>
+      <webElementGuid>accd72b2-ba9d-4033-adc1-ba72d196cd0f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='a-autoid-2-announce']</value>
+      <webElementGuid>1e06e0ad-6360-4f19-8bca-4f08f9f689ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='a-autoid-2']/span/a</value>
+      <webElementGuid>cd1e3abb-1276-4723-8646-28a8b4b83e72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Track package')]</value>
+      <webElementGuid>24aa35cf-4e67-4a29-8d9f-5000196c1a63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dopamine Detox : A Short Guide to Remove Distractions and Get Your Brain to Do Hard Things'])[1]/following::a[1]</value>
+      <webElementGuid>786f147a-a319-4432-930a-c625b447ad15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Arriving Monday'])[1]/following::a[3]</value>
+      <webElementGuid>d24dadf4-0096-4ba7-ad07-1fa0603a31c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View or edit order'])[1]/preceding::a[1]</value>
+      <webElementGuid>8ec58791-2173-4581-bb1b-f2dfa34f6330</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Write a product review'])[1]/preceding::a[2]</value>
+      <webElementGuid>70f44819-4fab-483d-8471-09631a67fcee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Track package']/parent::*</value>
+      <webElementGuid>5f9ca1e0-e837-405b-a839-2f76a6d45f8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/gp/your-account/ship-track?itemId=mnmjnwmrmotuuo&amp;ref=ppx_yo2ov_dt_b_track_package&amp;orderId=407-9204132-8266715')]</value>
+      <webElementGuid>d111812b-1008-4cd5-a3be-02814935a5d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/span/a</value>
+      <webElementGuid>25f1135d-7b69-4015-b1bf-e0cfb4bfde11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/gp/your-account/ship-track?itemId=mnmjnwmrmotuuo&amp;ref=ppx_yo2ov_dt_b_track_package&amp;orderId=407-9204132-8266715' and @id = 'a-autoid-2-announce' and (text() = '
+            Track package
+        ' or . = '
+            Track package
+        ')]</value>
+      <webElementGuid>2ecad232-4897-434a-a003-63125309dda9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

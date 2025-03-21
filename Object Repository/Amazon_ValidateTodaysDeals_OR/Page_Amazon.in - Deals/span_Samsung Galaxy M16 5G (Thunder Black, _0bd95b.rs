@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Samsung Galaxy M16 5G (Thunder Black, _0bd95b</name>
+   <tag></tag>
+   <elementGuidId>e5c276dc-6f28-494d-a08c-e1349d2eb3bd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.dui-truncate-53.Truncate-module_duiTruncate__EvR99 > span.a-truncate > span.a-truncate-cut</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[@id='title-B0DX5MYCRG']/span/span/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;20% off Limited time deal Samsung Galaxy M16 5G (Thunder Black, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | Super Amoled Display | 25W Fast Charging | 6 Gen. of OS Upgrades | Without Charger&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>092a2930-e538-4ba2-aace-14c5d47034a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>55082c00-3a48-4f91-bebb-b7a9416d8ebd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-truncate-cut</value>
+      <webElementGuid>6a574579-1049-4a85-93c9-1bcb5e874e5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Samsung Galaxy M16 5G (Thunder Black, 6GB RAM,…</value>
+      <webElementGuid>159c3fb7-42bd-43ea-9a3b-f66cfee7d83b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;title-B0DX5MYCRG&quot;)/span[@class=&quot;dui-truncate-53 Truncate-module_duiTruncate__EvR99&quot;]/span[@class=&quot;a-truncate&quot;]/span[@class=&quot;a-truncate-cut&quot;]</value>
+      <webElementGuid>cd8b90ca-6f4b-4317-a072-f53174a06dd4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//p[@id='title-B0DX5MYCRG']/span/span/span[2]</value>
+      <webElementGuid>4f043edb-cff5-47e8-976c-543453cf8338</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Limited time deal'])[4]/following::span[4]</value>
+      <webElementGuid>2f8ca6dd-0335-4737-b9f7-b58e51896782</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OnePlus Nord CE4 (Dark Chrome, 8GB RAM, 256GB Storage)'])[1]/following::span[8]</value>
+      <webElementGuid>33b84352-16bc-41a0-bfad-f1d18704113a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Limited time deal'])[5]/preceding::span[2]</value>
+      <webElementGuid>7d8d07a6-2794-4c60-95c6-d24299c9ba1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vivo V50 5G (Rose Red, 12GB RAM, 512GB Storage) with No Cost EMI/Additional Exchange Offers'])[1]/preceding::span[4]</value>
+      <webElementGuid>0868fec7-c435-4121-8414-dc2e9db83307</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Samsung Galaxy M16 5G (Thunder Black, 6GB RAM,…']/parent::*</value>
+      <webElementGuid>dce911b1-9cbc-4ae8-9ccd-11f083ab8dd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/a/p/span/span/span[2]</value>
+      <webElementGuid>de37e20c-1a62-45c8-899e-1e8bbf33386d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Samsung Galaxy M16 5G (Thunder Black, 6GB RAM,…' or . = 'Samsung Galaxy M16 5G (Thunder Black, 6GB RAM,…')]</value>
+      <webElementGuid>4d9188fd-1b98-4c03-8cdf-2ac9cdd577cb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

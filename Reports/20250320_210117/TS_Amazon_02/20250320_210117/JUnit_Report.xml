@@ -1,0 +1,1671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Amazon_02" time="3720.614" tests="5" failures="3" errors="0">
+   <testsuite name="TS_Amazon_02" tests="5" failures="3" errors="0" time="3720.614" skipped="0" timestamp="20-03-2025T21:01:22" hostname="R.K.Chauhan - RahulPC" id="Test Suites/TS_Amazon_02">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="E:\\Software Automation Testing\\Amazon\\Reports\\20250320_210117\\TS_Amazon_02\\20250320_210117"/>
+         <property name="logFiles" value="E:\\Software Automation Testing\\Amazon\\Reports\\20250320_210117\\TS_Amazon_02\\20250320_210117\\execution0.log"/>
+         <property name="attachments" value="E:\\Software Automation Testing\\Amazon\\Reports\\20250320_210117\\TS_Amazon_02\\20250320_210117\\1742484709579.png, E:\\Software Automation Testing\\Amazon\\Reports\\20250320_210117\\TS_Amazon_02\\20250320_210117\\1742484709954.png, E:\\Software Automation Testing\\Amazon\\Reports\\20250320_210117\\TS_Amazon_02\\20250320_210117\\1742484865319.png, E:\\Software Automation Testing\\Amazon\\Reports\\20250320_210117\\TS_Amazon_02\\20250320_210117\\1742485710279.png, E:\\Software Automation Testing\\Amazon\\Reports\\20250320_210117\\TS_Amazon_02\\20250320_210117\\1742487226874.png, E:\\Software Automation Testing\\Amazon\\Reports\\20250320_210117\\TS_Amazon_02\\20250320_210117\\1742487393575.png, E:\\Software Automation Testing\\Amazon\\Reports\\20250320_210117\\TS_Amazon_02\\20250320_210117\\1742487629250.png, E:\\Software Automation Testing\\Amazon\\Reports\\20250320_210117\\TS_Amazon_02\\20250320_210117\\1742487680707.png, E:\\Software Automation Testing\\Amazon\\Reports\\20250320_210117\\TS_Amazon_02\\20250320_210117\\1742487770952.png, E:\\Software Automation Testing\\Amazon\\Reports\\20250320_210117\\TS_Amazon_02\\20250320_210117\\1742487844970.png, E:\\Software Automation Testing\\Amazon\\Reports\\20250320_210117\\TS_Amazon_02\\20250320_210117\\1742487925125.png, E:\\Software Automation Testing\\Amazon\\Reports\\20250320_210117\\TS_Amazon_02\\20250320_210117\\1742487999154.png, E:\\Software Automation Testing\\Amazon\\Reports\\20250320_210117\\TS_Amazon_02\\20250320_210117\\1742488106685.png, E:\\Software Automation Testing\\Amazon\\Reports\\20250320_210117\\TS_Amazon_02\\20250320_210117\\1742488205707.png, E:\\Software Automation Testing\\Amazon\\Reports\\20250320_210117\\TS_Amazon_02\\20250320_210117\\1742488254809.png, E:\\Software Automation Testing\\Amazon\\Reports\\20250320_210117\\TS_Amazon_02\\20250320_210117\\1742488315849.png, E:\\Software Automation Testing\\Amazon\\Reports\\20250320_210117\\TS_Amazon_02\\20250320_210117\\1742488359898.png"/>
+         <property name="hostName" value="R.K.Chauhan - RahulPC"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Firefox 136.0.2"/>
+         <property name="hostAddress" value="192.168.202.167"/>
+         <property name="sessionId" value="42074966-9a58-4e70-b03d-4eb48c459fdb"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_Amazon_ValidateLogo_004" time="40.352" classname="Test Cases/TC_Amazon_ValidateLogo_004" status="PASSED">
+         <system-out><![CDATA[20-03-2025T21:01:22 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateLogo_004: Test Cases/TC_Amazon_ValidateLogo_004
+
+20-03-2025T21:01:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T21:01:23 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+20-03-2025T21:01:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T21:01:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T21:01:31 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T21:01:38 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T21:01:38 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+20-03-2025T21:01:48 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+20-03-2025T21:01:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Amazon_ValidateLogo_OR/Page_Online Shopping site in India Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in/div_in"), 0): Object 'Object Repository/Amazon_ValidateLogo_OR/Page_Online Shopping site in India Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in/div_in' is present
+
+20-03-2025T21:01:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-03-2025T21:01:48 - [MESSAGE][PASSED] - Object 'Object Repository/Amazon_ValidateLogo_OR/Page_Online Shopping site in India Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in/div_in' is present
+
+20-03-2025T21:01:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Amazon_ValidateLogo_OR/Page_Online Shopping site in India Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in/div_in")): Object 'Object Repository/Amazon_ValidateLogo_OR/Page_Online Shopping site in India Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in/div_in' is visible
+
+20-03-2025T21:01:49 - [MESSAGE][PASSED] - Object 'Object Repository/Amazon_ValidateLogo_OR/Page_Online Shopping site in India Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in/div_in' is visible
+
+20-03-2025T21:01:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+20-03-2025T21:01:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Software Automation Testing\\Amazon\\Reports\\20250320_210117\\TS_Amazon_02\\20250320_210117\\1742484709579.png]]
+
+20-03-2025T21:01:49 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+20-03-2025T21:01:59 - [MESSAGE][INFO] - 0 hidden object(s)
+
+20-03-2025T21:02:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Software Automation Testing\\Amazon\\Reports\\20250320_210117\\TS_Amazon_02\\20250320_210117\\1742484709954.png]]
+
+20-03-2025T21:02:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T21:02:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateFooterLinks_005" time="687.564" classname="Test Cases/TC_Amazon_ValidateFooterLinks_005" status="PASSED">
+         <system-out><![CDATA[20-03-2025T21:26:20 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateFooterLinks_005: Test Cases/TC_Amazon_ValidateFooterLinks_005
+
+20-03-2025T21:26:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T21:26:20 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+20-03-2025T21:26:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T21:26:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T21:26:25 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T21:26:39 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T21:26:39 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+20-03-2025T21:26:49 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+20-03-2025T21:26:49 - [TEST_STEP][PASSED] - click(findTestObject("Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_About Amazon")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_About Amazon' is clicked on
+
+20-03-2025T21:27:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_About Amazon' is clicked on
+
+20-03-2025T21:27:03 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:27:06 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:27:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Careers")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Careers' is clicked on
+
+20-03-2025T21:27:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Careers' is clicked on
+
+20-03-2025T21:27:20 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:27:24 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:27:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Press Releases")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Press Releases' is clicked on
+
+20-03-2025T21:27:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Press Releases' is clicked on
+
+20-03-2025T21:27:37 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:27:37 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:27:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Amazon Science")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Amazon Science' is clicked on
+
+20-03-2025T21:29:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Amazon Science' is clicked on
+
+20-03-2025T21:29:16 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:29:17 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:29:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Facebook")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Facebook' is clicked on
+
+20-03-2025T21:29:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Facebook' is clicked on
+
+20-03-2025T21:29:31 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:29:31 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:29:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Twitter")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Twitter' is clicked on
+
+20-03-2025T21:29:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Twitter' is clicked on
+
+20-03-2025T21:29:35 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:29:35 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:29:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Instagram")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Instagram' is clicked on
+
+20-03-2025T21:29:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Instagram' is clicked on
+
+20-03-2025T21:29:40 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:29:40 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:29:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sell on Amazon")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sell on Amazon' is clicked on
+
+20-03-2025T21:29:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sell on Amazon' is clicked on
+
+20-03-2025T21:29:48 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:29:49 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:29:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sell under Amazon Accelerator")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sell under Amazon Accelerator' is clicked on
+
+20-03-2025T21:29:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sell under Amazon Accelerator' is clicked on
+
+20-03-2025T21:29:54 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:29:54 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:29:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Protect and Build Your Brand")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Protect and Build Your Brand' is clicked on
+
+20-03-2025T21:30:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Protect and Build Your Brand' is clicked on
+
+20-03-2025T21:30:10 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:30:10 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:30:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Amazon Global Selling")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Amazon Global Selling' is clicked on
+
+20-03-2025T21:30:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Amazon Global Selling' is clicked on
+
+20-03-2025T21:30:17 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:30:18 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:30:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Supply to Amazon")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Supply to Amazon' is clicked on
+
+20-03-2025T21:30:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Supply to Amazon' is clicked on
+
+20-03-2025T21:30:31 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:30:32 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:30:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Become an Affiliate")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Become an Affiliate' is clicked on
+
+20-03-2025T21:30:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Become an Affiliate' is clicked on
+
+20-03-2025T21:30:39 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:30:40 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:30:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Fulfilment by Amazon")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Fulfilment by Amazon' is clicked on
+
+20-03-2025T21:30:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Fulfilment by Amazon' is clicked on
+
+20-03-2025T21:30:49 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:30:49 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:30:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Advertise Your Products")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Advertise Your Products' is clicked on
+
+20-03-2025T21:30:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Advertise Your Products' is clicked on
+
+20-03-2025T21:30:58 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:30:58 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:30:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Amazon Pay on Merchants")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Amazon Pay on Merchants' is clicked on
+
+20-03-2025T21:31:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Amazon Pay on Merchants' is clicked on
+
+20-03-2025T21:31:07 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:31:57 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:31:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Your Account")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Your Account' is clicked on
+
+20-03-2025T21:32:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Your Account' is clicked on
+
+20-03-2025T21:32:02 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:32:03 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:32:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Returns Centre")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Returns Centre' is clicked on
+
+20-03-2025T21:32:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Returns Centre' is clicked on
+
+20-03-2025T21:32:11 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:32:12 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:32:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Recalls and Product Safety Alerts")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Recalls and Product Safety Alerts' is clicked on
+
+20-03-2025T21:32:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Recalls and Product Safety Alerts' is clicked on
+
+20-03-2025T21:32:26 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:32:29 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:32:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_100 Purchase Protection")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_100 Purchase Protection' is clicked on
+
+20-03-2025T21:32:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_100 Purchase Protection' is clicked on
+
+20-03-2025T21:32:35 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:32:36 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:32:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Amazon App Download")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Amazon App Download' is clicked on
+
+20-03-2025T21:32:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Amazon App Download' is clicked on
+
+20-03-2025T21:32:43 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:32:45 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:32:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Help")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Help' is clicked on
+
+20-03-2025T21:32:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Help' is clicked on
+
+20-03-2025T21:32:52 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:32:55 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:32:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_English")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_English' is clicked on
+
+20-03-2025T21:33:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_English' is clicked on
+
+20-03-2025T21:33:00 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:33:01 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:33:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_India")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_India' is clicked on
+
+20-03-2025T21:33:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_India' is clicked on
+
+20-03-2025T21:33:05 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:33:07 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:33:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Books, art collectibles")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Books, art collectibles' is clicked on
+
+20-03-2025T21:33:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Books, art collectibles' is clicked on
+
+20-03-2025T21:33:15 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:33:25 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:33:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_DesignerFashion Brands")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_DesignerFashion Brands' is clicked on
+
+20-03-2025T21:33:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_DesignerFashion Brands' is clicked on
+
+20-03-2025T21:33:44 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:33:52 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:33:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Scalable CloudComputing Services")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Scalable CloudComputing Services' is clicked on
+
+20-03-2025T21:34:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Scalable CloudComputing Services' is clicked on
+
+20-03-2025T21:34:31 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:34:33 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:34:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Everything ForYour Business")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Everything ForYour Business' is clicked on
+
+20-03-2025T21:35:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Everything ForYour Business' is clicked on
+
+20-03-2025T21:35:31 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:35:33 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:35:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_DownloadAudio Books")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_DownloadAudio Books' is clicked on
+
+20-03-2025T21:35:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_DownloadAudio Books' is clicked on
+
+20-03-2025T21:35:57 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:36:12 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:36:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_2-Hour Deliveryon Everyday Items")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_2-Hour Deliveryon Everyday Items' is clicked on
+
+20-03-2025T21:36:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_2-Hour Deliveryon Everyday Items' is clicked on
+
+20-03-2025T21:36:47 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:36:47 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:36:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Movies, TV Celebrities")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Movies, TV Celebrities' is clicked on
+
+20-03-2025T21:37:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Movies, TV Celebrities' is clicked on
+
+20-03-2025T21:37:22 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:37:22 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:37:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_100 million songs, ad-freeOver 15 mill_ee0ab1")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_100 million songs, ad-freeOver 15 mill_ee0ab1' is clicked on
+
+20-03-2025T21:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_100 million songs, ad-freeOver 15 mill_ee0ab1' is clicked on
+
+20-03-2025T21:37:28 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:37:28 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:37:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Conditions of Use  Sale")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Conditions of Use  Sale' is clicked on
+
+20-03-2025T21:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Conditions of Use  Sale' is clicked on
+
+20-03-2025T21:37:34 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:37:34 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:37:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Privacy Notice")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Privacy Notice' is clicked on
+
+20-03-2025T21:37:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Privacy Notice' is clicked on
+
+20-03-2025T21:37:39 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:37:39 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:37:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Interest-Based Ads")): Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Interest-Based Ads' is clicked on
+
+20-03-2025T21:37:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Interest-Based Ads' is clicked on
+
+20-03-2025T21:37:45 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:37:45 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:37:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T21:37:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Ammazon_ValidteTotalHyperlinksOnHomepage_006" time="49.191" classname="Test Cases/TC_Ammazon_ValidteTotalHyperlinksOnHomepage_006" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_Ammazon_ValidteTotalHyperlinksOnHomepage_006 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '382' and expected object '360' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '382' and expected object '360' are not equal&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at TC_Ammazon_ValidteTotalHyperlinksOnHomepage_006.run(TC_Ammazon_ValidteTotalHyperlinksOnHomepage_006:41)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at TC_Ammazon_ValidteTotalHyperlinksOnHomepage_006.run(TC_Ammazon_ValidteTotalHyperlinksOnHomepage_006:41)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '382' and expected object '360' are not equal&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)&#xa;	... 26 more&#xa;"/>
+         <system-out><![CDATA[20-03-2025T21:40:54 - [TEST_CASE][FAILED] - Test Cases/TC_Ammazon_ValidteTotalHyperlinksOnHomepage_006: Test Cases/TC_Ammazon_ValidteTotalHyperlinksOnHomepage_006 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '382' and expected object '360' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '382' and expected object '360' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at TC_Ammazon_ValidteTotalHyperlinksOnHomepage_006.run(TC_Ammazon_ValidteTotalHyperlinksOnHomepage_006:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at TC_Ammazon_ValidteTotalHyperlinksOnHomepage_006.run(TC_Ammazon_ValidteTotalHyperlinksOnHomepage_006:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '382' and expected object '360' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 26 more
+
+
+20-03-2025T21:40:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T21:40:54 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+20-03-2025T21:40:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T21:40:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T21:40:57 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in"): Navigate to 'https://www.amazon.in' successfully
+
+20-03-2025T21:41:28 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in' successfully
+
+20-03-2025T21:41:28 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+20-03-2025T21:41:38 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+20-03-2025T21:41:38 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+20-03-2025T21:41:38 - [TEST_STEP][PASSED] - hyperlinks = driver.findElements(By.tagName("a")): null
+
+20-03-2025T21:41:40 - [TEST_STEP][PASSED] - totalHyperlinks = hyperlinks.size(): null
+
+20-03-2025T21:41:40 - [TEST_STEP][PASSED] - println("Total number of hyperlinks: " + totalHyperlinks): null
+
+20-03-2025T21:41:40 - [TEST_STEP][PASSED] - out.println(totalHyperlinks): null
+
+20-03-2025T21:41:40 - [TEST_STEP][PASSED] - expectedCount = 360: null
+
+20-03-2025T21:41:40 - [TEST_STEP][FAILED] - verifyEqual(totalHyperlinks, expectedCount): Unable to verify equal between actual object '382' and expected object '360' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '382' and expected object '360' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at TC_Ammazon_ValidteTotalHyperlinksOnHomepage_006.run(TC_Ammazon_ValidteTotalHyperlinksOnHomepage_006:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+20-03-2025T21:41:40 - [MESSAGE][FAILED] - Unable to verify equal between actual object '382' and expected object '360' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '382' and expected object '360' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at TC_Ammazon_ValidteTotalHyperlinksOnHomepage_006.run(TC_Ammazon_ValidteTotalHyperlinksOnHomepage_006:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+20-03-2025T21:41:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T21:41:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[20-03-2025T21:40:54 - [TEST_CASE][FAILED] - Test Cases/TC_Ammazon_ValidteTotalHyperlinksOnHomepage_006: Test Cases/TC_Ammazon_ValidteTotalHyperlinksOnHomepage_006 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '382' and expected object '360' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '382' and expected object '360' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at TC_Ammazon_ValidteTotalHyperlinksOnHomepage_006.run(TC_Ammazon_ValidteTotalHyperlinksOnHomepage_006:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at TC_Ammazon_ValidteTotalHyperlinksOnHomepage_006.run(TC_Ammazon_ValidteTotalHyperlinksOnHomepage_006:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '382' and expected object '360' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 26 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateTodaysDeals_008" time="90.291" classname="Test Cases/TC_Amazon_ValidateTodaysDeals_008" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_Amazon_ValidateTodaysDeals_008 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Amazon_ValidateTodaysDeals_OR/Page_Amazon.in - Deals/span_OnePlus Nord 4 5G (Oasis Green, 8GB RA_43c881' located by '//p[@id='title-B0D7VGZS69']/span/span/span[2]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Amazon_ValidateTodaysDeals_OR/Page_Amazon.in - Deals/span_OnePlus Nord 4 5G (Oasis Green, 8GB RA_43c881' located by '//p[@id='title-B0D7VGZS69']/span/span/span[2]' not found&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1540)&#xa;	at TC_Amazon_ValidateTodaysDeals_008.run(TC_Amazon_ValidateTodaysDeals_008:29)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1540)&#xa;	at TC_Amazon_ValidateTodaysDeals_008.run(TC_Amazon_ValidateTodaysDeals_008:29)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Amazon_ValidateTodaysDeals_OR/Page_Amazon.in - Deals/span_OnePlus Nord 4 5G (Oasis Green, 8GB RA_43c881' located by '//p[@id='title-B0D7VGZS69']/span/span/span[2]' not found&#xa;	... 27 more&#xa;"/>
+         <system-out><![CDATA[20-03-2025T21:54:54 - [TEST_CASE][FAILED] - Test Cases/TC_Amazon_ValidateTodaysDeals_008: Test Cases/TC_Amazon_ValidateTodaysDeals_008 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Amazon_ValidateTodaysDeals_OR/Page_Amazon.in - Deals/span_OnePlus Nord 4 5G (Oasis Green, 8GB RA_43c881' located by '//p[@id='title-B0D7VGZS69']/span/span/span[2]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Amazon_ValidateTodaysDeals_OR/Page_Amazon.in - Deals/span_OnePlus Nord 4 5G (Oasis Green, 8GB RA_43c881' located by '//p[@id='title-B0D7VGZS69']/span/span/span[2]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1540)
+	at TC_Amazon_ValidateTodaysDeals_008.run(TC_Amazon_ValidateTodaysDeals_008:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1540)
+	at TC_Amazon_ValidateTodaysDeals_008.run(TC_Amazon_ValidateTodaysDeals_008:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Amazon_ValidateTodaysDeals_OR/Page_Amazon.in - Deals/span_OnePlus Nord 4 5G (Oasis Green, 8GB RA_43c881' located by '//p[@id='title-B0D7VGZS69']/span/span/span[2]' not found
+	... 27 more
+
+
+20-03-2025T21:54:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T21:54:54 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+20-03-2025T21:54:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T21:54:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T21:54:57 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T21:55:05 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T21:55:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Amazon_ValidateTodaysDeals_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Todays Deals"), 10): Object 'Object Repository/Amazon_ValidateTodaysDeals_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Todays Deals' is present
+
+20-03-2025T21:55:10 - [MESSAGE][PASSED] - Object 'Object Repository/Amazon_ValidateTodaysDeals_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Todays Deals' is present
+
+20-03-2025T21:55:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateTodaysDeals_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Todays Deals")): Object: 'Object Repository/Amazon_ValidateTodaysDeals_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Todays Deals' is clicked on
+
+20-03-2025T21:55:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateTodaysDeals_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Todays Deals' is clicked on
+
+20-03-2025T21:55:14 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Amazon_ValidateTodaysDeals_OR/Page_Amazon.in - Deals/span_OnePlus Nord 4 5G (Oasis Green, 8GB RA_43c881"), 10): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Amazon_ValidateTodaysDeals_OR/Page_Amazon.in - Deals/span_OnePlus Nord 4 5G (Oasis Green, 8GB RA_43c881' located by '//p[@id='title-B0D7VGZS69']/span/span/span[2]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Amazon_ValidateTodaysDeals_OR/Page_Amazon.in - Deals/span_OnePlus Nord 4 5G (Oasis Green, 8GB RA_43c881' located by '//p[@id='title-B0D7VGZS69']/span/span/span[2]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1540)
+	at TC_Amazon_ValidateTodaysDeals_008.run(TC_Amazon_ValidateTodaysDeals_008:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+20-03-2025T21:55:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //p[@id='title-B0D7VGZS69']/span/span/span[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+20-03-2025T21:55:25 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Amazon_ValidateTodaysDeals_OR/Page_Amazon.in - Deals/span_OnePlus Nord 4 5G (Oasis Green, 8GB RA_43c881' located by '//p[@id='title-B0D7VGZS69']/span/span/span[2]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Amazon_ValidateTodaysDeals_OR/Page_Amazon.in - Deals/span_OnePlus Nord 4 5G (Oasis Green, 8GB RA_43c881' located by '//p[@id='title-B0D7VGZS69']/span/span/span[2]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1540)
+	at TC_Amazon_ValidateTodaysDeals_008.run(TC_Amazon_ValidateTodaysDeals_008:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|E:\\Software Automation Testing\\Amazon\\Reports\\20250320_210117\\TS_Amazon_02\\20250320_210117\\1742487925125.png]]
+
+20-03-2025T21:55:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateTodaysDeals_OR/Page_Amazon.in - Deals/span_OnePlus Nord 4 5G (Oasis Green, 8GB RA_43c881")): Object: 'Object Repository/Amazon_ValidateTodaysDeals_OR/Page_Amazon.in - Deals/span_OnePlus Nord 4 5G (Oasis Green, 8GB RA_43c881' is clicked on
+
+20-03-2025T21:55:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //p[@id='title-B0D7VGZS69']/span/span/span[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+20-03-2025T21:55:56 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Amazon_ValidateTodaysDeals_OR/Page_Amazon.in - Deals/span_OnePlus Nord 4 5G (Oasis Green, 8GB RA_43c881'. Try using Self-healing.
+
+20-03-2025T21:55:56 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Amazon_ValidateTodaysDeals_OR/Page_Amazon.in - Deals/span_OnePlus Nord 4 5G (Oasis Green, 8GB RA_43c881' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Limited time deal'])[1]/following::span[4]'.
+
+20-03-2025T21:56:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateTodaysDeals_OR/Page_Amazon.in - Deals/span_OnePlus Nord 4 5G (Oasis Green, 8GB RA_43c881' is clicked on
+
+20-03-2025T21:56:06 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:56:07 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:56:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Amazon_ValidateTodaysDeals_OR/Page_Amazon.in - Deals/span_Samsung Galaxy M16 5G (Thunder Black, _0bd95b"), 10): Object 'Object Repository/Amazon_ValidateTodaysDeals_OR/Page_Amazon.in - Deals/span_Samsung Galaxy M16 5G (Thunder Black, _0bd95b' is present
+
+20-03-2025T21:56:08 - [MESSAGE][PASSED] - Object 'Object Repository/Amazon_ValidateTodaysDeals_OR/Page_Amazon.in - Deals/span_Samsung Galaxy M16 5G (Thunder Black, _0bd95b' is present
+
+20-03-2025T21:56:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateTodaysDeals_OR/Page_Amazon.in - Deals/span_Samsung Galaxy M16 5G (Thunder Black, _0bd95b")): Object: 'Object Repository/Amazon_ValidateTodaysDeals_OR/Page_Amazon.in - Deals/span_Samsung Galaxy M16 5G (Thunder Black, _0bd95b' is clicked on
+
+20-03-2025T21:56:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateTodaysDeals_OR/Page_Amazon.in - Deals/span_Samsung Galaxy M16 5G (Thunder Black, _0bd95b' is clicked on
+
+20-03-2025T21:56:21 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+20-03-2025T21:56:23 - [MESSAGE][PASSED] - Navigate back successfully
+
+20-03-2025T21:56:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T21:56:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[20-03-2025T21:54:54 - [TEST_CASE][FAILED] - Test Cases/TC_Amazon_ValidateTodaysDeals_008: Test Cases/TC_Amazon_ValidateTodaysDeals_008 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Amazon_ValidateTodaysDeals_OR/Page_Amazon.in - Deals/span_OnePlus Nord 4 5G (Oasis Green, 8GB RA_43c881' located by '//p[@id='title-B0D7VGZS69']/span/span/span[2]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Amazon_ValidateTodaysDeals_OR/Page_Amazon.in - Deals/span_OnePlus Nord 4 5G (Oasis Green, 8GB RA_43c881' located by '//p[@id='title-B0D7VGZS69']/span/span/span[2]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1540)
+	at TC_Amazon_ValidateTodaysDeals_008.run(TC_Amazon_ValidateTodaysDeals_008:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1540)
+	at TC_Amazon_ValidateTodaysDeals_008.run(TC_Amazon_ValidateTodaysDeals_008:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Amazon_ValidateTodaysDeals_OR/Page_Amazon.in - Deals/span_OnePlus Nord 4 5G (Oasis Green, 8GB RA_43c881' located by '//p[@id='title-B0D7VGZS69']/span/span/span[2]' not found
+	... 27 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ViewingProductDetails_018" time="106.316" classname="Test Cases/TC_Amazon_ViewingProductDetails_018" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_Amazon_ViewingProductDetails_018 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'search-alias=stripbooks' of object 'Object Repository/Amazon_ViewingProductDetails_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'search-alias=stripbooks' of object 'Object Repository/Amazon_ViewingProductDetails_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:69)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:42)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1244)&#xa;	at TC_Amazon_ViewingProductDetails_018.run(TC_Amazon_ViewingProductDetails_018:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.ElementNotInteractableException: Element &lt;option> could not be scrolled into view&#xa;Build info: version: '4.22.0', revision: 'c5f3146703'&#xa;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'&#xa;Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver&#xa;Command: [42074966-9a58-4e70-b03d-4eb48c459fdb, clickElement {id=410e3554-d553-4b68-bf51-004d88ca0e84}]&#xa;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.2, moz:accessibilityChecks: false, moz:buildID: 20250317120031, moz:debuggerAddress: 127.0.0.1:34003, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3012, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:34003/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10...., webSocketUrl: ws://127.0.0.1:34003/sessio...}&#xa;Element: [[[[CFirefoxDriver: firefox on windows (42074966-9a58-4e70-b03d-4eb48c459fdb)] -> xpath: //select[@id='searchDropdownBox']]] -> tag name: option]&#xa;Session ID: 42074966-9a58-4e70-b03d-4eb48c459fdb&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor24.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)&#xa;	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)&#xa;	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$QZUU5Wkr.click(Unknown Source)&#xa;	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:315)&#xa;	at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:299)&#xa;	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:179)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValueByRegularExpression(WebUiCommonHelper.java:294)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:273)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper$selectOrDeselectOptionsByValue.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOrDeselectOptionsByValue(SelectOptionByValueKeyword.groovy:80)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.access$0(SelectOptionByValueKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:58)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:69)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:42)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1244)&#xa;	at Script1741840523389.run(Script1741840523389.groovy:24)&#xa;	... 18 more&#xa;)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:69)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:42)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1244)&#xa;	at TC_Amazon_ViewingProductDetails_018.run(TC_Amazon_ViewingProductDetails_018:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'search-alias=stripbooks' of object 'Object Repository/Amazon_ViewingProductDetails_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression&#xa;	... 25 more&#xa;Caused by: org.openqa.selenium.ElementNotInteractableException: Element &lt;option> could not be scrolled into view&#xa;Build info: version: '4.22.0', revision: 'c5f3146703'&#xa;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'&#xa;Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver&#xa;Command: [42074966-9a58-4e70-b03d-4eb48c459fdb, clickElement {id=410e3554-d553-4b68-bf51-004d88ca0e84}]&#xa;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.2, moz:accessibilityChecks: false, moz:buildID: 20250317120031, moz:debuggerAddress: 127.0.0.1:34003, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3012, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:34003/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10...., webSocketUrl: ws://127.0.0.1:34003/sessio...}&#xa;Element: [[[[CFirefoxDriver: firefox on windows (42074966-9a58-4e70-b03d-4eb48c459fdb)] -> xpath: //select[@id='searchDropdownBox']]] -> tag name: option]&#xa;Session ID: 42074966-9a58-4e70-b03d-4eb48c459fdb&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor24.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)&#xa;	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)&#xa;	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$QZUU5Wkr.click(Unknown Source)&#xa;	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:315)&#xa;	at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:299)&#xa;	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:179)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValueByRegularExpression(WebUiCommonHelper.java:294)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:273)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper$selectOrDeselectOptionsByValue.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOrDeselectOptionsByValue(SelectOptionByValueKeyword.groovy:80)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.access$0(SelectOptionByValueKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:58)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[20-03-2025T22:01:36 - [TEST_CASE][FAILED] - Test Cases/TC_Amazon_ViewingProductDetails_018: Test Cases/TC_Amazon_ViewingProductDetails_018 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'search-alias=stripbooks' of object 'Object Repository/Amazon_ViewingProductDetails_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'search-alias=stripbooks' of object 'Object Repository/Amazon_ViewingProductDetails_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1244)
+	at TC_Amazon_ViewingProductDetails_018.run(TC_Amazon_ViewingProductDetails_018:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: Element <option> could not be scrolled into view
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Command: [42074966-9a58-4e70-b03d-4eb48c459fdb, clickElement {id=410e3554-d553-4b68-bf51-004d88ca0e84}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.2, moz:accessibilityChecks: false, moz:buildID: 20250317120031, moz:debuggerAddress: 127.0.0.1:34003, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3012, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:34003/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10...., webSocketUrl: ws://127.0.0.1:34003/sessio...}
+Element: [[[[CFirefoxDriver: firefox on windows (42074966-9a58-4e70-b03d-4eb48c459fdb)] -> xpath: //select[@id='searchDropdownBox']]] -> tag name: option]
+Session ID: 42074966-9a58-4e70-b03d-4eb48c459fdb
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor24.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$QZUU5Wkr.click(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:315)
+	at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:299)
+	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:179)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValueByRegularExpression(WebUiCommonHelper.java:294)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:273)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$selectOrDeselectOptionsByValue.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOrDeselectOptionsByValue(SelectOptionByValueKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.access$0(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:58)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1244)
+	at Script1741840523389.run(Script1741840523389.groovy:24)
+	... 18 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1244)
+	at TC_Amazon_ViewingProductDetails_018.run(TC_Amazon_ViewingProductDetails_018:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'search-alias=stripbooks' of object 'Object Repository/Amazon_ViewingProductDetails_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+	... 25 more
+Caused by: org.openqa.selenium.ElementNotInteractableException: Element <option> could not be scrolled into view
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Command: [42074966-9a58-4e70-b03d-4eb48c459fdb, clickElement {id=410e3554-d553-4b68-bf51-004d88ca0e84}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.2, moz:accessibilityChecks: false, moz:buildID: 20250317120031, moz:debuggerAddress: 127.0.0.1:34003, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3012, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:34003/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10...., webSocketUrl: ws://127.0.0.1:34003/sessio...}
+Element: [[[[CFirefoxDriver: firefox on windows (42074966-9a58-4e70-b03d-4eb48c459fdb)] -> xpath: //select[@id='searchDropdownBox']]] -> tag name: option]
+Session ID: 42074966-9a58-4e70-b03d-4eb48c459fdb
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor24.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$QZUU5Wkr.click(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:315)
+	at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:299)
+	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:179)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValueByRegularExpression(WebUiCommonHelper.java:294)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:273)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$selectOrDeselectOptionsByValue.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOrDeselectOptionsByValue(SelectOptionByValueKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.access$0(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:58)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+
+
+20-03-2025T22:01:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T22:01:36 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+20-03-2025T22:01:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T22:01:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T22:01:40 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T22:01:51 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T22:01:51 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("Object Repository/Amazon_ViewingProductDetails_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), "search-alias=stripbooks", true): Unable to select option by value 'search-alias=stripbooks' of object 'Object Repository/Amazon_ViewingProductDetails_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'search-alias=stripbooks' of object 'Object Repository/Amazon_ViewingProductDetails_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1244)
+	at TC_Amazon_ViewingProductDetails_018.run(TC_Amazon_ViewingProductDetails_018:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: Element <option> could not be scrolled into view
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Command: [42074966-9a58-4e70-b03d-4eb48c459fdb, clickElement {id=410e3554-d553-4b68-bf51-004d88ca0e84}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.2, moz:accessibilityChecks: false, moz:buildID: 20250317120031, moz:debuggerAddress: 127.0.0.1:34003, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3012, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:34003/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10...., webSocketUrl: ws://127.0.0.1:34003/sessio...}
+Element: [[[[CFirefoxDriver: firefox on windows (42074966-9a58-4e70-b03d-4eb48c459fdb)] -> xpath: //select[@id='searchDropdownBox']]] -> tag name: option]
+Session ID: 42074966-9a58-4e70-b03d-4eb48c459fdb
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor24.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$QZUU5Wkr.click(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:315)
+	at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:299)
+	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:179)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValueByRegularExpression(WebUiCommonHelper.java:294)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:273)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$selectOrDeselectOptionsByValue.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOrDeselectOptionsByValue(SelectOptionByValueKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.access$0(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:58)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1244)
+	at Script1741840523389.run(Script1741840523389.groovy:24)
+	... 18 more
+)
+
+20-03-2025T22:01:56 - [MESSAGE][FAILED] - Unable to select option by value 'search-alias=stripbooks' of object 'Object Repository/Amazon_ViewingProductDetails_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'search-alias=stripbooks' of object 'Object Repository/Amazon_ViewingProductDetails_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1244)
+	at TC_Amazon_ViewingProductDetails_018.run(TC_Amazon_ViewingProductDetails_018:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: Element <option> could not be scrolled into view
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Command: [42074966-9a58-4e70-b03d-4eb48c459fdb, clickElement {id=410e3554-d553-4b68-bf51-004d88ca0e84}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.2, moz:accessibilityChecks: false, moz:buildID: 20250317120031, moz:debuggerAddress: 127.0.0.1:34003, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3012, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:34003/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10...., webSocketUrl: ws://127.0.0.1:34003/sessio...}
+Element: [[[[CFirefoxDriver: firefox on windows (42074966-9a58-4e70-b03d-4eb48c459fdb)] -> xpath: //select[@id='searchDropdownBox']]] -> tag name: option]
+Session ID: 42074966-9a58-4e70-b03d-4eb48c459fdb
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor24.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$QZUU5Wkr.click(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:315)
+	at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:299)
+	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:179)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValueByRegularExpression(WebUiCommonHelper.java:294)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:273)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$selectOrDeselectOptionsByValue.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOrDeselectOptionsByValue(SelectOptionByValueKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.access$0(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:58)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1244)
+	at Script1741840523389.run(Script1741840523389.groovy:24)
+	... 18 more
+)
+[[ATTACHMENT|E:\\Software Automation Testing\\Amazon\\Reports\\20250320_210117\\TS_Amazon_02\\20250320_210117\\1742488315849.png]]
+
+20-03-2025T22:01:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ViewingProductDetails_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), "Aptitude"): Text 'Aptitude' is set on object 'Object Repository/Amazon_ViewingProductDetails_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T22:01:56 - [MESSAGE][PASSED] - Text 'Aptitude' is set on object 'Object Repository/Amazon_ViewingProductDetails_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T22:01:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ViewingProductDetails_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ViewingProductDetails_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T22:02:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ViewingProductDetails_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T22:02:03 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Amazon_ViewingProductDetails_OR/Page_Amazon.in  Aptitude/div_on first order_puisg-col-inner")): Unable to click on object 'Object Repository/Amazon_ViewingProductDetails_OR/Page_Amazon.in  Aptitude/div_on first order_puisg-col-inner' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Amazon_ViewingProductDetails_OR/Page_Amazon.in  Aptitude/div_on first order_puisg-col-inner'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at TC_Amazon_ViewingProductDetails_018.run(TC_Amazon_ViewingProductDetails_018:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Amazon_ViewingProductDetails_OR/Page_Amazon.in  Aptitude/div_on first order_puisg-col-inner' located by '//div[@id='88e1c257-7907-428f-8b73-2276393a3ea1']/div/div/span/div/div/div/div[2]/div/div/div[3]/div[2]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1741840523389.run(Script1741840523389.groovy:32)
+	... 18 more
+)
+
+20-03-2025T22:02:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='88e1c257-7907-428f-8b73-2276393a3ea1']/div/div/span/div/div/div/div[2]/div/div/div[3]/div[2]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+20-03-2025T22:02:34 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Amazon_ViewingProductDetails_OR/Page_Amazon.in  Aptitude/div_on first order_puisg-col-inner'. Try using Self-healing.
+
+20-03-2025T22:02:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[19]/div/div/span/div/div/div/div[2]/div/div/div[3]/div[2]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+20-03-2025T22:02:36 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='88e1c257-7907-428f-8b73-2276393a3ea1']/div/div/span/div/div/div/div[2]/div/div/div[3]/div[2]/div'.
+
+20-03-2025T22:02:36 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[19]/div/div/span/div/div/div/div[2]/div/div/div[3]/div[2]/div'.
+
+20-03-2025T22:02:36 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='88e1c257-7907-428f-8b73-2276393a3ea1']/div/div/span/div/div/div/div[2]/div/div/div[3]/div[2]/div'.
+
+20-03-2025T22:02:36 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[19]/div/div/span/div/div/div/div[2]/div/div/div[3]/div[2]/div'.
+
+20-03-2025T22:02:37 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='88e1c257-7907-428f-8b73-2276393a3ea1']/div/div/span/div/div/div/div[2]/div/div/div[3]/div[2]/div'.
+
+20-03-2025T22:02:37 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[19]/div/div/span/div/div/div/div[2]/div/div/div[3]/div[2]/div'.
+
+20-03-2025T22:02:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("88e1c257-7907-428f-8b73-2276393a3ea1")/div[@class="sg-col-inner"]/div[@class="s-widget-container s-spacing-small s-widget-container-height-small celwidget slot=MAIN template=SEARCH_RESULTS widgetId=search-results_15"]/span[@class="a-declarative"]/div[@class="puis-card-container s-card-container s-overflow-hidden aok-relative puis-include-content-margin puis puis-vcm96ozasuzib260e2ar23ftnc s-latency-cf-section puis-card-border"]/div[@class="a-section"]/div[@class="puisg-row"]/div[@class="puisg-col puisg-col-4-of-12 puisg-col-8-of-16 puisg-col-12-of-20 puisg-col-12-of-24 puis-list-col-right"]/div[@class="puisg-col-inner"]/div[@class="a-section a-spacing-small a-spacing-top-small"]/div[@class="puisg-row"]/div[@class="puisg-col puisg-col-4-of-12 puisg-col-4-of-16 puisg-col-8-of-20 puisg-col-8-of-24"]/div[@class="puisg-col-inner"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+20-03-2025T22:02:39 - [MESSAGE][WARNING] - [SELF-HEALING] Given css selector expression "" is invalid: SyntaxError: Document.querySelectorAll: '' is not a valid selector
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Command: [42074966-9a58-4e70-b03d-4eb48c459fdb, findElements {using=css selector, value=}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.2, moz:accessibilityChecks: false, moz:buildID: 20250317120031, moz:debuggerAddress: 127.0.0.1:34003, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3012, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:34003/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10...., webSocketUrl: ws://127.0.0.1:34003/sessio...}
+Session ID: 42074966-9a58-4e70-b03d-4eb48c459fdb
+
+20-03-2025T22:02:39 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Amazon_ViewingProductDetails_OR/Page_Amazon.in  Aptitude/div_on first order_puisg-col-inner' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Amazon_ViewingProductDetails_OR/Page_Amazon.in  Aptitude/div_on first order_puisg-col-inner'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at TC_Amazon_ViewingProductDetails_018.run(TC_Amazon_ViewingProductDetails_018:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Amazon_ViewingProductDetails_OR/Page_Amazon.in  Aptitude/div_on first order_puisg-col-inner' located by '//div[@id='88e1c257-7907-428f-8b73-2276393a3ea1']/div/div/span/div/div/div/div[2]/div/div/div[3]/div[2]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1741840523389.run(Script1741840523389.groovy:32)
+	... 18 more
+)
+[[ATTACHMENT|E:\\Software Automation Testing\\Amazon\\Reports\\20250320_210117\\TS_Amazon_02\\20250320_210117\\1742488359898.png]]
+
+20-03-2025T22:02:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ViewingProductDetails_OR/Page_Amazon.in  Aptitude/span_UPPSC-AE 2024 Prelims Exam 2000 Practi_fecf42")): Object: 'Object Repository/Amazon_ViewingProductDetails_OR/Page_Amazon.in  Aptitude/span_UPPSC-AE 2024 Prelims Exam 2000 Practi_fecf42' is clicked on
+
+20-03-2025T22:03:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='7f296747-c751-4243-a532-20ed132f4053']/div/div/span/div/div/div/div[2]/div/div/div/a/h2/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+20-03-2025T22:03:11 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Amazon_ViewingProductDetails_OR/Page_Amazon.in  Aptitude/span_UPPSC-AE 2024 Prelims Exam 2000 Practi_fecf42'. Try using Self-healing.
+
+20-03-2025T22:03:11 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Amazon_ViewingProductDetails_OR/Page_Amazon.in  Aptitude/span_UPPSC-AE 2024 Prelims Exam 2000 Practi_fecf42' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='More results'])[1]/following::span[4]'.
+
+20-03-2025T22:03:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ViewingProductDetails_OR/Page_Amazon.in  Aptitude/span_UPPSC-AE 2024 Prelims Exam 2000 Practi_fecf42' is clicked on
+
+20-03-2025T22:03:11 - [TEST_STEP][PASSED] - newTab(""): New tab and navigate to '' successfully
+
+20-03-2025T22:03:12 - [MESSAGE][PASSED] - New tab and navigate to '' successfully
+
+20-03-2025T22:03:12 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/UPPSC-AE-2024-Practice-Engineering-Paperback/dp/9362028069/ref=sr_1_6?crid=3E7SMJVNABN4H&dib=eyJ2IjoiMSJ9.q9R2pNdba2EM9noVju8kjoEYb7fv8iiUwRCAW4uDFIxhs-8Q36PXq6XaV3juRZrNCqbiqT6QjaQKYq1oxFEIxrFQWBjbpWB3v_wvgnq48v4aEZrqsRbV0ydC4y4Obf4-uOBcYWJ2u_5yLqzO8HcCsiClnHkWW4YlIaSmAQICpIex9E2besamcwl1wZY3zGpqV2uK1nlHMUSMBXRt8cwD5DqyfxwgpnLU4Noaa5XUmuY.Dspud0z2eDz95IivUJqtIqasoR5G8Sn_cByuZXPW_rc&dib_tag=se&keywords=Aptitude&qid=1741832270&s=books&sprefix=aptitude%2Cstripbooks%2C530&sr=1-6"): Navigate to 'https://www.amazon.in/UPPSC-AE-2024-Practice-Engineering-Paperback/dp/9362028069/ref=sr_1_6?crid=3E7SMJVNABN4H&dib=eyJ2IjoiMSJ9.q9R2pNdba2EM9noVju8kjoEYb7fv8iiUwRCAW4uDFIxhs-8Q36PXq6XaV3juRZrNCqbiqT6QjaQKYq1oxFEIxrFQWBjbpWB3v_wvgnq48v4aEZrqsRbV0ydC4y4Obf4-uOBcYWJ2u_5yLqzO8HcCsiClnHkWW4YlIaSmAQICpIex9E2besamcwl1wZY3zGpqV2uK1nlHMUSMBXRt8cwD5DqyfxwgpnLU4Noaa5XUmuY.Dspud0z2eDz95IivUJqtIqasoR5G8Sn_cByuZXPW_rc&dib_tag=se&keywords=Aptitude&qid=1741832270&s=books&sprefix=aptitude%2Cstripbooks%2C530&sr=1-6' successfully
+
+20-03-2025T22:03:21 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/UPPSC-AE-2024-Practice-Engineering-Paperback/dp/9362028069/ref=sr_1_6?crid=3E7SMJVNABN4H&dib=eyJ2IjoiMSJ9.q9R2pNdba2EM9noVju8kjoEYb7fv8iiUwRCAW4uDFIxhs-8Q36PXq6XaV3juRZrNCqbiqT6QjaQKYq1oxFEIxrFQWBjbpWB3v_wvgnq48v4aEZrqsRbV0ydC4y4Obf4-uOBcYWJ2u_5yLqzO8HcCsiClnHkWW4YlIaSmAQICpIex9E2besamcwl1wZY3zGpqV2uK1nlHMUSMBXRt8cwD5DqyfxwgpnLU4Noaa5XUmuY.Dspud0z2eDz95IivUJqtIqasoR5G8Sn_cByuZXPW_rc&dib_tag=se&keywords=Aptitude&qid=1741832270&s=books&sprefix=aptitude%2Cstripbooks%2C530&sr=1-6' successfully
+
+20-03-2025T22:03:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T22:03:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[20-03-2025T22:01:36 - [TEST_CASE][FAILED] - Test Cases/TC_Amazon_ViewingProductDetails_018: Test Cases/TC_Amazon_ViewingProductDetails_018 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'search-alias=stripbooks' of object 'Object Repository/Amazon_ViewingProductDetails_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'search-alias=stripbooks' of object 'Object Repository/Amazon_ViewingProductDetails_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1244)
+	at TC_Amazon_ViewingProductDetails_018.run(TC_Amazon_ViewingProductDetails_018:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: Element <option> could not be scrolled into view
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Command: [42074966-9a58-4e70-b03d-4eb48c459fdb, clickElement {id=410e3554-d553-4b68-bf51-004d88ca0e84}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.2, moz:accessibilityChecks: false, moz:buildID: 20250317120031, moz:debuggerAddress: 127.0.0.1:34003, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3012, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:34003/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10...., webSocketUrl: ws://127.0.0.1:34003/sessio...}
+Element: [[[[CFirefoxDriver: firefox on windows (42074966-9a58-4e70-b03d-4eb48c459fdb)] -> xpath: //select[@id='searchDropdownBox']]] -> tag name: option]
+Session ID: 42074966-9a58-4e70-b03d-4eb48c459fdb
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor24.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$QZUU5Wkr.click(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:315)
+	at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:299)
+	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:179)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValueByRegularExpression(WebUiCommonHelper.java:294)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:273)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$selectOrDeselectOptionsByValue.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOrDeselectOptionsByValue(SelectOptionByValueKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.access$0(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:58)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1244)
+	at Script1741840523389.run(Script1741840523389.groovy:24)
+	... 18 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1244)
+	at TC_Amazon_ViewingProductDetails_018.run(TC_Amazon_ViewingProductDetails_018:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'search-alias=stripbooks' of object 'Object Repository/Amazon_ViewingProductDetails_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+	... 25 more
+Caused by: org.openqa.selenium.ElementNotInteractableException: Element <option> could not be scrolled into view
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Command: [42074966-9a58-4e70-b03d-4eb48c459fdb, clickElement {id=410e3554-d553-4b68-bf51-004d88ca0e84}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.2, moz:accessibilityChecks: false, moz:buildID: 20250317120031, moz:debuggerAddress: 127.0.0.1:34003, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3012, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:34003/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10...., webSocketUrl: ws://127.0.0.1:34003/sessio...}
+Element: [[[[CFirefoxDriver: firefox on windows (42074966-9a58-4e70-b03d-4eb48c459fdb)] -> xpath: //select[@id='searchDropdownBox']]] -> tag name: option]
+Session ID: 42074966-9a58-4e70-b03d-4eb48c459fdb
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor24.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$QZUU5Wkr.click(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:315)
+	at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:299)
+	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:179)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValueByRegularExpression(WebUiCommonHelper.java:294)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:273)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$selectOrDeselectOptionsByValue.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOrDeselectOptionsByValue(SelectOptionByValueKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.access$0(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:58)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[20-03-2025T21:01:22 - [TEST_SUITE][FAILED] - TS_Amazon_02: Test Cases/TC_Amazon_ValidateFooterLinks_005 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Facebook' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Facebook'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at TC_Amazon_ValidateFooterLinks_005.run(TC_Amazon_ValidateFooterLinks_005:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element <a class="nav_a" href="https://www.amazon.in/gp/redirect.html/ref=footer_fb?location=http://www.facebook.com/AmazonIN&token=2075D5EAC7BB214089728E2183FD391706D41E94&6"> is not clickable at point (412,565) because another element <div id="nav-cover"> obscures it
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Command: [95ad617e-52ba-4fc4-b508-54d402fc6cc0, clickElement {id=0ee51dfe-fdcb-4b09-95fc-d975b53ec9a3}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.2, moz:accessibilityChecks: false, moz:buildID: 20250317120031, moz:debuggerAddress: 127.0.0.1:16931, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15992, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:16931/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10...., webSocketUrl: ws://127.0.0.1:16931/sessio...}
+Element: [[CFirefoxDriver: firefox on windows (95ad617e-52ba-4fc4-b508-54d402fc6cc0)] -> xpath: //div[@id='navFooter']/div/div/div[3]/ul/li/a]
+Session ID: 95ad617e-52ba-4fc4-b508-54d402fc6cc0
+	at jdk.internal.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor24.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$L4Vyowkj.click(Unknown Source)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1741838729718.run(Script1741838729718.groovy:42)
+	... 15 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at TC_Amazon_ValidateFooterLinks_005.run(TC_Amazon_ValidateFooterLinks_005:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Facebook'
+	... 22 more
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element <a class="nav_a" href="https://www.amazon.in/gp/redirect.html/ref=footer_fb?location=http://www.facebook.com/AmazonIN&token=2075D5EAC7BB214089728E2183FD391706D41E94&6"> is not clickable at point (412,565) because another element <div id="nav-cover"> obscures it
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Command: [95ad617e-52ba-4fc4-b508-54d402fc6cc0, clickElement {id=0ee51dfe-fdcb-4b09-95fc-d975b53ec9a3}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.2, moz:accessibilityChecks: false, moz:buildID: 20250317120031, moz:debuggerAddress: 127.0.0.1:16931, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15992, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:16931/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10...., webSocketUrl: ws://127.0.0.1:16931/sessio...}
+Element: [[CFirefoxDriver: firefox on windows (95ad617e-52ba-4fc4-b508-54d402fc6cc0)] -> xpath: //div[@id='navFooter']/div/div/div[3]/ul/li/a]
+Session ID: 95ad617e-52ba-4fc4-b508-54d402fc6cc0
+	at jdk.internal.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor24.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$L4Vyowkj.click(Unknown Source)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[20-03-2025T21:01:22 - [TEST_SUITE][FAILED] - TS_Amazon_02: Test Cases/TC_Amazon_ValidateFooterLinks_005 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Facebook' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Facebook'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at TC_Amazon_ValidateFooterLinks_005.run(TC_Amazon_ValidateFooterLinks_005:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element <a class="nav_a" href="https://www.amazon.in/gp/redirect.html/ref=footer_fb?location=http://www.facebook.com/AmazonIN&token=2075D5EAC7BB214089728E2183FD391706D41E94&6"> is not clickable at point (412,565) because another element <div id="nav-cover"> obscures it
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Command: [95ad617e-52ba-4fc4-b508-54d402fc6cc0, clickElement {id=0ee51dfe-fdcb-4b09-95fc-d975b53ec9a3}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.2, moz:accessibilityChecks: false, moz:buildID: 20250317120031, moz:debuggerAddress: 127.0.0.1:16931, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15992, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:16931/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10...., webSocketUrl: ws://127.0.0.1:16931/sessio...}
+Element: [[CFirefoxDriver: firefox on windows (95ad617e-52ba-4fc4-b508-54d402fc6cc0)] -> xpath: //div[@id='navFooter']/div/div/div[3]/ul/li/a]
+Session ID: 95ad617e-52ba-4fc4-b508-54d402fc6cc0
+	at jdk.internal.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor24.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$L4Vyowkj.click(Unknown Source)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1741838729718.run(Script1741838729718.groovy:42)
+	... 15 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at TC_Amazon_ValidateFooterLinks_005.run(TC_Amazon_ValidateFooterLinks_005:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742484677105.run(TempTestSuite1742484677105.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Amazon_ValidateFooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Facebook'
+	... 22 more
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element <a class="nav_a" href="https://www.amazon.in/gp/redirect.html/ref=footer_fb?location=http://www.facebook.com/AmazonIN&token=2075D5EAC7BB214089728E2183FD391706D41E94&6"> is not clickable at point (412,565) because another element <div id="nav-cover"> obscures it
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Command: [95ad617e-52ba-4fc4-b508-54d402fc6cc0, clickElement {id=0ee51dfe-fdcb-4b09-95fc-d975b53ec9a3}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.2, moz:accessibilityChecks: false, moz:buildID: 20250317120031, moz:debuggerAddress: 127.0.0.1:16931, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15992, moz:profile: C:\Users\Asus\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:16931/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, userAgent: Mozilla/5.0 (Windows NT 10...., webSocketUrl: ws://127.0.0.1:16931/sessio...}
+Element: [[CFirefoxDriver: firefox on windows (95ad617e-52ba-4fc4-b508-54d402fc6cc0)] -> xpath: //div[@id='navFooter']/div/div/div[3]/ul/li/a]
+Session ID: 95ad617e-52ba-4fc4-b508-54d402fc6cc0
+	at jdk.internal.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor24.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$L4Vyowkj.click(Unknown Source)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

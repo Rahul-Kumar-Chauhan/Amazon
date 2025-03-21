@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_DesignerFashion Brands</name>
+   <tag></tag>
+   <elementGuidId>e490318b-2783-49be-8476-17f5756ffa14</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ul:nth-of-type(2) > li.navFooterDescItem > a.nav_a > span.navFooterDescText</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navFooter']/div[4]/div/ul[2]/li/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Shopbop Designer Fashion Brands&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>87070f56-2a75-4537-b80d-7cf5c6d555ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>navFooterDescText</value>
+      <webElementGuid>d6b46b87-e536-4fab-84c7-fb215ea10936</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DesignerFashion Brands</value>
+      <webElementGuid>7dcd440c-aff2-4acc-a41f-3040cc5e1452</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navFooter&quot;)/div[@class=&quot;navFooterLine navFooterLinkLine navFooterDescLine&quot;]/div[@class=&quot;navFooterMoreOnAmazon navFooterMoreOnAmazonWrapper&quot;]/ul[2]/li[@class=&quot;navFooterDescItem&quot;]/a[@class=&quot;nav_a&quot;]/span[@class=&quot;navFooterDescText&quot;]</value>
+      <webElementGuid>218ce023-cfaf-41b7-aa77-9f4a98641b60</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navFooter']/div[4]/div/ul[2]/li/a/span</value>
+      <webElementGuid>874b303d-c392-4212-8b96-7ec9e6565dbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shopbop'])[1]/following::span[1]</value>
+      <webElementGuid>76c08abc-9bbc-444b-9fdf-565ee6b6d5dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Movies, TV&amp; Celebrities'])[1]/following::span[1]</value>
+      <webElementGuid>254fbdf9-8ed5-4f1f-b5d4-d02c805d2293</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Amazon Business'])[1]/preceding::span[1]</value>
+      <webElementGuid>d589c86e-aded-4c93-9a68-51f34b9df621</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Everything ForYour Business'])[1]/preceding::span[1]</value>
+      <webElementGuid>f9fc1b18-9a31-422d-a6fe-300d1d52e6a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Designer']/parent::*</value>
+      <webElementGuid>2de4e9f5-e859-4ff4-8c63-682068929784</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul[2]/li/a/span</value>
+      <webElementGuid>2845e180-3afb-4dd5-a831-bf73480b31c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'DesignerFashion Brands' or . = 'DesignerFashion Brands')]</value>
+      <webElementGuid>9d5b9051-a418-4c9f-8e3a-030485b0fbfb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

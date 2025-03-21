@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Amazon_ValidateSearchFieldItem_003</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>28f4ce42-82dc-4a22-a623-8975d03ebfcb</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>1ef26e91-9f80-4272-af2d-c5d23d4793d7</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/TestData/Amazon_ValidateSearchFieldItem_TestData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>1ef26e91-9f80-4272-af2d-c5d23d4793d7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>category</value>
+      <variableId>0cd99a90-40eb-4d97-a1dd-45873f5eb442</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>1ef26e91-9f80-4272-af2d-c5d23d4793d7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>item</value>
+      <variableId>6daeb972-3423-4a0d-8a4d-e53649628674</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0cd99a90-40eb-4d97-a1dd-45873f5eb442</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6daeb972-3423-4a0d-8a4d-e53649628674</id>
+      <masked>false</masked>
+      <name>item</name>
+   </variable>
+</TestCaseEntity>

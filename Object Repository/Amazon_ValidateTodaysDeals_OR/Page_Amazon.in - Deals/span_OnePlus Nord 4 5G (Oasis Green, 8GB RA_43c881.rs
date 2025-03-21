@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_OnePlus Nord 4 5G (Oasis Green, 8GB RA_43c881</name>
+   <tag></tag>
+   <elementGuidId>bca2c625-acca-4194-af02-90927f2b3f6f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.a-truncate-cut</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[@id='title-B0D7VGZS69']/span/span/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;12% off Limited time deal OnePlus Nord 4 5G (Oasis Green, 8GB RAM, 256GB Storage)&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>3a63f40c-d27a-48b0-b6f8-3693543adbca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>360fb3b5-f983-408f-8b1c-72c0d5b44d51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-truncate-cut</value>
+      <webElementGuid>17457d5a-b78d-4985-a4e1-fff6513cdd13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>OnePlus Nord 4 5G (Oasis Green, 8GB RAM, 256GB S…</value>
+      <webElementGuid>33701b11-fe65-4ec8-ab9e-d8bba7bce829</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;title-B0D7VGZS69&quot;)/span[@class=&quot;dui-truncate-50 Truncate-module_duiTruncate__EvR99&quot;]/span[@class=&quot;a-truncate&quot;]/span[@class=&quot;a-truncate-cut&quot;]</value>
+      <webElementGuid>c85ec747-fafb-433c-a6a9-856d843a83e3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//p[@id='title-B0D7VGZS69']/span/span/span[2]</value>
+      <webElementGuid>9c9bdd7a-9b46-4d0c-9e0a-04e3bc8c4687</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OnePlus Nord 4 5G (Oasis Green, 8GB RAM, 256GB Storage)'])[1]/following::span[1]</value>
+      <webElementGuid>d9c1bccd-c92b-4887-af5a-ac2ace283b0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Limited time deal'])[1]/following::span[4]</value>
+      <webElementGuid>9999a495-f90d-4d42-87f3-4e8858885625</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Limited time deal'])[2]/preceding::span[2]</value>
+      <webElementGuid>2acbe92e-0ccb-46a2-9731-a73b470ba8fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OnePlus 13R | Smarter with OnePlus AI (12GB RAM, 256GB Storage Nebula Noir)'])[1]/preceding::span[4]</value>
+      <webElementGuid>412c7474-f78f-470d-bba9-4729a736da11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='OnePlus Nord 4 5G (Oasis Green, 8GB RAM, 256GB S…']/parent::*</value>
+      <webElementGuid>c0a8c048-5070-4077-a6f2-191b2a2ccae1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p/span/span/span[2]</value>
+      <webElementGuid>85802a19-6849-4e60-98fd-0586b04e9b91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'OnePlus Nord 4 5G (Oasis Green, 8GB RAM, 256GB S…' or . = 'OnePlus Nord 4 5G (Oasis Green, 8GB RAM, 256GB S…')]</value>
+      <webElementGuid>0b8f54e5-7f2f-433a-9228-0e8e9ea74c6f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

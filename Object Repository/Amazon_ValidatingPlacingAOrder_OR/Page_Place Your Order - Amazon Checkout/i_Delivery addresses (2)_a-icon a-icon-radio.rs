@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Delivery addresses (2)_a-icon a-icon-radio</name>
+   <tag></tag>
+   <elementGuidId>fdc5078f-4699-427b-b416-3970bb20e6ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.a-icon.a-icon-radio</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='select-destination-on-sasp-desktop-panel-id-L5MTG6EHXRNHGD3M3AXAG12X1NT51QYSIA23ISYQ15TN1XNPXTQ2EIA2OXKABYUF']/div/label/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#select-destination-on-sasp-desktop-panel-id-L5MTG6EHXRNHGD3M3AXAG12X1NT51QYSIA23ISYQ15TN1XNPXTQ2EIA2OXKABYUF i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>b116a61b-e99a-4e93-8a49-58c39c4b9461</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-icon a-icon-radio</value>
+      <webElementGuid>7a295015-4215-4461-ba02-7e5c7b6683cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;select-destination-on-sasp-desktop-panel-id-L5MTG6EHXRNHGD3M3AXAG12X1NT51QYSIA23ISYQ15TN1XNPXTQ2EIA2OXKABYUF&quot;)/div[@class=&quot;a-radio a-radio-fancy&quot;]/label[1]/i[@class=&quot;a-icon a-icon-radio&quot;]</value>
+      <webElementGuid>26c5ac1d-6200-49f7-a12a-809954aca937</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='select-destination-on-sasp-desktop-panel-id-L5MTG6EHXRNHGD3M3AXAG12X1NT51QYSIA23ISYQ15TN1XNPXTQ2EIA2OXKABYUF']/div/label/i</value>
+      <webElementGuid>e84cbb47-34ef-46f8-b60e-c90c60c60c8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>ca14b781-dfd4-4f33-bb3e-019a76e08471</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

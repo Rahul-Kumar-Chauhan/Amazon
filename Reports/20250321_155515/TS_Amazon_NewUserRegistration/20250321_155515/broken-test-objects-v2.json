@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_NewUserRegistration_OR/Page_Amazon Registration/input_Your name_customerName",
+      "brokenLocator": "//input[@id\u003d\u0027ap_customer_name\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250321_155515/TS_Amazon_NewUserRegistration/20250321_155515/Object Repository/Amazon_NewUserRegistration_OR/Page_Amazon Registration/input_Your name_customerName_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_NewUserRegistration_OR/Page_Amazon Registration/input_Passwords must be at least 6 characters_continue",
+      "brokenLocator": "//input[@id\u003d\u0027continue\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250321_155515/TS_Amazon_NewUserRegistration/20250321_155515/Object Repository/Amazon_NewUserRegistration_OR/Page_Amazon Registration/input_Passwords must be at least 6 characters_continue_position.png"
+    }
+  ]
+}

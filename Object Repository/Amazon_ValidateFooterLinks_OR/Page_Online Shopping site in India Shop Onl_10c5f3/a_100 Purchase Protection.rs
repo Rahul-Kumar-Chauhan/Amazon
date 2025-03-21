@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_100 Purchase Protection</name>
+   <tag></tag>
+   <elementGuidId>18413fb1-03ae-4f9e-965f-0bd934a514bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navFooter']/div/div/div[7]/ul/li[4]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;100% Purchase Protection&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>5e759501-bd90-441a-941c-1ce648665fba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/gp/help/customer/display.html?nodeId=201083470&amp;ref_=footer_swc</value>
+      <webElementGuid>f7a1c4b6-4b7d-4651-87f3-92410b3aadf4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav_a</value>
+      <webElementGuid>f80a9ac0-79c2-45d8-a1dc-b0c084bc0172</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>100% Purchase Protection</value>
+      <webElementGuid>c54b5008-0cf6-4198-bce5-d1e8bc2ad622</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navFooter&quot;)/div[@class=&quot;navFooterVerticalColumn navAccessibility&quot;]/div[@class=&quot;navFooterVerticalRow navAccessibility&quot;]/div[@class=&quot;navFooterLinkCol navAccessibility&quot;]/ul[1]/li[4]/a[@class=&quot;nav_a&quot;]</value>
+      <webElementGuid>cb44ed0b-1b88-4622-be06-3eb398f83559</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navFooter']/div/div/div[7]/ul/li[4]/a</value>
+      <webElementGuid>cfa8433c-1dab-4b72-9b3e-3b11c5031483</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'100% Purchase Protection')]</value>
+      <webElementGuid>94e77b7a-e550-4773-8b3c-183ffc9a902b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recalls and Product Safety Alerts'])[1]/following::a[1]</value>
+      <webElementGuid>9fd7dc1b-df87-4f56-a4e0-ac696f6df3fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Returns Centre'])[1]/following::a[2]</value>
+      <webElementGuid>a31d58f1-2e48-4029-ba14-f84420f1eee5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Amazon App Download'])[1]/preceding::a[1]</value>
+      <webElementGuid>936b6902-cf30-4e7c-8423-20fc191078f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[1]/preceding::a[2]</value>
+      <webElementGuid>44fe5fdd-cf61-4939-8760-25d9524bffe9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='100% Purchase Protection']/parent::*</value>
+      <webElementGuid>f2a7e8de-948f-4f70-b47e-2c046d81fc05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/gp/help/customer/display.html?nodeId=201083470&amp;ref_=footer_swc')]</value>
+      <webElementGuid>5ba12968-decf-4d5d-bafb-27564b8ba5c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/ul/li[4]/a</value>
+      <webElementGuid>05af293b-7936-451f-ab23-84dc87fdcd8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/gp/help/customer/display.html?nodeId=201083470&amp;ref_=footer_swc' and (text() = '100% Purchase Protection' or . = '100% Purchase Protection')]</value>
+      <webElementGuid>0b521f5a-f12c-4107-9a85-b5ff21e9669c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

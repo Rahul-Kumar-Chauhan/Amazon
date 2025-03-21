@@ -1,0 +1,87 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Amazon_03,Firefox 136.0.2,,,21-03-2025 07:43:47,21-03-2025 09:03:01,1h - 19m - 14.377s,FAILED
+,,,,,,,
+Test Cases/TC_Amazon_ValidatePlacingAOrder_009,Firefox 136.0.2,,,21-03-2025 07:58:45,21-03-2025 08:04:27,5m - 42.393s,FAILED
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 07:58:45,21-03-2025 07:58:50,5.393s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 07:58:50,21-03-2025 07:58:53,3.056s,PASSED
+"mouseOver(findTestObject(""Amazon_ValidatingPlacingAOrder_OR/Page_Online Shopping site in India Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in/span_Account  Lists""))",Firefox 136.0.2,,,21-03-2025 07:58:53,21-03-2025 07:58:55,1.221s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in""))",Firefox 136.0.2,,,21-03-2025 07:58:55,21-03-2025 07:58:57,2.227s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Amazon Sign In/input_Email or mobile phone number_email""), ""8765257308"")",Firefox 136.0.2,,,21-03-2025 07:58:57,21-03-2025 08:00:00,1m - 2.909s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Amazon Sign In/input_Wrong or Invalid email address or mob_77ed40""))",Firefox 136.0.2,,,21-03-2025 08:00:00,21-03-2025 08:00:33,32.938s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Amazon Sign In/input_Forgot password_password""), ""FJEEn2Q6rEqImg+RR4ytGA=="")",Firefox 136.0.2,,,21-03-2025 08:00:33,21-03-2025 08:00:33,0.850s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Amazon Sign In/input_Enter your password_signInSubmit""))",Firefox 136.0.2,,,21-03-2025 08:00:33,21-03-2025 08:00:36,2.907s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), ""search-alias=stripbooks"", true)",Firefox 136.0.2,,,21-03-2025 08:00:36,21-03-2025 08:00:43,6.684s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), ""dopamine detox"")",Firefox 136.0.2,,,21-03-2025 08:00:43,21-03-2025 08:00:44,0.670s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 08:00:44,21-03-2025 08:00:47,3.716s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Amazon.in  dopamine detox/span_Dopamine Detox  A Short Guide to Remov_c6ee6f""))",Firefox 136.0.2,,,21-03-2025 08:00:47,21-03-2025 08:01:19,31.819s,PASSED
+"newTab("""")",Firefox 136.0.2,,,21-03-2025 08:01:19,21-03-2025 08:01:20,0.403s,PASSED
+"navigateToUrl(""https://www.amazon.in/Dopamine-Detox-Remove-Distractions-Things/dp/8183286011/ref=sr_1_1_sspa?crid=1NU2R28DY0SN5&dib=eyJ2IjoiMSJ9.YlGXE17O7k5aD2j4Kse9dOSJ0N5NmLO1i3qBLQNxIDfJYZEHqbqj3kGhtwcpYEN9RrFVJJ17D6-iO1SPsqYGi2cSvfvv1bOON8PdQ87NhmEsDhoJeS4KxPFboF5AZnchLEZZ6eYkuhwfyVNKKEjsyWipGIJ0L3wQmXjQucrdYVYiFymPWHjnVxGqbGPHE9SipEJ0nGX_bmynZWyTY1bq83kLyHVkJer-g52uH8cZX9k.2KlSeObW9l2Re9dkleNDSQ4dcbGH390I33e_YlEZG-0&dib_tag=se&keywords=dopamine+detox&qid=1741834765&s=books&sprefix=dopamine+detox%2Cstripbooks%2C1352&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"")",Firefox 136.0.2,,,21-03-2025 08:01:20,21-03-2025 08:01:23,3.732s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Dopamine Detox  A Short Guide to Remov_eec2f1/input_Quantity_submit.buy-now""))",Firefox 136.0.2,,,21-03-2025 08:01:23,21-03-2025 08:01:31,7.116s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Place Your Order - Amazon Checkout/a_Change""))",Firefox 136.0.2,,,21-03-2025 08:01:31,21-03-2025 08:01:32,1.412s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Place Your Order - Amazon Checkout/i_Delivery addresses (2)_a-icon a-icon-radio""))",Firefox 136.0.2,,,21-03-2025 08:01:32,21-03-2025 08:01:34,2.354s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Place Your Order - Amazon Checkout/input__a-button-input""))",Firefox 136.0.2,,,21-03-2025 08:01:34,21-03-2025 08:01:37,2.750s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Place Your Order - Amazon Checkout/a_Change_1""))",Firefox 136.0.2,,,21-03-2025 08:01:37,21-03-2025 08:02:14,36.775s,FAILED
+"click(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Place Your Order - Amazon Checkout/input_Why_ppw-instrumentRowSelection""))",Firefox 136.0.2,,,21-03-2025 08:02:14,21-03-2025 08:02:46,32.065s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Place Your Order - Amazon Checkout/input_Convenience fee of 7 will apply. To a_ce1589""))",Firefox 136.0.2,,,21-03-2025 08:02:46,21-03-2025 08:03:17,31.093s,FAILED
+"click(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Place Your Order - Amazon Checkout/input_Add gift options_placeYourOrder1""))",Firefox 136.0.2,,,21-03-2025 08:03:17,21-03-2025 08:03:54,36.621s,FAILED
+"mouseOver(findTestObject(""Amazon_ValidatingPlacingAOrder_OR/Page_Online Shopping site in India Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in/span_Account  Lists""))",Firefox 136.0.2,,,21-03-2025 08:03:54,21-03-2025 08:04:25,31.478s,FAILED
+"click(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Place Your Order - Amazon Checkout/span_Sign Out""))",Firefox 136.0.2,,,21-03-2025 08:04:25,21-03-2025 08:04:25,0.385s,FAILED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 08:04:25,21-03-2025 08:04:27,1.761s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_TrackOrder_010,Firefox 136.0.2,,,21-03-2025 08:08:55,21-03-2025 08:10:17,1m - 21.904s,FAILED
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 08:08:55,21-03-2025 08:09:00,4.953s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 08:09:00,21-03-2025 08:09:04,3.491s,PASSED
+"mouseOver(findTestObject(""Amazon_TarackOrder_OR/Page_Online Shopping site in India Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in/span_Account  Lists""))",Firefox 136.0.2,,,21-03-2025 08:09:04,21-03-2025 08:09:06,2.069s,PASSED
+"click(findTestObject(""Object Repository/Amazon_TarackOrder_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in""))",Firefox 136.0.2,,,21-03-2025 08:09:06,21-03-2025 08:09:16,10.433s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_TarackOrder_OR/Page_/input_IN 91_email""), ""8765257308"")",Firefox 136.0.2,,,21-03-2025 08:09:16,21-03-2025 08:09:20,3.737s,PASSED
+"click(findTestObject(""Object Repository/Amazon_TarackOrder_OR/Page_/input_Passkey error_a-button-input""))",Firefox 136.0.2,,,21-03-2025 08:09:20,21-03-2025 08:09:22,2.566s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_TarackOrder_OR/Page_Amazon Sign In/input_Forgot password_password""), ""FJEEn2Q6rEqImg+RR4ytGA=="")",Firefox 136.0.2,,,21-03-2025 08:09:22,21-03-2025 08:09:24,1.259s,PASSED
+"click(findTestObject(""Object Repository/Amazon_TarackOrder_OR/Page_Amazon Sign In/input_Enter your password_signInSubmit""))",Firefox 136.0.2,,,21-03-2025 08:09:24,21-03-2025 08:09:26,2.676s,PASSED
+"click(findTestObject(""Object Repository/Amazon_TarackOrder_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Your Orders""))",Firefox 136.0.2,,,21-03-2025 08:09:26,21-03-2025 08:09:30,3.575s,FAILED
+"click(findTestObject(""Object Repository/Amazon_TarackOrder_OR/Page_Your Orders/a_Track package""))",Firefox 136.0.2,,,21-03-2025 08:09:30,21-03-2025 08:10:08,37.682s,FAILED
+"mouseOver(findTestObject(""Amazon_TarackOrder_OR/Page_Online Shopping site in India Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in/span_Account  Lists""))",Firefox 136.0.2,,,21-03-2025 08:10:08,21-03-2025 08:10:08,0.519s,PASSED
+"click(findTestObject(""Object Repository/Amazon_TarackOrder_OR/Page_Track Package/span_Sign Out""))",Firefox 136.0.2,,,21-03-2025 08:10:08,21-03-2025 08:10:15,7.016s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 08:10:15,21-03-2025 08:10:17,1.901s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_CancelingOrder_011,Firefox 136.0.2,,,21-03-2025 08:27:43,21-03-2025 08:35:49,8m - 5.703s,FAILED
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 08:27:43,21-03-2025 08:27:49,5.714s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 08:27:49,21-03-2025 08:27:52,3.762s,PASSED
+"mouseOver(findTestObject(""Amazon_CancelingOrder_OR/Page_Online Shopping site in India Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in/span_Account  Lists""))",Firefox 136.0.2,,,21-03-2025 08:27:52,21-03-2025 08:27:55,2.896s,PASSED
+"click(findTestObject(""Object Repository/Amazon_CancelingOrder_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in""))",Firefox 136.0.2,,,21-03-2025 08:27:55,21-03-2025 08:27:58,2.392s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_CancelingOrder_OR/Page_Amazon Sign In/input_Email or mobile phone number_email""), ""8765257308"")",Firefox 136.0.2,,,21-03-2025 08:27:58,21-03-2025 08:28:00,2.267s,PASSED
+"click(findTestObject(""Object Repository/Amazon_CancelingOrder_OR/Page_Amazon Sign In/input_Wrong or Invalid email address or mob_77ed40""))",Firefox 136.0.2,,,21-03-2025 08:28:00,21-03-2025 08:28:01,1.488s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_CancelingOrder_OR/Page_Amazon Sign In/input_Forgot password_password""), ""FJEEn2Q6rEqImg+RR4ytGA=="")",Firefox 136.0.2,,,21-03-2025 08:28:01,21-03-2025 08:28:02,0.823s,PASSED
+"click(findTestObject(""Object Repository/Amazon_CancelingOrder_OR/Page_Amazon Sign In/input_Enter your password_signInSubmit""))",Firefox 136.0.2,,,21-03-2025 08:28:02,21-03-2025 08:28:05,2.420s,PASSED
+"click(findTestObject(""Object Repository/Amazon_CancelingOrder_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Your Orders""))",Firefox 136.0.2,,,21-03-2025 08:28:05,21-03-2025 08:28:07,2.909s,FAILED
+"click(findTestObject(""Object Repository/Amazon_CancelingOrder_OR/Page_Your Orders/a_View or edit order""))",Firefox 136.0.2,,,21-03-2025 08:28:07,21-03-2025 08:28:09,1.012s,PASSED
+"click(findTestObject(""Object Repository/Amazon_CancelingOrder_OR/Page_Order Details/a_Cancel items""))",Firefox 136.0.2,,,21-03-2025 08:28:09,21-03-2025 08:28:40,31.251s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_CancelingOrder_OR/Page_Amazon.in - Your Account/select_Select Cancellation ReasonOrder Crea_df69d7""), ""other"", true)",Firefox 136.0.2,,,21-03-2025 08:28:40,21-03-2025 08:30:41,2m - 0.830s,FAILED
+"click(findTestObject(""Object Repository/Amazon_CancelingOrder_OR/Page_Amazon.in - Your Account/input_Reason for cancellation (optional)_cq.submit""))",Firefox 136.0.2,,,21-03-2025 08:30:41,21-03-2025 08:34:43,4m - 2.590s,FAILED
+acceptAlert(),Firefox 136.0.2,,,21-03-2025 08:34:43,21-03-2025 08:34:44,0.418s,FAILED
+"mouseOver(findTestObject(""Amazon_CancelingOrder_OR/Page_Online Shopping site in India Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in/span_Account  Lists""))",Firefox 136.0.2,,,21-03-2025 08:34:44,21-03-2025 08:35:14,30.475s,PASSED
+"click(findTestObject(""Object Repository/Amazon_CancelingOrder_OR/Page_Order Details/span_Sign Out""))",Firefox 136.0.2,,,21-03-2025 08:35:14,21-03-2025 08:35:47,32.645s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 08:35:47,21-03-2025 08:35:48,1.773s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidatePaymentOptions_012,Firefox 136.0.2,,,21-03-2025 08:55:45,21-03-2025 09:03:01,7m - 15.849s,FAILED
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 08:55:45,21-03-2025 08:55:51,6.406s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 08:55:51,21-03-2025 08:55:56,4.653s,PASSED
+"mouseOver(findTestObject(""Amazon_ValidatePaymentOptions_OR/Page_Online Shopping site in India Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in/span_Account  Lists""))",Firefox 136.0.2,,,21-03-2025 08:55:56,21-03-2025 08:56:00,3.767s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in""))",Firefox 136.0.2,,,21-03-2025 08:56:00,21-03-2025 08:56:02,1.958s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Amazon Sign In/input_Email or mobile phone number_email""), ""8765257308"")",Firefox 136.0.2,,,21-03-2025 08:56:02,21-03-2025 08:57:05,1m - 2.885s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Amazon Sign In/input_Wrong or Invalid email address or mob_77ed40""))",Firefox 136.0.2,,,21-03-2025 08:57:05,21-03-2025 08:57:38,32.819s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Amazon Sign In/input_Forgot password_password""), ""FJEEn2Q6rEqImg+RR4ytGA=="")",Firefox 136.0.2,,,21-03-2025 08:57:38,21-03-2025 08:57:39,1.404s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Amazon Sign In/input_Enter your password_signInSubmit""))",Firefox 136.0.2,,,21-03-2025 08:57:39,21-03-2025 08:57:41,2.441s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_2""))",Firefox 136.0.2,,,21-03-2025 08:57:41,21-03-2025 08:57:46,4.148s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Amazon.in Shopping Cart/input_1,598.00_proceedToRetailCheckout""))",Firefox 136.0.2,,,21-03-2025 08:57:46,21-03-2025 08:57:51,5.887s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Place Your Order - Amazon Checkout/input_Another payment method_ppw-instrument_d02253""))",Firefox 136.0.2,,,21-03-2025 08:57:51,21-03-2025 08:58:23,31.681s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Place Your Order - Amazon Checkout/input_Amazon accepts all major credit   car_451b00""))",Firefox 136.0.2,,,21-03-2025 08:58:23,21-03-2025 08:58:55,31.799s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Place Your Order - Amazon Checkout/input_Choose an Option_ppw-instrumentRowSelection""))",Firefox 136.0.2,,,21-03-2025 08:58:55,21-03-2025 08:59:27,31.712s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Place Your Order - Amazon Checkout/input_The UPI ID is in the format of nameph_029c41""))",Firefox 136.0.2,,,21-03-2025 08:59:27,21-03-2025 08:59:58,31.799s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Place Your Order - Amazon Checkout/input_Why_ppw-instrumentRowSelection""))",Firefox 136.0.2,,,21-03-2025 08:59:58,21-03-2025 09:00:31,32.216s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Place Your Order - Amazon Checkout/input_We have deselected Amazon Pay balance_5983ef""))",Firefox 136.0.2,,,21-03-2025 09:00:31,21-03-2025 09:01:02,31.082s,FAILED
+"click(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Place Your Order - Amazon Checkout/a_Review Order""))",Firefox 136.0.2,,,21-03-2025 09:01:02,21-03-2025 09:01:33,31.549s,FAILED
+back(),Firefox 136.0.2,,,21-03-2025 09:01:33,21-03-2025 09:01:35,1.853s,PASSED
+back(),Firefox 136.0.2,,,21-03-2025 09:01:35,21-03-2025 09:01:40,4.920s,PASSED
+back(),Firefox 136.0.2,,,21-03-2025 09:01:40,21-03-2025 09:01:48,7.778s,FAILED
+"mouseOver(findTestObject(""Amazon_ValidatePaymentOptions_OR/Page_Online Shopping site in India Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in/span_Account  Lists""))",Firefox 136.0.2,,,21-03-2025 09:01:48,21-03-2025 09:02:24,36.495s,FAILED
+"click(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Amazon.in Shopping Cart/span_Sign Out""))",Firefox 136.0.2,,,21-03-2025 09:02:24,21-03-2025 09:03:01,36.563s,FAILED

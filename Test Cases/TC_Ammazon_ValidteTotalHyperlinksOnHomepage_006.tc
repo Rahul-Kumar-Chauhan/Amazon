@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Ammazon_ValidteTotalHyperlinksOnHomepage_006</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>73cfaa26-cdd0-47d7-b2e9-4ee3e25dc3e6</testCaseGuid>
+</TestCaseEntity>

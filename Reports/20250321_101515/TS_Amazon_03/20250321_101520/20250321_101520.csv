@@ -1,0 +1,87 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Amazon_03,Edge Chromium 134.0.3124.72,,,21-03-2025 10:15:43,21-03-2025 11:39:47,1h - 24m - 3.924s,FAILED
+,,,,,,,
+Test Cases/TC_Amazon_ValidatePlacingAOrder_009,Edge Chromium 134.0.3124.72,,,21-03-2025 10:40:34,21-03-2025 10:45:24,4m - 49.974s,FAILED
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,21-03-2025 10:40:34,21-03-2025 10:40:42,8.604s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,21-03-2025 10:40:42,21-03-2025 10:40:47,4.458s,PASSED
+"mouseOver(findTestObject(""Amazon_ValidatingPlacingAOrder_OR/Page_Online Shopping site in India Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in/span_Account  Lists""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:40:47,21-03-2025 10:40:51,3.868s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:40:51,21-03-2025 10:40:55,3.941s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Amazon Sign In/input_Email or mobile phone number_email""), ""8765257308"")",Edge Chromium 134.0.3124.72,,,21-03-2025 10:40:55,21-03-2025 10:41:00,4.995s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Amazon Sign In/input_Wrong or Invalid email address or mob_77ed40""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:41:00,21-03-2025 10:41:01,1.196s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Amazon Sign In/input_Forgot password_password""), ""FJEEn2Q6rEqImg+RR4ytGA=="")",Edge Chromium 134.0.3124.72,,,21-03-2025 10:41:01,21-03-2025 10:41:02,1.395s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Amazon Sign In/input_Enter your password_signInSubmit""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:41:02,21-03-2025 10:41:03,0.614s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), ""search-alias=stripbooks"", true)",Edge Chromium 134.0.3124.72,,,21-03-2025 10:41:03,21-03-2025 10:41:15,11.690s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), ""dopamine detox"")",Edge Chromium 134.0.3124.72,,,21-03-2025 10:41:15,21-03-2025 10:41:17,2.102s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:41:17,21-03-2025 10:41:27,10.023s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Amazon.in  dopamine detox/span_Dopamine Detox  A Short Guide to Remov_c6ee6f""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:41:27,21-03-2025 10:42:00,33.169s,PASSED
+"newTab("""")",Edge Chromium 134.0.3124.72,,,21-03-2025 10:42:00,21-03-2025 10:42:01,1.050s,PASSED
+"navigateToUrl(""https://www.amazon.in/Dopamine-Detox-Remove-Distractions-Things/dp/8183286011/ref=sr_1_1_sspa?crid=1NU2R28DY0SN5&dib=eyJ2IjoiMSJ9.YlGXE17O7k5aD2j4Kse9dOSJ0N5NmLO1i3qBLQNxIDfJYZEHqbqj3kGhtwcpYEN9RrFVJJ17D6-iO1SPsqYGi2cSvfvv1bOON8PdQ87NhmEsDhoJeS4KxPFboF5AZnchLEZZ6eYkuhwfyVNKKEjsyWipGIJ0L3wQmXjQucrdYVYiFymPWHjnVxGqbGPHE9SipEJ0nGX_bmynZWyTY1bq83kLyHVkJer-g52uH8cZX9k.2KlSeObW9l2Re9dkleNDSQ4dcbGH390I33e_YlEZG-0&dib_tag=se&keywords=dopamine+detox&qid=1741834765&s=books&sprefix=dopamine+detox%2Cstripbooks%2C1352&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"")",Edge Chromium 134.0.3124.72,,,21-03-2025 10:42:01,21-03-2025 10:42:11,9.803s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Dopamine Detox  A Short Guide to Remov_eec2f1/input_Quantity_submit.buy-now""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:42:11,21-03-2025 10:42:19,8.338s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Place Your Order - Amazon Checkout/a_Change""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:42:19,21-03-2025 10:42:20,1.211s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Place Your Order - Amazon Checkout/i_Delivery addresses (2)_a-icon a-icon-radio""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:42:20,21-03-2025 10:42:27,6.211s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Place Your Order - Amazon Checkout/input__a-button-input""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:42:27,21-03-2025 10:42:30,3.861s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Place Your Order - Amazon Checkout/a_Change_1""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:42:30,21-03-2025 10:43:08,37.480s,FAILED
+"click(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Place Your Order - Amazon Checkout/input_Why_ppw-instrumentRowSelection""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:43:08,21-03-2025 10:43:40,32.096s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Place Your Order - Amazon Checkout/input_Convenience fee of 7 will apply. To a_ce1589""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:43:40,21-03-2025 10:44:13,33.137s,FAILED
+"click(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Place Your Order - Amazon Checkout/input_Add gift options_placeYourOrder1""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:44:13,21-03-2025 10:44:49,35.447s,FAILED
+"mouseOver(findTestObject(""Amazon_ValidatingPlacingAOrder_OR/Page_Online Shopping site in India Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in/span_Account  Lists""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:44:49,21-03-2025 10:45:20,31.644s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Place Your Order - Amazon Checkout/span_Sign Out""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:45:20,21-03-2025 10:45:21,0.654s,FAILED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,21-03-2025 10:45:21,21-03-2025 10:45:24,2.817s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_TrackOrder_010,Edge Chromium 134.0.3124.72,,,21-03-2025 10:53:20,21-03-2025 10:54:07,46.235s,FAILED
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,21-03-2025 10:53:20,21-03-2025 10:53:25,4.506s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,21-03-2025 10:53:25,21-03-2025 10:53:29,4.491s,PASSED
+"mouseOver(findTestObject(""Amazon_TarackOrder_OR/Page_Online Shopping site in India Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in/span_Account  Lists""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:53:29,21-03-2025 10:53:34,4.509s,PASSED
+"click(findTestObject(""Object Repository/Amazon_TarackOrder_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:53:34,21-03-2025 10:53:38,3.562s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_TarackOrder_OR/Page_/input_IN 91_email""), ""8765257308"")",Edge Chromium 134.0.3124.72,,,21-03-2025 10:53:38,21-03-2025 10:53:43,5.106s,PASSED
+"click(findTestObject(""Object Repository/Amazon_TarackOrder_OR/Page_/input_Passkey error_a-button-input""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:53:43,21-03-2025 10:53:46,2.904s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_TarackOrder_OR/Page_Amazon Sign In/input_Forgot password_password""), ""FJEEn2Q6rEqImg+RR4ytGA=="")",Edge Chromium 134.0.3124.72,,,21-03-2025 10:53:46,21-03-2025 10:53:47,1.231s,PASSED
+"click(findTestObject(""Object Repository/Amazon_TarackOrder_OR/Page_Amazon Sign In/input_Enter your password_signInSubmit""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:53:47,21-03-2025 10:53:47,0.408s,PASSED
+"click(findTestObject(""Object Repository/Amazon_TarackOrder_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Your Orders""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:53:47,21-03-2025 10:53:56,8.452s,FAILED
+"click(findTestObject(""Object Repository/Amazon_TarackOrder_OR/Page_Your Orders/a_Track package""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:53:56,21-03-2025 10:53:56,0.604s,FAILED
+"mouseOver(findTestObject(""Amazon_TarackOrder_OR/Page_Online Shopping site in India Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in/span_Account  Lists""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:53:56,21-03-2025 10:53:57,0.437s,PASSED
+"click(findTestObject(""Object Repository/Amazon_TarackOrder_OR/Page_Track Package/span_Sign Out""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:53:57,21-03-2025 10:54:03,6.484s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,21-03-2025 10:54:03,21-03-2025 10:54:07,3.501s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_CancelingOrder_011,Edge Chromium 134.0.3124.72,,,21-03-2025 11:09:36,21-03-2025 11:12:35,2m - 59.381s,FAILED
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,21-03-2025 11:09:36,21-03-2025 11:09:39,3.023s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,21-03-2025 11:09:39,21-03-2025 11:09:42,2.820s,PASSED
+"mouseOver(findTestObject(""Amazon_CancelingOrder_OR/Page_Online Shopping site in India Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in/span_Account  Lists""))",Edge Chromium 134.0.3124.72,,,21-03-2025 11:09:42,21-03-2025 11:09:47,4.996s,PASSED
+"click(findTestObject(""Object Repository/Amazon_CancelingOrder_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in""))",Edge Chromium 134.0.3124.72,,,21-03-2025 11:09:47,21-03-2025 11:09:49,2.731s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_CancelingOrder_OR/Page_Amazon Sign In/input_Email or mobile phone number_email""), ""8765257308"")",Edge Chromium 134.0.3124.72,,,21-03-2025 11:09:49,21-03-2025 11:09:51,1.725s,PASSED
+"click(findTestObject(""Object Repository/Amazon_CancelingOrder_OR/Page_Amazon Sign In/input_Wrong or Invalid email address or mob_77ed40""))",Edge Chromium 134.0.3124.72,,,21-03-2025 11:09:51,21-03-2025 11:09:52,0.987s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_CancelingOrder_OR/Page_Amazon Sign In/input_Forgot password_password""), ""FJEEn2Q6rEqImg+RR4ytGA=="")",Edge Chromium 134.0.3124.72,,,21-03-2025 11:09:52,21-03-2025 11:09:53,1.329s,PASSED
+"click(findTestObject(""Object Repository/Amazon_CancelingOrder_OR/Page_Amazon Sign In/input_Enter your password_signInSubmit""))",Edge Chromium 134.0.3124.72,,,21-03-2025 11:09:53,21-03-2025 11:09:54,0.432s,PASSED
+"click(findTestObject(""Object Repository/Amazon_CancelingOrder_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Your Orders""))",Edge Chromium 134.0.3124.72,,,21-03-2025 11:09:54,21-03-2025 11:10:00,6.651s,FAILED
+"click(findTestObject(""Object Repository/Amazon_CancelingOrder_OR/Page_Your Orders/a_View or edit order""))",Edge Chromium 134.0.3124.72,,,21-03-2025 11:10:00,21-03-2025 11:10:38,37.924s,FAILED
+"click(findTestObject(""Object Repository/Amazon_CancelingOrder_OR/Page_Order Details/a_Cancel items""))",Edge Chromium 134.0.3124.72,,,21-03-2025 11:10:38,21-03-2025 11:11:16,37.581s,FAILED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_CancelingOrder_OR/Page_Amazon.in - Your Account/select_Select Cancellation ReasonOrder Crea_df69d7""), ""other"", true)",Edge Chromium 134.0.3124.72,,,21-03-2025 11:11:16,21-03-2025 11:11:53,37.399s,FAILED
+"click(findTestObject(""Object Repository/Amazon_CancelingOrder_OR/Page_Amazon.in - Your Account/input_Reason for cancellation (optional)_cq.submit""))",Edge Chromium 134.0.3124.72,,,21-03-2025 11:11:53,21-03-2025 11:12:29,35.853s,FAILED
+acceptAlert(),Edge Chromium 134.0.3124.72,,,21-03-2025 11:12:29,21-03-2025 11:12:30,0.473s,FAILED
+"mouseOver(findTestObject(""Amazon_CancelingOrder_OR/Page_Online Shopping site in India Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in/span_Account  Lists""))",Edge Chromium 134.0.3124.72,,,21-03-2025 11:12:30,21-03-2025 11:12:30,0.589s,PASSED
+"click(findTestObject(""Object Repository/Amazon_CancelingOrder_OR/Page_Order Details/span_Sign Out""))",Edge Chromium 134.0.3124.72,,,21-03-2025 11:12:30,21-03-2025 11:12:33,3.177s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,21-03-2025 11:12:33,21-03-2025 11:12:35,1.660s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidatePaymentOptions_012,Edge Chromium 134.0.3124.72,,,21-03-2025 11:32:07,21-03-2025 11:39:47,7m - 40.569s,FAILED
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,21-03-2025 11:32:07,21-03-2025 11:32:12,4.951s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,21-03-2025 11:32:12,21-03-2025 11:32:39,26.966s,PASSED
+"mouseOver(findTestObject(""Amazon_ValidatePaymentOptions_OR/Page_Online Shopping site in India Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in/span_Account  Lists""))",Edge Chromium 134.0.3124.72,,,21-03-2025 11:32:39,21-03-2025 11:32:43,4.807s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in""))",Edge Chromium 134.0.3124.72,,,21-03-2025 11:32:43,21-03-2025 11:32:51,7.160s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Amazon Sign In/input_Email or mobile phone number_email""), ""8765257308"")",Edge Chromium 134.0.3124.72,,,21-03-2025 11:32:51,21-03-2025 11:33:54,1m - 3.066s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Amazon Sign In/input_Wrong or Invalid email address or mob_77ed40""))",Edge Chromium 134.0.3124.72,,,21-03-2025 11:33:54,21-03-2025 11:34:27,33.344s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Amazon Sign In/input_Forgot password_password""), ""FJEEn2Q6rEqImg+RR4ytGA=="")",Edge Chromium 134.0.3124.72,,,21-03-2025 11:34:27,21-03-2025 11:34:28,0.951s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Amazon Sign In/input_Enter your password_signInSubmit""))",Edge Chromium 134.0.3124.72,,,21-03-2025 11:34:28,21-03-2025 11:34:28,0.447s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_2""))",Edge Chromium 134.0.3124.72,,,21-03-2025 11:34:28,21-03-2025 11:34:42,13.964s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Amazon.in Shopping Cart/input_1,598.00_proceedToRetailCheckout""))",Edge Chromium 134.0.3124.72,,,21-03-2025 11:34:42,21-03-2025 11:34:48,5.222s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Place Your Order - Amazon Checkout/input_Another payment method_ppw-instrument_d02253""))",Edge Chromium 134.0.3124.72,,,21-03-2025 11:34:48,21-03-2025 11:35:19,31.556s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Place Your Order - Amazon Checkout/input_Amazon accepts all major credit   car_451b00""))",Edge Chromium 134.0.3124.72,,,21-03-2025 11:35:19,21-03-2025 11:35:51,31.584s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Place Your Order - Amazon Checkout/input_Choose an Option_ppw-instrumentRowSelection""))",Edge Chromium 134.0.3124.72,,,21-03-2025 11:35:51,21-03-2025 11:36:22,31.523s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Place Your Order - Amazon Checkout/input_The UPI ID is in the format of nameph_029c41""))",Edge Chromium 134.0.3124.72,,,21-03-2025 11:36:22,21-03-2025 11:36:54,31.530s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Place Your Order - Amazon Checkout/input_Why_ppw-instrumentRowSelection""))",Edge Chromium 134.0.3124.72,,,21-03-2025 11:36:54,21-03-2025 11:37:25,31.557s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Place Your Order - Amazon Checkout/input_We have deselected Amazon Pay balance_5983ef""))",Edge Chromium 134.0.3124.72,,,21-03-2025 11:37:25,21-03-2025 11:37:59,33.329s,FAILED
+"click(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Place Your Order - Amazon Checkout/a_Review Order""))",Edge Chromium 134.0.3124.72,,,21-03-2025 11:37:59,21-03-2025 11:38:30,31.654s,FAILED
+back(),Edge Chromium 134.0.3124.72,,,21-03-2025 11:38:30,21-03-2025 11:38:32,1.529s,PASSED
+back(),Edge Chromium 134.0.3124.72,,,21-03-2025 11:38:32,21-03-2025 11:38:34,1.827s,PASSED
+back(),Edge Chromium 134.0.3124.72,,,21-03-2025 11:38:34,21-03-2025 11:38:34,0.313s,PASSED
+"mouseOver(findTestObject(""Amazon_ValidatePaymentOptions_OR/Page_Online Shopping site in India Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in/span_Account  Lists""))",Edge Chromium 134.0.3124.72,,,21-03-2025 11:38:34,21-03-2025 11:39:11,36.704s,FAILED
+"click(findTestObject(""Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Amazon.in Shopping Cart/span_Sign Out""))",Edge Chromium 134.0.3124.72,,,21-03-2025 11:39:11,21-03-2025 11:39:47,36.542s,FAILED

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_on first order_puisg-col-inner</name>
+   <tag></tag>
+   <elementGuidId>d7b637c5-1049-4ab8-b701-43c6663848ed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='88e1c257-7907-428f-8b73-2276393a3ea1']/div/div/span/div/div/div/div[2]/div/div/div[3]/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[id=&quot;\38 8e1c257-7907-428f-8b73-2276393a3ea1&quot;] > .sg-col-inner > .s-widget-container > span > .puis-card-container > div > div > div:nth-child(2) > div > div > div:nth-child(3) > div:nth-child(2) > .puisg-col-inner</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6fd64c41-5c70-480c-b37c-3b218eba2494</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>puisg-col-inner</value>
+      <webElementGuid>fb473a5b-7541-4fe4-8e8f-033d99270c63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;88e1c257-7907-428f-8b73-2276393a3ea1&quot;)/div[@class=&quot;sg-col-inner&quot;]/div[@class=&quot;s-widget-container s-spacing-small s-widget-container-height-small celwidget slot=MAIN template=SEARCH_RESULTS widgetId=search-results_15&quot;]/span[@class=&quot;a-declarative&quot;]/div[@class=&quot;puis-card-container s-card-container s-overflow-hidden aok-relative puis-include-content-margin puis puis-vcm96ozasuzib260e2ar23ftnc s-latency-cf-section puis-card-border&quot;]/div[@class=&quot;a-section&quot;]/div[@class=&quot;puisg-row&quot;]/div[@class=&quot;puisg-col puisg-col-4-of-12 puisg-col-8-of-16 puisg-col-12-of-20 puisg-col-12-of-24 puis-list-col-right&quot;]/div[@class=&quot;puisg-col-inner&quot;]/div[@class=&quot;a-section a-spacing-small a-spacing-top-small&quot;]/div[@class=&quot;puisg-row&quot;]/div[@class=&quot;puisg-col puisg-col-4-of-12 puisg-col-4-of-16 puisg-col-8-of-20 puisg-col-8-of-24&quot;]/div[@class=&quot;puisg-col-inner&quot;]</value>
+      <webElementGuid>ef69b5e4-b744-4e36-af53-45ee4eb9769b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='88e1c257-7907-428f-8b73-2276393a3ea1']/div/div/span/div/div/div/div[2]/div/div/div[3]/div[2]/div</value>
+      <webElementGuid>65c8cbb0-797f-4495-8111-1298b4b391f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[19]/div/div/span/div/div/div/div[2]/div/div/div[3]/div[2]/div</value>
+      <webElementGuid>0c67d630-7d46-429f-aae8-e464121c49d7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

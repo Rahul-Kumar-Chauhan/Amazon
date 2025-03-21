@@ -1,0 +1,84 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_AddingProductToCart_OR/Page_Amazon.in  software testing/span_Advanced Software Testing Volume 1 Gui_5701cf",
+      "brokenLocator": "//div[@id\u003d\u0027c0960ae4-6341-4ac6-9e19-88ffd552d14b\u0027]/div/div/span/div/div/div/div[2]/div/div/div/a/h2/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Delivery\u0027])[1]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250321_094734/TS_Amazon_05/20250321_094735/Object Repository/Amazon_AddingProductToCart_OR/Page_Amazon.in  software testing/span_Advanced Software Testing Volume 1 Gui_5701cf_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_AddingProductToCart_OR/Page_/input_IN 91_email",
+      "brokenLocator": "//input[@id\u003d\u0027ap_email_login\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250321_094734/TS_Amazon_05/20250321_094735/Object Repository/Amazon_AddingProductToCart_OR/Page_/input_IN 91_email_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_RemovingProductFromCart_OR/Page_Amazon.in Shopping Cart/span_Sign in",
+      "brokenLocator": "8765257308",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027nav-flyout-ya-signin\u0027]/a/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250321_094734"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_RemovingProductFromCart_OR/Page_Amazon Sign In/input_Email or mobile phone number_email",
+      "brokenLocator": "//input[@id\u003d\u0027ap_email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250321_094734"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_RemovingProductFromCart_OR/Page_Amazon Sign In/input_Wrong or Invalid email address or mob_77ed40",
+      "brokenLocator": "//input[@id\u003d\u0027continue\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250321_094734/TS_Amazon_05/20250321_094735/Object Repository/Amazon_RemovingProductFromCart_OR/Page_Amazon Sign In/input_Wrong or Invalid email address or mob_77ed40_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_RemovingProductFromCart_OR/Page_Amazon Sign In/input_Forgot password_password",
+      "brokenLocator": "//input[@id\u003d\u0027ap_password\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250321_094734"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_RemovingProductFromCart_OR/Page_Amazon Sign In/input_Enter your password_signInSubmit",
+      "brokenLocator": "//input[@id\u003d\u0027signInSubmit\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250321_094734/TS_Amazon_05/20250321_094735/Object Repository/Amazon_RemovingProductFromCart_OR/Page_Amazon Sign In/input_Enter your password_signInSubmit_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_RemovingProductFromCart_OR/Page_Amazon.in Shopping Cart/span_Sign Out",
+      "brokenLocator": "//a[@id\u003d\u0027nav-item-signout\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Your Account\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250321_094734"
+    }
+  ]
+}

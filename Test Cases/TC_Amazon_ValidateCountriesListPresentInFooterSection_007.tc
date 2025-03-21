@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Amazon_ValidateCountriesListPresentInFooterSection_007</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c095a184-dc30-4c72-aa1a-c41234d4e499</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Amazon_ValidatePlacingAOrder_009</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>62d74922-ea4f-4d12-ae3b-c6d6e364c413</testCaseGuid>
+</TestCaseEntity>

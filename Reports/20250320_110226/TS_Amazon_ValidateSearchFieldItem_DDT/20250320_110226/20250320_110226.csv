@@ -1,0 +1,389 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Amazon_ValidateSearchFieldItem_DDT,Edge Chromium 134.0.3124.72,,,20-03-2025 11:02:33,20-03-2025 11:30:44,28m - 11.161s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:02:34,20-03-2025 11:03:16,42.541s,PASSED
+"DATA BINDING - {""item"":""smart home control"",""category"":""Alexa Skills""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:02:34,20-03-2025 11:02:41,6.667s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:02:41,20-03-2025 11:02:44,2.868s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:02:44,20-03-2025 11:02:52,8.449s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:02:52,20-03-2025 11:02:54,2.119s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:02:54,20-03-2025 11:03:15,20.318s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:03:15,20-03-2025 11:03:16,1.618s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:03:16,20-03-2025 11:03:44,28.069s,PASSED
+"DATA BINDING - {""item"":""fire stick"",""category"":""Amazon Devices""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:03:16,20-03-2025 11:03:20,3.721s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:03:20,20-03-2025 11:03:29,8.709s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:03:29,20-03-2025 11:03:36,7.510s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:03:36,20-03-2025 11:03:37,0.927s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:03:37,20-03-2025 11:03:43,5.593s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:03:43,20-03-2025 11:03:44,1.533s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:03:44,20-03-2025 11:04:10,26.004s,PASSED
+"DATA BINDING - {""item"":""shoes"",""category"":""Amazon Fashion""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:03:44,20-03-2025 11:03:48,3.500s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:03:48,20-03-2025 11:03:55,7.153s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:03:55,20-03-2025 11:04:02,7.340s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:04:02,20-03-2025 11:04:03,0.759s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:04:03,20-03-2025 11:04:09,5.693s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:04:09,20-03-2025 11:04:10,1.530s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:04:10,20-03-2025 11:04:36,25.649s,PASSED
+"DATA BINDING - {""item"":""health supplements"",""category"":""Amazon Pharmacy""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:04:10,20-03-2025 11:04:14,3.148s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:04:14,20-03-2025 11:04:23,9.786s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:04:23,20-03-2025 11:04:29,5.596s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:04:29,20-03-2025 11:04:30,0.886s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:04:30,20-03-2025 11:04:35,4.636s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:04:35,20-03-2025 11:04:36,1.558s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:04:36,20-03-2025 11:05:01,24.597s,PASSED
+"DATA BINDING - {""item"":""refrigerators"",""category"":""Appliances""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:04:36,20-03-2025 11:04:40,3.419s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:04:40,20-03-2025 11:04:46,6.806s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:04:46,20-03-2025 11:04:53,6.422s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:04:53,20-03-2025 11:04:54,0.780s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:04:54,20-03-2025 11:04:59,5.536s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:04:59,20-03-2025 11:05:01,1.605s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:05:01,20-03-2025 11:05:37,36.630s,PASSED
+"DATA BINDING - {""item"":""pc games"",""category"":""Apps \u0026 Games""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:05:01,20-03-2025 11:05:04,3.440s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:05:04,20-03-2025 11:05:12,8.138s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:05:12,20-03-2025 11:05:24,11.113s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:05:24,20-03-2025 11:05:24,0.880s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:05:24,20-03-2025 11:05:36,11.550s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:05:36,20-03-2025 11:05:37,1.477s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:05:38,20-03-2025 11:06:33,55.125s,PASSED
+"DATA BINDING - {""item"":""self-help books"",""category"":""Audible Audiobooks""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:05:38,20-03-2025 11:05:41,3.422s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:05:41,20-03-2025 11:06:06,25.490s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:06:06,20-03-2025 11:06:20,13.557s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:06:20,20-03-2025 11:06:21,0.895s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:06:21,20-03-2025 11:06:31,10.231s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:06:31,20-03-2025 11:06:33,1.492s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:06:33,20-03-2025 11:07:40,1m - 7.204s,PASSED
+"DATA BINDING - {""item"":""baby clothes"",""category"":""Baby""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:06:33,20-03-2025 11:06:36,3.432s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:06:36,20-03-2025 11:06:53,16.576s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:06:53,20-03-2025 11:07:15,22.271s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:07:15,20-03-2025 11:07:16,1.288s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:07:16,20-03-2025 11:07:38,21.917s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:07:38,20-03-2025 11:07:40,1.695s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:07:40,20-03-2025 11:10:14,2m - 34.503s,PASSED
+"DATA BINDING - {""item"":""perfumes"",""category"":""Beauty""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:07:40,20-03-2025 11:07:44,3.529s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:07:44,20-03-2025 11:09:12,1m - 28.106s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:09:12,20-03-2025 11:09:28,16.368s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:09:28,20-03-2025 11:09:30,2.199s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:09:30,20-03-2025 11:10:11,41.051s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:10:11,20-03-2025 11:10:14,3.217s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:10:15,20-03-2025 11:11:55,1m - 40.427s,PASSED
+"DATA BINDING - {""item"":""fiction"",""category"":""Books""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:10:15,20-03-2025 11:10:18,3.491s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:10:18,20-03-2025 11:10:59,40.808s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:10:59,20-03-2025 11:11:33,34.106s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:11:33,20-03-2025 11:11:34,1.049s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:11:34,20-03-2025 11:11:53,19.340s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:11:53,20-03-2025 11:11:55,1.599s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:11:55,20-03-2025 11:12:56,1m - 1.372s,PASSED
+"DATA BINDING - {""item"":""bike accessories"",""category"":""Car \u0026 Motorbike""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:11:55,20-03-2025 11:11:58,3.402s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:11:58,20-03-2025 11:12:22,23.424s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:12:22,20-03-2025 11:12:34,12.296s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:12:34,20-03-2025 11:12:35,1.293s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:12:35,20-03-2025 11:12:55,19.195s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:12:55,20-03-2025 11:12:56,1.725s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:12:56,20-03-2025 11:13:53,56.620s,PASSED
+"DATA BINDING - {""item"":""sunglasses"",""category"":""Clothing \u0026 Accessories""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:12:56,20-03-2025 11:13:00,3.497s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:13:00,20-03-2025 11:13:19,18.597s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:13:19,20-03-2025 11:13:27,8.195s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:13:27,20-03-2025 11:13:29,2.221s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:13:29,20-03-2025 11:13:51,22.478s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:13:51,20-03-2025 11:13:53,1.603s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:13:53,20-03-2025 11:14:34,40.735s,PASSED
+"DATA BINDING - {""item"":""coins"",""category"":""Collectibles""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:13:53,20-03-2025 11:13:57,3.473s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:13:57,20-03-2025 11:14:06,9.738s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:14:06,20-03-2025 11:14:14,7.989s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:14:14,20-03-2025 11:14:15,0.758s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:14:15,20-03-2025 11:14:32,17.184s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:14:32,20-03-2025 11:14:34,1.575s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:14:34,20-03-2025 11:15:01,27.291s,PASSED
+"DATA BINDING - {""item"":""laptops"",""category"":""Computers \u0026 Accessories""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:14:34,20-03-2025 11:14:37,3.103s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:14:37,20-03-2025 11:14:49,12.347s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:14:49,20-03-2025 11:14:54,4.554s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:14:54,20-03-2025 11:14:55,0.815s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:14:55,20-03-2025 11:14:59,4.722s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:14:59,20-03-2025 11:15:01,1.705s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:15:01,20-03-2025 11:15:35,34.158s,PASSED
+"DATA BINDING - {""item"":""combo offers"",""category"":""Deals""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:15:01,20-03-2025 11:15:04,3.141s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:15:04,20-03-2025 11:15:11,6.697s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:15:11,20-03-2025 11:15:20,8.630s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:15:20,20-03-2025 11:15:21,1.749s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:15:21,20-03-2025 11:15:32,10.706s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:15:32,20-03-2025 11:15:35,3.207s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:15:35,20-03-2025 11:16:53,1m - 18.060s,PASSED
+"DATA BINDING - {""item"":""TVs"",""category"":""Electronics""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:15:35,20-03-2025 11:15:38,3.039s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:15:38,20-03-2025 11:15:51,12.563s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:15:51,20-03-2025 11:15:57,5.767s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:15:57,20-03-2025 11:15:59,1.848s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:15:59,20-03-2025 11:16:52,53.124s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:16:52,20-03-2025 11:16:53,1.691s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:16:54,20-03-2025 11:17:20,26.118s,PASSED
+"DATA BINDING - {""item"":""study tables"",""category"":""Furniture""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:16:54,20-03-2025 11:16:57,3.644s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:16:57,20-03-2025 11:17:07,10.091s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:17:07,20-03-2025 11:17:12,5.099s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:17:12,20-03-2025 11:17:13,0.973s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:17:13,20-03-2025 11:17:18,4.629s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:17:18,20-03-2025 11:17:20,1.659s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:17:20,20-03-2025 11:17:53,33.028s,PASSED
+"DATA BINDING - {""item"":""outdoor furniture"",""category"":""Garden \u0026 Outdoors""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:17:20,20-03-2025 11:17:23,3.363s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:17:23,20-03-2025 11:17:34,10.950s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:17:34,20-03-2025 11:17:40,5.907s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:17:40,20-03-2025 11:17:41,0.781s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:17:41,20-03-2025 11:17:51,10.280s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:17:51,20-03-2025 11:17:53,1.725s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:17:53,20-03-2025 11:18:29,35.901s,PASSED
+"DATA BINDING - {""item"":""physical gift cards"",""category"":""Gift Cards""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:17:53,20-03-2025 11:17:56,3.399s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:17:56,20-03-2025 11:18:06,9.423s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:18:06,20-03-2025 11:18:12,6.216s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:18:12,20-03-2025 11:18:17,4.884s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:18:17,20-03-2025 11:18:27,10.466s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:18:27,20-03-2025 11:18:29,1.490s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:18:29,20-03-2025 11:18:53,23.886s,PASSED
+"DATA BINDING - {""item"":""organic foods"",""category"":""Grocery \u0026 Gourmet Foods""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:18:29,20-03-2025 11:18:32,3.481s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:18:32,20-03-2025 11:18:37,4.449s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:18:37,20-03-2025 11:18:43,6.077s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:18:43,20-03-2025 11:18:44,1.505s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:18:44,20-03-2025 11:18:51,6.874s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:18:51,20-03-2025 11:18:53,1.445s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:18:53,20-03-2025 11:19:20,27.225s,PASSED
+"DATA BINDING - {""item"":""first aid kits"",""category"":""Health \u0026 Personal Care""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:18:53,20-03-2025 11:18:56,3.353s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:18:56,20-03-2025 11:19:06,9.644s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:19:06,20-03-2025 11:19:12,5.961s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:19:12,20-03-2025 11:19:13,0.995s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:19:13,20-03-2025 11:19:18,5.661s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:19:18,20-03-2025 11:19:20,1.586s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:19:20,20-03-2025 11:19:45,25.171s,PASSED
+"DATA BINDING - {""item"":""Cookware"",""category"":""Home \u0026 Kitchen""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:19:20,20-03-2025 11:19:23,3.114s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:19:23,20-03-2025 11:19:31,7.690s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:19:31,20-03-2025 11:19:38,6.775s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:19:38,20-03-2025 11:19:39,0.994s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:19:39,20-03-2025 11:19:43,4.908s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:19:43,20-03-2025 11:19:45,1.663s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:19:45,20-03-2025 11:20:12,27.292s,PASSED
+"DATA BINDING - {""item"":""measuring tools"",""category"":""Industrial \u0026 Scientific""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:19:45,20-03-2025 11:19:49,3.414s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:19:49,20-03-2025 11:19:52,3.426s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:19:52,20-03-2025 11:19:59,6.693s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:19:59,20-03-2025 11:20:02,2.907s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:20:02,20-03-2025 11:20:11,9.312s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:20:11,20-03-2025 11:20:12,1.517s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:20:12,20-03-2025 11:20:42,29.353s,PASSED
+"DATA BINDING - {""item"":""earring"",""category"":""Jewellery""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:20:12,20-03-2025 11:20:16,3.142s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:20:16,20-03-2025 11:20:21,5.435s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:20:21,20-03-2025 11:20:26,4.819s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:20:26,20-03-2025 11:20:27,1.539s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:20:27,20-03-2025 11:20:40,12.627s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:20:40,20-03-2025 11:20:42,1.765s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:20:42,20-03-2025 11:21:07,25.109s,PASSED
+"DATA BINDING - {""item"":""magazines"",""category"":""Kindle Store""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:20:42,20-03-2025 11:20:45,3.445s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:20:45,20-03-2025 11:20:51,5.898s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:20:51,20-03-2025 11:20:56,4.776s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:20:56,20-03-2025 11:20:57,0.999s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:20:57,20-03-2025 11:21:05,8.399s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:21:05,20-03-2025 11:21:07,1.571s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:21:07,20-03-2025 11:22:41,1m - 33.707s,PASSED
+"DATA BINDING - {""item"":""wallets"",""category"":""Luggage \u0026 Bags""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:21:07,20-03-2025 11:21:10,3.449s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:21:10,20-03-2025 11:21:48,37.038s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:21:48,20-03-2025 11:22:03,15.171s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:22:03,20-03-2025 11:22:05,1.966s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:22:05,20-03-2025 11:22:39,34.467s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:22:39,20-03-2025 11:22:41,1.598s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:22:41,20-03-2025 11:23:56,1m - 15.469s,PASSED
+"DATA BINDING - {""item"":""Luxury skincare"",""category"":""Luxury Beauty""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:22:41,20-03-2025 11:22:44,3.424s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:22:44,20-03-2025 11:23:11,26.890s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:23:11,20-03-2025 11:23:31,19.864s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:23:31,20-03-2025 11:23:39,7.880s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:23:39,20-03-2025 11:23:55,15.771s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:23:55,20-03-2025 11:23:56,1.624s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:23:56,20-03-2025 11:24:23,27.105s,PASSED
+"DATA BINDING - {""item"":""Blu-rays"",""category"":""Movies \u0026 TV Shows""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:23:56,20-03-2025 11:23:59,3.104s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:23:59,20-03-2025 11:24:03,3.266s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:24:03,20-03-2025 11:24:09,6.414s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:24:09,20-03-2025 11:24:10,0.862s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:24:10,20-03-2025 11:24:20,10.284s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:24:20,20-03-2025 11:24:23,3.156s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:24:23,20-03-2025 11:24:44,20.238s,PASSED
+"DATA BINDING - {""item"":""popular songs"",""category"":""MP3 Music""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:24:23,20-03-2025 11:24:27,3.385s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:24:27,20-03-2025 11:24:30,2.794s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:24:30,20-03-2025 11:24:36,6.264s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:24:36,20-03-2025 11:24:37,0.887s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:24:37,20-03-2025 11:24:42,5.350s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:24:42,20-03-2025 11:24:44,1.544s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:24:44,20-03-2025 11:25:03,19.802s,PASSED
+"DATA BINDING - {""item"":""vinyl records"",""category"":""Music""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:24:44,20-03-2025 11:24:47,3.053s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:24:47,20-03-2025 11:24:52,5.326s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:24:52,20-03-2025 11:24:57,4.726s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:24:57,20-03-2025 11:24:58,0.988s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:24:58,20-03-2025 11:25:02,4.118s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:25:02,20-03-2025 11:25:03,1.575s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:25:04,20-03-2025 11:25:39,35.763s,PASSED
+"DATA BINDING - {""item"":""Guitars"",""category"":""Musical Instruments""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:25:04,20-03-2025 11:25:07,3.115s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:25:07,20-03-2025 11:25:11,4.779s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:25:11,20-03-2025 11:25:18,6.380s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:25:18,20-03-2025 11:25:20,1.904s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:25:20,20-03-2025 11:25:38,17.982s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:25:38,20-03-2025 11:25:39,1.585s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:25:39,20-03-2025 11:26:05,25.653s,PASSED
+"DATA BINDING - {""item"":""office chairs"",""category"":""Office Products""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:25:39,20-03-2025 11:25:43,3.450s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:25:43,20-03-2025 11:25:46,2.932s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:25:46,20-03-2025 11:25:52,6.281s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:25:52,20-03-2025 11:25:53,1.189s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:25:53,20-03-2025 11:26:02,8.391s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:26:02,20-03-2025 11:26:05,3.393s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:26:05,20-03-2025 11:26:26,21.190s,PASSED
+"DATA BINDING - {""item"":""pet food"",""category"":""Pet Supplies""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:26:05,20-03-2025 11:26:08,3.148s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:26:08,20-03-2025 11:26:14,5.568s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:26:14,20-03-2025 11:26:19,4.791s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:26:19,20-03-2025 11:26:20,0.961s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:26:20,20-03-2025 11:26:25,5.081s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:26:25,20-03-2025 11:26:26,1.610s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:26:26,20-03-2025 11:26:48,21.453s,PASSED
+"DATA BINDING - {""item"":""documentries"",""category"":""Prime Video""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:26:26,20-03-2025 11:26:30,3.359s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:26:30,20-03-2025 11:26:36,5.992s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:26:36,20-03-2025 11:26:41,5.412s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:26:41,20-03-2025 11:26:43,1.547s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:26:43,20-03-2025 11:26:46,3.507s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:26:46,20-03-2025 11:26:48,1.614s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:26:48,20-03-2025 11:27:14,26.041s,PASSED
+"DATA BINDING - {""item"":""sneakers"",""category"":""Shoes \u0026 Handbags""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:26:48,20-03-2025 11:26:51,3.433s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:26:51,20-03-2025 11:26:59,7.665s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:26:59,20-03-2025 11:27:05,6.455s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:27:05,20-03-2025 11:27:07,1.585s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:27:07,20-03-2025 11:27:12,5.323s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:27:12,20-03-2025 11:27:14,1.563s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:27:14,20-03-2025 11:27:45,30.736s,PASSED
+"DATA BINDING - {""item"":""antivirus programs"",""category"":""Software""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:27:14,20-03-2025 11:27:17,3.408s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:27:17,20-03-2025 11:27:24,6.556s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:27:24,20-03-2025 11:27:30,6.266s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:27:30,20-03-2025 11:27:31,1.331s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:27:31,20-03-2025 11:27:41,10.009s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:27:41,20-03-2025 11:27:45,3.145s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:27:45,20-03-2025 11:28:10,25.279s,PASSED
+"DATA BINDING - {""item"":""sports apparel"",""category"":""Sports, Fitness \u0026 Outdoors""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:27:45,20-03-2025 11:27:48,3.095s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:27:48,20-03-2025 11:27:53,5.654s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:27:53,20-03-2025 11:28:01,7.260s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:28:01,20-03-2025 11:28:02,1.299s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:28:02,20-03-2025 11:28:08,6.414s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:28:08,20-03-2025 11:28:10,1.534s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:28:10,20-03-2025 11:28:35,24.953s,PASSED
+"DATA BINDING - {""item"":""personal care"",""category"":""Subscribe \u0026 Save""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:28:10,20-03-2025 11:28:13,3.430s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:28:13,20-03-2025 11:28:18,4.958s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:28:18,20-03-2025 11:28:25,7.119s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:28:25,20-03-2025 11:28:27,1.188s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:28:27,20-03-2025 11:28:33,6.667s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:28:33,20-03-2025 11:28:35,1.570s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:28:35,20-03-2025 11:28:57,21.728s,PASSED
+"DATA BINDING - {""item"":""toolkits"",""category"":""Tools \u0026 Home Improvement""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:28:35,20-03-2025 11:28:38,3.454s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:28:38,20-03-2025 11:28:45,6.449s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:28:45,20-03-2025 11:28:50,4.766s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:28:50,20-03-2025 11:28:51,1.064s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:28:51,20-03-2025 11:28:55,4.477s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:28:55,20-03-2025 11:28:57,1.498s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:28:57,20-03-2025 11:29:20,22.898s,PASSED
+"DATA BINDING - {""item"":""puzzles"",""category"":""Toys \u0026 Games""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:28:57,20-03-2025 11:29:00,3.135s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:29:00,20-03-2025 11:29:05,4.792s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:29:05,20-03-2025 11:29:10,5.382s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:29:10,20-03-2025 11:29:11,1.182s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:29:11,20-03-2025 11:29:18,6.571s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:29:18,20-03-2025 11:29:20,1.823s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:29:20,20-03-2025 11:29:58,38.622s,PASSED
+"DATA BINDING - {""item"":""agordable gadgets"",""category"":""Under ₹500""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:29:20,20-03-2025 11:29:23,3.104s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:29:23,20-03-2025 11:29:41,18.056s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:29:41,20-03-2025 11:29:48,6.716s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:29:48,20-03-2025 11:29:49,1.238s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:29:49,20-03-2025 11:29:57,8.127s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:29:57,20-03-2025 11:29:58,1.346s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:29:58,20-03-2025 11:30:25,26.731s,PASSED
+"DATA BINDING - {""item"":""gaming accessories"",""category"":""Video Games""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:29:58,20-03-2025 11:30:01,2.853s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:30:01,20-03-2025 11:30:05,4.233s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:30:05,20-03-2025 11:30:10,4.901s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:30:10,20-03-2025 11:30:11,1.142s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:30:11,20-03-2025 11:30:22,10.603s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:30:22,20-03-2025 11:30:25,2.983s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Edge Chromium 134.0.3124.72,,,20-03-2025 11:30:25,20-03-2025 11:30:44,19.333s,PASSED
+"DATA BINDING - {""item"":""smartwatches"",""category"":""Watches""}",,,,,,,
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:30:25,20-03-2025 11:30:28,2.908s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,20-03-2025 11:30:28,20-03-2025 11:30:32,4.521s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:30:32,20-03-2025 11:30:37,4.881s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Edge Chromium 134.0.3124.72,,,20-03-2025 11:30:37,20-03-2025 11:30:38,1.128s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,20-03-2025 11:30:38,20-03-2025 11:30:43,4.511s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,20-03-2025 11:30:43,20-03-2025 11:30:44,1.371s,PASSED

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Add to list_a-button-close a-declarative</name>
+   <tag></tag>
+   <elementGuidId>12b7d2e1-e863-41ab-aa31-7f80a1dac354</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='a-popover-1']/div/header/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.a-button-close.a-declarative</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Close&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>402e9b29-0304-49ac-a54d-8ab03737ae57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-action</name>
+      <type>Main</type>
+      <value>a-popover-close</value>
+      <webElementGuid>fcb96a65-b6b5-4de0-809c-13101ec7ff0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> a-button-close a-declarative</value>
+      <webElementGuid>11957a36-7545-4dea-bb68-1917a6161abd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Close</value>
+      <webElementGuid>8388b8d6-6a4e-4604-bfd0-eff2362e5456</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a-popover-1&quot;)/div[@class=&quot;a-popover-wrapper&quot;]/header[@class=&quot;a-popover-header&quot;]/button[@class=&quot;a-button-close a-declarative&quot;]</value>
+      <webElementGuid>25ee6800-fc51-4366-a7cc-a3afd2a3395f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='a-popover-1']/div/header/button</value>
+      <webElementGuid>085ccc73-73d6-43b9-b349-719e9c077673</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to list'])[1]/following::button[1]</value>
+      <webElementGuid>4532b431-2264-4c77-ab41-95b3ba121acc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© 1996-2025, Amazon.com, Inc. or its affiliates'])[1]/following::button[1]</value>
+      <webElementGuid>3a02e524-43b3-4048-aa51-d73930fca7ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Item was added to Books'])[1]/preceding::button[1]</value>
+      <webElementGuid>233ae678-ceeb-44e6-901c-29cfe84e17eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='We were unable to add this item to your list. Please try again.'])[1]/preceding::button[1]</value>
+      <webElementGuid>934ab249-a7dd-4792-acd1-9b7b1e7d82a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//header/button</value>
+      <webElementGuid>080ab749-7f24-482a-a611-da21be35601b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

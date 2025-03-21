@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Conditions of Use  Sale</name>
+   <tag></tag>
+   <elementGuidId>65b9f5aa-34fc-4d8f-b30f-d028814963b7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.navFooterLine.navFooterLinkLine.navFooterPadItemLine.navFooterCopyright > ul > li.nav_first > a.nav_a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Conditions of Use &amp; Sale&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>459dd0cb-b24c-4b52-9a00-98b2523f853f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/gp/help/customer/display.html?nodeId=200545940&amp;ref_=footer_cou</value>
+      <webElementGuid>7247742d-1051-4a1a-9e3d-1fda6902be29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav_a</value>
+      <webElementGuid>61194fc8-2401-4c4c-aa63-ea883ef58149</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Conditions of Use &amp; Sale</value>
+      <webElementGuid>8c746d18-1814-4972-b774-1fdc7af433a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navFooter&quot;)/div[@class=&quot;navFooterLine navFooterLinkLine navFooterPadItemLine navFooterCopyright&quot;]/ul[1]/li[@class=&quot;nav_first&quot;]/a[@class=&quot;nav_a&quot;]</value>
+      <webElementGuid>525cc0b9-d19a-4480-8b73-8e8180aceea7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='']</value>
+      <webElementGuid>09ac14b0-4304-4308-8e3f-00ea34332a1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navFooter']/div[5]/ul/li/a</value>
+      <webElementGuid>1d4cb7e6-cf0d-4bcc-802f-0ecbbef0579c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Conditions of Use &amp; Sale')]</value>
+      <webElementGuid>8af0ea66-17ae-49f2-abd8-a160ee178099</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Amazon Prime Music'])[1]/following::a[1]</value>
+      <webElementGuid>92c5963d-e7d8-43e7-8be3-d6e4e65585c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prime Now'])[1]/following::a[2]</value>
+      <webElementGuid>5e49b1af-c148-43b9-b860-fe875ecca3e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy Notice'])[1]/preceding::a[1]</value>
+      <webElementGuid>6360645a-caf6-42cc-a1e1-06a943273e95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Interest-Based Ads'])[1]/preceding::a[2]</value>
+      <webElementGuid>f41728f0-76a9-4d82-b55f-ad76c9aa005c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Conditions of Use &amp; Sale']/parent::*</value>
+      <webElementGuid>ac466af7-a9eb-4b4b-a591-437ba80a0f99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/gp/help/customer/display.html?nodeId=200545940&amp;ref_=footer_cou')]</value>
+      <webElementGuid>1ebb2075-c1a7-42bf-8905-334aa7c17e2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/ul/li/a</value>
+      <webElementGuid>5a15c92a-5c79-491f-8605-1066c7cda8a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/gp/help/customer/display.html?nodeId=200545940&amp;ref_=footer_cou' and (text() = 'Conditions of Use &amp; Sale' or . = 'Conditions of Use &amp; Sale')]</value>
+      <webElementGuid>7c7658e1-7679-488e-a698-788eda61a73d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

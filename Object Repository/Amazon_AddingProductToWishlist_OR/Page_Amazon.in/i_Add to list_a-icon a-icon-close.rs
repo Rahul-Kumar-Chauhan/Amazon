@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Add to list_a-icon a-icon-close</name>
+   <tag></tag>
+   <elementGuidId>5410ac03-b01f-48a4-a25f-f97a9c853304</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='a-popover-1']/div/header/button/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.a-icon.a-icon-close</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Close&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>4afc1e0a-f99c-43ae-8e81-a19144c1eef8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-icon a-icon-close</value>
+      <webElementGuid>4f9bd17d-8519-4c42-a4cf-0c3ec253c3a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a-popover-1&quot;)/div[@class=&quot;a-popover-wrapper&quot;]/header[@class=&quot;a-popover-header&quot;]/button[@class=&quot;a-button-close a-declarative&quot;]/i[@class=&quot;a-icon a-icon-close&quot;]</value>
+      <webElementGuid>12d5c5c2-0f47-4727-b3d0-c262f882f5e5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='a-popover-1']/div/header/button/i</value>
+      <webElementGuid>31267875-54b1-4d94-9009-d7fa8e90b0a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/i</value>
+      <webElementGuid>79556903-9b14-4c75-8699-c0516ce834a9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

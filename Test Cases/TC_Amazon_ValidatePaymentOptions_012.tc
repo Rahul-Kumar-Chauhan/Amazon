@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Amazon_ValidatePaymentOptions_012</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>26cb2d72-4ca0-4974-8452-7dc0b17d9f9e</testCaseGuid>
+</TestCaseEntity>

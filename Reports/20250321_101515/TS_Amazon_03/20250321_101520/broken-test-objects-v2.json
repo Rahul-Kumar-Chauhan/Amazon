@@ -1,0 +1,164 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Amazon Sign In/input_Email or mobile phone number_email",
+      "brokenLocator": "//input[@id\u003d\u0027ap_email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250321_101515/TS_Amazon_03/20250321_101520/Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Amazon Sign In/input_Email or mobile phone number_email_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Amazon Sign In/input_Wrong or Invalid email address or mob_77ed40",
+      "brokenLocator": "//input[@id\u003d\u0027continue\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span[@id\u003d\u0027continue\u0027]/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250321_101515/TS_Amazon_03/20250321_101520/Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Amazon Sign In/input_Wrong or Invalid email address or mob_77ed40_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Amazon.in  dopamine detox/span_Dopamine Detox  A Short Guide to Remov_c6ee6f",
+      "brokenLocator": "//div[@id\u003d\u00277e786f61-7b83-4941-b5cf-505ca983a64b\u0027]/div/div/div/div/span/div/div/div/div[2]/div/div/div/a/h2/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Let us know\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250321_101515/TS_Amazon_03/20250321_101520/Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Amazon.in  dopamine detox/span_Dopamine Detox  A Short Guide to Remov_c6ee6f_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Place Your Order - Amazon Checkout/input_Why_ppw-instrumentRowSelection",
+      "brokenLocator": "//input[@id\u003d\u0027pp-TT8gJn-139\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[6]/div/div/div/div/div/div/label/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250321_101515/TS_Amazon_03/20250321_101520/Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Place Your Order - Amazon Checkout/input_Why_ppw-instrumentRowSelection_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Online Shopping site in India Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in/span_Account  Lists",
+      "brokenLocator": "//a[@id\u003d\u0027nav-link-accountList\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[2]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250321_101515/TS_Amazon_03/20250321_101520/Object Repository/Amazon_ValidatingPlacingAOrder_OR/Page_Online Shopping site in India Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in/span_Account  Lists_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_TarackOrder_OR/Page_/input_IN 91_email",
+      "brokenLocator": "//input[@id\u003d\u0027ap_email_login\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250321_101515/TS_Amazon_03/20250321_101520/Object Repository/Amazon_TarackOrder_OR/Page_/input_IN 91_email_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_CancelingOrder_OR/Page_Amazon Sign In/input_Email or mobile phone number_email",
+      "brokenLocator": "//input[@id\u003d\u0027ap_email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250321_101515/TS_Amazon_03/20250321_101520/Object Repository/Amazon_CancelingOrder_OR/Page_Amazon Sign In/input_Email or mobile phone number_email_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_CancelingOrder_OR/Page_Amazon Sign In/input_Wrong or Invalid email address or mob_77ed40",
+      "brokenLocator": "//input[@id\u003d\u0027continue\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span[@id\u003d\u0027continue\u0027]/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250321_101515/TS_Amazon_03/20250321_101520/Object Repository/Amazon_CancelingOrder_OR/Page_Amazon Sign In/input_Wrong or Invalid email address or mob_77ed40_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Amazon Sign In/input_Email or mobile phone number_email",
+      "brokenLocator": "//input[@id\u003d\u0027ap_email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250321_101515/TS_Amazon_03/20250321_101520/Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Amazon Sign In/input_Email or mobile phone number_email_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Amazon Sign In/input_Wrong or Invalid email address or mob_77ed40",
+      "brokenLocator": "//input[@id\u003d\u0027continue\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span[@id\u003d\u0027continue\u0027]/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250321_101515/TS_Amazon_03/20250321_101520/Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Amazon Sign In/input_Wrong or Invalid email address or mob_77ed40_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Place Your Order - Amazon Checkout/input_Another payment method_ppw-instrument_d02253",
+      "brokenLocator": "//input[@id\u003d\u0027pp-3gdaR4-103\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//label/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250321_101515/TS_Amazon_03/20250321_101520/Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Place Your Order - Amazon Checkout/input_Another payment method_ppw-instrument_d02253_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Place Your Order - Amazon Checkout/input_Amazon accepts all major credit   car_451b00",
+      "brokenLocator": "//input[@id\u003d\u0027pp-3gdaR4-109\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/div/div/div/div/span/div/label/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250321_101515/TS_Amazon_03/20250321_101520/Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Place Your Order - Amazon Checkout/input_Amazon accepts all major credit   car_451b00_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Place Your Order - Amazon Checkout/input_Choose an Option_ppw-instrumentRowSelection",
+      "brokenLocator": "//input[@id\u003d\u0027pp-3gdaR4-129\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/label/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250321_101515/TS_Amazon_03/20250321_101520/Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Place Your Order - Amazon Checkout/input_Choose an Option_ppw-instrumentRowSelection_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Place Your Order - Amazon Checkout/input_The UPI ID is in the format of nameph_029c41",
+      "brokenLocator": "//input[@id\u003d\u0027pp-3gdaR4-134\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[5]/div/div/div/div/span/div/label/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250321_101515/TS_Amazon_03/20250321_101520/Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Place Your Order - Amazon Checkout/input_The UPI ID is in the format of nameph_029c41_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Place Your Order - Amazon Checkout/input_Why_ppw-instrumentRowSelection",
+      "brokenLocator": "//input[@id\u003d\u0027pp-3gdaR4-147\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[6]/div/div/div/div/div/div/label/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250321_101515/TS_Amazon_03/20250321_101520/Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Place Your Order - Amazon Checkout/input_Why_ppw-instrumentRowSelection_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_ValidatePaymentOptions_OR/Page_Place Your Order - Amazon Checkout/a_Review Order",
+      "brokenLocator": "//div[@id\u003d\u0027checkout-item-block-panel\u0027]/div[2]/div/div[2]/span/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Need help? Check our\u0027])[1]/preceding::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250321_101515"
+    }
+  ]
+}

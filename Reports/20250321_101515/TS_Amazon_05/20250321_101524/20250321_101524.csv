@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Amazon_05,Edge Chromium 134.0.3124.72,,,21-03-2025 10:15:44,21-03-2025 10:49:54,34m - 9.441s,FAILED
+,,,,,,,
+Test Cases/TC_Amazon_AddingProductToCart_019,Edge Chromium 134.0.3124.72,,,21-03-2025 10:29:44,21-03-2025 10:32:54,3m - 10.455s,FAILED
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,21-03-2025 10:29:44,21-03-2025 10:29:53,9.271s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,21-03-2025 10:29:53,21-03-2025 10:30:00,6.520s,PASSED
+"mouseOver(findTestObject(""Amazon_AddingProductToCart_OR/Page_Online Shopping site in India Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in/span_Account  Lists""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:30:00,21-03-2025 10:30:05,5.332s,PASSED
+"click(findTestObject(""Object Repository/Amazon_AddingProductToCart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:30:05,21-03-2025 10:30:09,3.874s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_AddingProductToCart_OR/Page_/input_IN 91_email""), ""8765257308"")",Edge Chromium 134.0.3124.72,,,21-03-2025 10:30:09,21-03-2025 10:31:14,1m - 4.751s,PASSED
+"click(findTestObject(""Object Repository/Amazon_AddingProductToCart_OR/Page_/input_Passkey error_a-button-input""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:31:14,21-03-2025 10:31:16,2.674s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_AddingProductToCart_OR/Page_Amazon Sign In/input_Forgot password_password""), ""FJEEn2Q6rEqImg+RR4ytGA=="")",Edge Chromium 134.0.3124.72,,,21-03-2025 10:31:16,21-03-2025 10:31:18,1.637s,PASSED
+"click(findTestObject(""Object Repository/Amazon_AddingProductToCart_OR/Page_Amazon Sign In/input_Enter your password_signInSubmit""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:31:18,21-03-2025 10:31:19,0.783s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_AddingProductToCart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), ""search-alias=stripbooks"", true)",Edge Chromium 134.0.3124.72,,,21-03-2025 10:31:19,21-03-2025 10:31:43,24.606s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_AddingProductToCart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), ""software testing"")",Edge Chromium 134.0.3124.72,,,21-03-2025 10:31:43,21-03-2025 10:31:45,1.462s,PASSED
+"click(findTestObject(""Object Repository/Amazon_AddingProductToCart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:31:45,21-03-2025 10:31:48,3.400s,PASSED
+"click(findTestObject(""Object Repository/Amazon_AddingProductToCart_OR/Page_Amazon.in  software testing/span_Advanced Software Testing Volume 1 Gui_5701cf""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:31:48,21-03-2025 10:32:20,31.714s,FAILED
+"newTab("""")",Edge Chromium 134.0.3124.72,,,21-03-2025 10:32:20,21-03-2025 10:32:20,0.335s,PASSED
+"navigateToUrl(""https://www.amazon.in/Advanced-Software-Testing-Certification-Analyst/dp/1937538680/ref=sr_1_7?crid=3C9UEFVQMDVAN&dib=eyJ2IjoiMSJ9.MIfdFpyMpVXo7yYfgX7ijiLk2Lx89hMQNzqK0U0QL9T7sP1HPz_YJ7Z-a2PiUtZ-AfTN0QmGi-vj1FKLeS9LXSiGYwyZ0R8MNTLbtMZ_lzwPA1UQfEHpvYCrhkOmcyzrqeBQL6GCtnjdF4NZQBcsZ71bFzCxetoumYS6xILM7nreJtvvGdgCHu5jSHm5aLhOFcecsA7xwcnDjiBLDYJhdJspg06G2IaM_xvgFxv3RVY.27TUwnvpPPS0xw27mhLJTDEyT3S43Os6xoliM_7Xo-s&dib_tag=se&keywords=software+testing&qid=1741830651&s=books&sprefix=software+testing%2Cstripbooks%2C313&sr=1-7"")",Edge Chromium 134.0.3124.72,,,21-03-2025 10:32:20,21-03-2025 10:32:32,11.973s,PASSED
+"click(findTestObject(""Object Repository/Amazon_AddingProductToCart_OR/Page_Advanced Software Testing Volume 1 Gui_ed1630/input_Quantity_submit.add-to-cart""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:32:32,21-03-2025 10:32:38,6.089s,PASSED
+"mouseOver(findTestObject(""Amazon_AddingProductToCart_OR/Page_Online Shopping site in India Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in/span_Account  Lists""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:32:38,21-03-2025 10:32:42,3.373s,PASSED
+"click(findTestObject(""Object Repository/Amazon_AddingProductToCart_OR/Page_Amazon.in Shopping Cart/span_Sign Out""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:32:42,21-03-2025 10:32:46,4.184s,PASSED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,21-03-2025 10:32:46,21-03-2025 10:32:54,8.291s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_RemovingProductFromCart_020,Edge Chromium 134.0.3124.72,,,21-03-2025 10:44:21,21-03-2025 10:49:54,5m - 32.434s,FAILED
+"openBrowser("""")",Edge Chromium 134.0.3124.72,,,21-03-2025 10:44:21,21-03-2025 10:44:28,7.102s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Edge Chromium 134.0.3124.72,,,21-03-2025 10:44:28,21-03-2025 10:45:28,59.727s,PASSED
+"click(findTestObject(""Object Repository/Amazon_RemovingProductFromCart_OR/Page_Amazon.in Shopping Cart/span_Sign in""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:45:28,21-03-2025 10:45:46,17.818s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_RemovingProductFromCart_OR/Page_Amazon Sign In/input_Email or mobile phone number_email""), ""8765257308"")",Edge Chromium 134.0.3124.72,,,21-03-2025 10:45:46,21-03-2025 10:46:18,31.836s,FAILED
+"click(findTestObject(""Object Repository/Amazon_RemovingProductFromCart_OR/Page_Amazon Sign In/input_Wrong or Invalid email address or mob_77ed40""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:46:18,21-03-2025 10:47:18,59.887s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_RemovingProductFromCart_OR/Page_Amazon Sign In/input_Forgot password_password""), ""FJEEn2Q6rEqImg+RR4ytGA=="")",Edge Chromium 134.0.3124.72,,,21-03-2025 10:47:18,21-03-2025 10:47:50,32.815s,FAILED
+"click(findTestObject(""Object Repository/Amazon_RemovingProductFromCart_OR/Page_Amazon Sign In/input_Enter your password_signInSubmit""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:47:50,21-03-2025 10:48:27,36.471s,PASSED
+"click(findTestObject(""Object Repository/Amazon_RemovingProductFromCart_OR/Page_Amazon.in Shopping Cart/a_1                                        _7d74ab""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:48:27,21-03-2025 10:48:37,10.544s,PASSED
+"click(findTestObject(""Object Repository/Amazon_RemovingProductFromCart_OR/Page_Amazon.in Shopping Cart/span_This is a gift_a-icon a-icon-small-trash""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:48:37,21-03-2025 10:49:15,37.405s,FAILED
+"click(findTestObject(""Object Repository/Amazon_RemovingProductFromCart_OR/Page_Amazon.in Shopping Cart/span_Sign Out""))",Edge Chromium 134.0.3124.72,,,21-03-2025 10:49:15,21-03-2025 10:49:48,32.872s,FAILED
+closeBrowser(),Edge Chromium 134.0.3124.72,,,21-03-2025 10:49:48,21-03-2025 10:49:54,5.746s,PASSED

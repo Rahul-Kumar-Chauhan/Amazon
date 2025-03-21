@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Create a Baby Wishlist_a-button-input_b3c86b</name>
+   <tag></tag>
+   <elementGuidId>c0410932-7311-495b-a39f-2fd8f2ccd102</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='submit'])[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.a-button.a-button-primary.create-list-create-button.a-button-focus > span.a-button-inner > input.a-button-input.a-declarative</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Create List&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>3f32f7bd-5424-486b-8168-ece69cf9dc23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>lists-desktop-create-list-label</value>
+      <webElementGuid>b17e0c25-278b-4a19-a653-0ee3efe40c54</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-button-input a-declarative</value>
+      <webElementGuid>eda90a4a-3a8e-4f21-af5d-3887b5e80b34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>dc1cd870-c226-4600-bfbd-20c5ec09ea48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wl-redesigned-create-list&quot;)/span[@class=&quot;a-button a-button-primary create-list-create-button a-button-focus&quot;]/span[@class=&quot;a-button-inner&quot;]/input[@class=&quot;a-button-input a-declarative&quot;]</value>
+      <webElementGuid>3b078e82-fc4f-4996-b312-b2e3ceb69ad0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='submit'])[4]</value>
+      <webElementGuid>dd8525d4-2e53-440d-a843-f1334180c2fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='wl-redesigned-create-list']/span/span/input</value>
+      <webElementGuid>ae102278-cdd5-4fe4-9c80-a888841be56a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/span[3]/span/span/input</value>
+      <webElementGuid>3bea17ed-b7b0-4cc3-ad23-f20a3ee97022</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'submit']</value>
+      <webElementGuid>6795f83d-e901-4436-82db-55d8b7e03ee9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

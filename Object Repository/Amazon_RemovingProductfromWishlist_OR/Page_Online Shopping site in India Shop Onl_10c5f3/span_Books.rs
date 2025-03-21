@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Books</name>
+   <tag></tag>
+   <elementGuidId>15ed54db-b61e-4a2c-a205-07a93d6fce99</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='nav-flyout-wl-items']/div/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.nav-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Account settings and Lists management&quot;i >> internal:role=link[name=&quot;Books&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d513cdfc-d63a-4221-9df4-f08759603786</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-text</value>
+      <webElementGuid>6ab3ee09-b21f-44a9-8ad3-dbf3c621946d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Books</value>
+      <webElementGuid>20d8cd8d-4492-464f-b1d0-51da68710884</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;nav-flyout-wl-items&quot;)/div[@class=&quot;nav-panel&quot;]/a[@class=&quot;nav-link                                    nav-item&quot;]/span[@class=&quot;nav-text&quot;]</value>
+      <webElementGuid>4cdc8325-4ff4-404d-9dfd-3f24a532f6a2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='nav-flyout-wl-items']/div/a/span</value>
+      <webElementGuid>8c366bbf-3639-49d6-8dd6-c8e68163d2f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your Wish List'])[1]/following::span[1]</value>
+      <webElementGuid>de032651-5bc0-410f-84ef-1b3486b3da5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Oops!'])[1]/following::span[2]</value>
+      <webElementGuid>03176e15-398b-4137-8a87-934a14aa3660</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create a Wish List'])[1]/preceding::span[1]</value>
+      <webElementGuid>55a738ce-eb94-4beb-94d7-5f647fffa426</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wish from Any Website'])[1]/preceding::span[2]</value>
+      <webElementGuid>3a135314-aac3-427a-8377-bced0990e63b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[3]/div/a/span</value>
+      <webElementGuid>e2a24bde-b10c-459a-bf16-8145fad62b30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Books' or . = 'Books')]</value>
+      <webElementGuid>38475b93-cafa-4fbd-91c8-17fd31e3fed1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

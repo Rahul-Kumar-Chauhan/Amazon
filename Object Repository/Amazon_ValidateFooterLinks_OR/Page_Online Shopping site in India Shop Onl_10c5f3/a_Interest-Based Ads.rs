@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Interest-Based Ads</name>
+   <tag></tag>
+   <elementGuidId>b2eb320f-ca25-4307-9921-2d3c598d407d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.navFooterLine.navFooterLinkLine.navFooterPadItemLine.navFooterCopyright > ul > li.nav_last > a.nav_a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[@id=''])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Interest-Based Ads&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>96656af0-948a-41ad-bdf0-6db80488a775</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/gp/help/customer/display.html?nodeId=202075050&amp;ref_=footer_iba</value>
+      <webElementGuid>e95bdb85-ca98-4fa2-90b5-a9edbd956dd7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav_a</value>
+      <webElementGuid>6b7decda-6200-4b71-be69-8a2f5b707744</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Interest-Based Ads</value>
+      <webElementGuid>5969b342-b594-4443-a1d3-774f99ba09fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navFooter&quot;)/div[@class=&quot;navFooterLine navFooterLinkLine navFooterPadItemLine navFooterCopyright&quot;]/ul[1]/li[@class=&quot;nav_last&quot;]/a[@class=&quot;nav_a&quot;]</value>
+      <webElementGuid>4d43ee14-3d26-4588-8fd8-82669fc03740</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//a[@id=''])[3]</value>
+      <webElementGuid>d98ac2c2-a948-429e-ad8a-f5af781091b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navFooter']/div[5]/ul/li[3]/a</value>
+      <webElementGuid>6ba18cc5-43d6-41a9-8e04-1938b642de7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Interest-Based Ads')]</value>
+      <webElementGuid>d7bd79b5-93b7-4e10-a7c8-e2589651b2e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy Notice'])[1]/following::a[1]</value>
+      <webElementGuid>55477953-10a1-4370-bcc5-0c7bf612e047</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Conditions of Use &amp; Sale'])[1]/following::a[2]</value>
+      <webElementGuid>8a04a353-5106-4b21-aecb-250c9e8652fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© 1996-2025, Amazon.com, Inc. or its affiliates'])[1]/preceding::a[1]</value>
+      <webElementGuid>12ec16a0-835c-46ca-b51b-e65e5c053bc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Interest-Based Ads']/parent::*</value>
+      <webElementGuid>6dd17c3f-72ff-4ac5-84a0-ec32757087ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/gp/help/customer/display.html?nodeId=202075050&amp;ref_=footer_iba')]</value>
+      <webElementGuid>4629ee72-da39-4cfa-a95c-62d69ed24bbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/ul/li[3]/a</value>
+      <webElementGuid>8c65ef43-43e1-49a5-8494-ab600907c44e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/gp/help/customer/display.html?nodeId=202075050&amp;ref_=footer_iba' and (text() = 'Interest-Based Ads' or . = 'Interest-Based Ads')]</value>
+      <webElementGuid>1388cbdc-916a-47ce-b293-36a773a36cfc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,389 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Amazon_ValidateSearchFieldItem_DDT,Firefox 136.0.2,,,21-03-2025 10:15:45,21-03-2025 11:44:47,1h - 29m - 2.095s,FAILED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 10:18:41,21-03-2025 10:19:25,44.158s,FAILED
+"DATA BINDING - {""item"":""smart home control"",""category"":""Alexa Skills""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 10:18:41,21-03-2025 10:18:52,11.158s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 10:18:52,21-03-2025 10:18:57,4.752s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 10:18:57,21-03-2025 10:19:10,12.825s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 10:19:10,21-03-2025 10:19:12,2.322s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 10:19:12,21-03-2025 10:19:17,4.716s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 10:19:17,21-03-2025 10:19:25,8.274s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 10:21:49,21-03-2025 10:22:48,58.266s,FAILED
+"DATA BINDING - {""item"":""fire stick"",""category"":""Amazon Devices""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 10:21:49,21-03-2025 10:22:06,16.895s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 10:22:06,21-03-2025 10:22:10,4.025s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 10:22:10,21-03-2025 10:22:25,15.059s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 10:22:25,21-03-2025 10:22:27,1.641s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 10:22:27,21-03-2025 10:22:33,6.139s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 10:22:33,21-03-2025 10:22:48,14.366s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 10:25:09,21-03-2025 10:25:56,47.071s,FAILED
+"DATA BINDING - {""item"":""shoes"",""category"":""Amazon Fashion""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 10:25:09,21-03-2025 10:25:18,8.612s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 10:25:18,21-03-2025 10:25:22,3.958s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 10:25:22,21-03-2025 10:25:37,14.738s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 10:25:37,21-03-2025 10:25:38,1.210s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 10:25:38,21-03-2025 10:25:47,9.547s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 10:25:47,21-03-2025 10:25:56,8.910s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 10:28:51,21-03-2025 10:29:39,47.664s,FAILED
+"DATA BINDING - {""item"":""health supplements"",""category"":""Amazon Pharmacy""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 10:28:51,21-03-2025 10:29:09,17.308s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 10:29:09,21-03-2025 10:29:12,3.339s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 10:29:12,21-03-2025 10:29:27,14.710s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 10:29:27,21-03-2025 10:29:29,1.969s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 10:29:29,21-03-2025 10:29:34,5.374s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 10:29:34,21-03-2025 10:29:39,4.802s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 10:32:00,21-03-2025 10:32:32,31.793s,FAILED
+"DATA BINDING - {""item"":""refrigerators"",""category"":""Appliances""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 10:32:00,21-03-2025 10:32:10,9.787s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 10:32:10,21-03-2025 10:32:13,2.749s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 10:32:13,21-03-2025 10:32:22,9.142s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 10:32:22,21-03-2025 10:32:23,1.454s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 10:32:23,21-03-2025 10:32:27,3.995s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 10:32:27,21-03-2025 10:32:32,4.524s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 10:33:57,21-03-2025 10:34:24,26.662s,FAILED
+"DATA BINDING - {""item"":""pc games"",""category"":""Apps \u0026 Games""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 10:33:57,21-03-2025 10:34:02,5.020s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 10:34:02,21-03-2025 10:34:06,3.683s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 10:34:06,21-03-2025 10:34:13,7.369s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 10:34:13,21-03-2025 10:34:14,1.047s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 10:34:14,21-03-2025 10:34:20,5.722s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 10:34:20,21-03-2025 10:34:24,3.797s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 10:35:50,21-03-2025 10:36:15,24.429s,FAILED
+"DATA BINDING - {""item"":""self-help books"",""category"":""Audible Audiobooks""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 10:35:50,21-03-2025 10:35:55,5.328s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 10:35:55,21-03-2025 10:35:59,3.193s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 10:35:59,21-03-2025 10:36:07,8.491s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 10:36:07,21-03-2025 10:36:08,1.037s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 10:36:08,21-03-2025 10:36:12,3.666s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 10:36:12,21-03-2025 10:36:15,2.680s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 10:37:36,21-03-2025 10:38:05,29.024s,FAILED
+"DATA BINDING - {""item"":""baby clothes"",""category"":""Baby""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 10:37:36,21-03-2025 10:37:43,6.670s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 10:37:43,21-03-2025 10:37:46,3.439s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 10:37:46,21-03-2025 10:37:53,6.671s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 10:37:53,21-03-2025 10:37:53,0.738s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 10:37:53,21-03-2025 10:38:02,8.125s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 10:38:02,21-03-2025 10:38:05,3.352s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 10:39:22,21-03-2025 10:39:47,25.070s,FAILED
+"DATA BINDING - {""item"":""perfumes"",""category"":""Beauty""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 10:39:22,21-03-2025 10:39:28,5.295s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 10:39:28,21-03-2025 10:39:32,4.184s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 10:39:32,21-03-2025 10:39:39,7.613s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 10:39:39,21-03-2025 10:39:40,0.722s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 10:39:40,21-03-2025 10:39:45,5.250s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 10:39:45,21-03-2025 10:39:47,1.970s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 10:41:13,21-03-2025 10:41:43,29.951s,FAILED
+"DATA BINDING - {""item"":""fiction"",""category"":""Books""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 10:41:13,21-03-2025 10:41:19,5.958s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 10:41:19,21-03-2025 10:41:25,6.036s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 10:41:25,21-03-2025 10:41:34,9.031s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 10:41:34,21-03-2025 10:41:35,0.893s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 10:41:35,21-03-2025 10:41:39,3.651s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 10:41:39,21-03-2025 10:41:43,4.258s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 10:43:16,21-03-2025 10:43:42,26.045s,FAILED
+"DATA BINDING - {""item"":""bike accessories"",""category"":""Car \u0026 Motorbike""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 10:43:16,21-03-2025 10:43:21,5.507s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 10:43:21,21-03-2025 10:43:26,4.476s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 10:43:26,21-03-2025 10:43:31,5.334s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 10:43:31,21-03-2025 10:43:32,0.780s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 10:43:32,21-03-2025 10:43:40,7.981s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 10:43:40,21-03-2025 10:43:42,1.915s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 10:47:14,21-03-2025 10:47:52,38.053s,FAILED
+"DATA BINDING - {""item"":""sunglasses"",""category"":""Clothing \u0026 Accessories""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 10:47:14,21-03-2025 10:47:22,7.821s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 10:47:22,21-03-2025 10:47:24,2.128s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 10:47:24,21-03-2025 10:47:38,14.064s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 10:47:38,21-03-2025 10:47:39,1.343s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 10:47:39,21-03-2025 10:47:47,7.559s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 10:47:47,21-03-2025 10:47:52,5.058s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 10:49:17,21-03-2025 10:49:55,38.020s,FAILED
+"DATA BINDING - {""item"":""coins"",""category"":""Collectibles""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 10:49:17,21-03-2025 10:49:24,7.000s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 10:49:24,21-03-2025 10:49:29,4.890s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 10:49:29,21-03-2025 10:49:41,12.867s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 10:49:41,21-03-2025 10:49:43,1.362s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 10:49:43,21-03-2025 10:49:51,7.753s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 10:49:51,21-03-2025 10:49:55,4.111s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 10:51:54,21-03-2025 10:53:08,1m - 14.679s,FAILED
+"DATA BINDING - {""item"":""laptops"",""category"":""Computers \u0026 Accessories""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 10:51:54,21-03-2025 10:52:00,6.257s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 10:52:00,21-03-2025 10:52:31,30.617s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 10:52:31,21-03-2025 10:52:42,11.431s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 10:52:42,21-03-2025 10:52:43,1.054s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 10:52:43,21-03-2025 10:53:07,23.934s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 10:53:07,21-03-2025 10:53:08,1.366s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 10:54:31,21-03-2025 10:54:54,23.438s,FAILED
+"DATA BINDING - {""item"":""combo offers"",""category"":""Deals""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 10:54:31,21-03-2025 10:54:37,6.231s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 10:54:37,21-03-2025 10:54:44,6.945s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 10:54:44,21-03-2025 10:54:48,4.454s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 10:54:48,21-03-2025 10:54:49,0.707s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 10:54:49,21-03-2025 10:54:52,3.388s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 10:54:52,21-03-2025 10:54:54,1.692s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 10:56:07,21-03-2025 10:56:34,26.690s,FAILED
+"DATA BINDING - {""item"":""TVs"",""category"":""Electronics""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 10:56:07,21-03-2025 10:56:13,5.716s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 10:56:13,21-03-2025 10:56:18,5.284s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 10:56:18,21-03-2025 10:56:27,8.280s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 10:56:27,21-03-2025 10:56:27,0.963s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 10:56:27,21-03-2025 10:56:32,4.100s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 10:56:32,21-03-2025 10:56:34,2.320s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 10:57:55,21-03-2025 10:59:37,1m - 42.270s,FAILED
+"DATA BINDING - {""item"":""study tables"",""category"":""Furniture""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 10:57:55,21-03-2025 10:58:00,5.880s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 10:58:00,21-03-2025 10:58:12,11.281s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 10:58:12,21-03-2025 10:58:31,19.562s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 10:58:31,21-03-2025 10:58:32,0.630s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 10:58:32,21-03-2025 10:59:35,1m - 3.486s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 10:59:35,21-03-2025 10:59:37,1.406s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 11:02:19,21-03-2025 11:02:54,34.657s,FAILED
+"DATA BINDING - {""item"":""outdoor furniture"",""category"":""Garden \u0026 Outdoors""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 11:02:19,21-03-2025 11:02:23,3.804s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 11:02:23,21-03-2025 11:02:28,4.334s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 11:02:28,21-03-2025 11:02:44,16.870s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 11:02:44,21-03-2025 11:02:45,0.772s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 11:02:45,21-03-2025 11:02:51,5.586s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 11:02:51,21-03-2025 11:02:54,3.262s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 11:04:17,21-03-2025 11:04:41,23.976s,FAILED
+"DATA BINDING - {""item"":""physical gift cards"",""category"":""Gift Cards""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 11:04:17,21-03-2025 11:04:21,3.930s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 11:04:21,21-03-2025 11:04:25,3.303s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 11:04:25,21-03-2025 11:04:35,9.927s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 11:04:35,21-03-2025 11:04:35,0.910s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 11:04:35,21-03-2025 11:04:39,3.708s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 11:04:39,21-03-2025 11:04:41,2.184s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 11:05:54,21-03-2025 11:06:19,24.912s,FAILED
+"DATA BINDING - {""item"":""organic foods"",""category"":""Grocery \u0026 Gourmet Foods""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 11:05:54,21-03-2025 11:05:58,3.997s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 11:05:58,21-03-2025 11:06:01,2.688s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 11:06:01,21-03-2025 11:06:10,9.375s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 11:06:10,21-03-2025 11:06:11,1.104s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 11:06:11,21-03-2025 11:06:18,6.074s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 11:06:18,21-03-2025 11:06:19,1.658s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 11:07:23,21-03-2025 11:07:44,21.397s,FAILED
+"DATA BINDING - {""item"":""first aid kits"",""category"":""Health \u0026 Personal Care""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 11:07:23,21-03-2025 11:07:27,4.030s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 11:07:27,21-03-2025 11:07:31,4.151s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 11:07:31,21-03-2025 11:07:37,6.191s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 11:07:37,21-03-2025 11:07:38,0.642s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 11:07:38,21-03-2025 11:07:43,4.816s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 11:07:43,21-03-2025 11:07:44,1.553s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 11:08:44,21-03-2025 11:09:03,19.422s,FAILED
+"DATA BINDING - {""item"":""Cookware"",""category"":""Home \u0026 Kitchen""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 11:08:44,21-03-2025 11:08:48,3.891s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 11:08:48,21-03-2025 11:08:50,2.558s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 11:08:50,21-03-2025 11:08:56,6.291s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 11:08:56,21-03-2025 11:08:57,0.686s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 11:08:57,21-03-2025 11:09:01,4.257s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 11:09:01,21-03-2025 11:09:03,1.717s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 11:10:09,21-03-2025 11:10:30,21.081s,FAILED
+"DATA BINDING - {""item"":""measuring tools"",""category"":""Industrial \u0026 Scientific""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 11:10:09,21-03-2025 11:10:14,4.232s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 11:10:14,21-03-2025 11:10:18,4.151s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 11:10:18,21-03-2025 11:10:23,5.619s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 11:10:23,21-03-2025 11:10:24,0.660s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 11:10:24,21-03-2025 11:10:28,3.824s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 11:10:28,21-03-2025 11:10:30,2.579s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 11:11:39,21-03-2025 11:12:02,22.651s,FAILED
+"DATA BINDING - {""item"":""earring"",""category"":""Jewellery""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 11:11:39,21-03-2025 11:11:43,3.977s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 11:11:43,21-03-2025 11:11:46,2.512s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 11:11:46,21-03-2025 11:11:53,7.141s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 11:11:53,21-03-2025 11:11:54,0.630s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 11:11:54,21-03-2025 11:12:00,6.859s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 11:12:00,21-03-2025 11:12:02,1.515s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 11:13:08,21-03-2025 11:15:04,1m - 56.246s,FAILED
+"DATA BINDING - {""item"":""magazines"",""category"":""Kindle Store""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 11:13:08,21-03-2025 11:13:12,4.007s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 11:13:12,21-03-2025 11:13:14,1.487s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 11:13:14,21-03-2025 11:13:50,36.510s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 11:13:50,21-03-2025 11:14:27,36.712s,FAILED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 11:14:27,21-03-2025 11:15:02,35.355s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 11:15:02,21-03-2025 11:15:04,2.163s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 11:16:12,21-03-2025 11:16:32,19.756s,FAILED
+"DATA BINDING - {""item"":""wallets"",""category"":""Luggage \u0026 Bags""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 11:16:12,21-03-2025 11:16:16,4.008s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 11:16:16,21-03-2025 11:16:22,6.052s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 11:16:22,21-03-2025 11:16:26,3.657s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 11:16:26,21-03-2025 11:16:27,0.704s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 11:16:27,21-03-2025 11:16:30,3.299s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 11:16:30,21-03-2025 11:16:32,2.013s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 11:17:36,21-03-2025 11:18:02,25.980s,FAILED
+"DATA BINDING - {""item"":""Luxury skincare"",""category"":""Luxury Beauty""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 11:17:36,21-03-2025 11:17:40,4.027s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 11:17:40,21-03-2025 11:17:44,3.348s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 11:17:44,21-03-2025 11:17:55,11.508s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 11:17:55,21-03-2025 11:17:56,0.669s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 11:17:56,21-03-2025 11:18:01,4.806s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 11:18:01,21-03-2025 11:18:02,1.599s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 11:20:08,21-03-2025 11:20:37,28.939s,FAILED
+"DATA BINDING - {""item"":""Blu-rays"",""category"":""Movies \u0026 TV Shows""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 11:20:08,21-03-2025 11:20:14,5.743s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 11:20:14,21-03-2025 11:20:17,3.728s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 11:20:17,21-03-2025 11:20:26,8.727s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 11:20:26,21-03-2025 11:20:27,1.065s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 11:20:27,21-03-2025 11:20:35,8.383s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 11:20:35,21-03-2025 11:20:37,1.276s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 11:22:08,21-03-2025 11:22:35,26.033s,FAILED
+"DATA BINDING - {""item"":""popular songs"",""category"":""MP3 Music""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 11:22:08,21-03-2025 11:22:12,3.854s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 11:22:12,21-03-2025 11:22:17,4.742s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 11:22:17,21-03-2025 11:22:23,6.114s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 11:22:23,21-03-2025 11:22:24,0.699s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 11:22:24,21-03-2025 11:22:33,9.261s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 11:22:33,21-03-2025 11:22:35,1.349s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 11:24:04,21-03-2025 11:24:37,32.647s,FAILED
+"DATA BINDING - {""item"":""vinyl records"",""category"":""Music""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 11:24:04,21-03-2025 11:24:08,3.874s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 11:24:08,21-03-2025 11:24:14,6.129s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 11:24:14,21-03-2025 11:24:29,14.954s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 11:24:29,21-03-2025 11:24:30,0.642s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 11:24:30,21-03-2025 11:24:35,5.354s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 11:24:35,21-03-2025 11:24:37,1.679s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 11:26:08,21-03-2025 11:26:32,24.217s,FAILED
+"DATA BINDING - {""item"":""Guitars"",""category"":""Musical Instruments""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 11:26:08,21-03-2025 11:26:12,4.064s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 11:26:12,21-03-2025 11:26:18,5.599s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 11:26:18,21-03-2025 11:26:22,4.373s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 11:26:22,21-03-2025 11:26:23,0.701s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 11:26:23,21-03-2025 11:26:30,7.174s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 11:26:30,21-03-2025 11:26:32,2.285s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 11:28:33,21-03-2025 11:28:58,25.648s,FAILED
+"DATA BINDING - {""item"":""office chairs"",""category"":""Office Products""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 11:28:33,21-03-2025 11:28:37,3.895s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 11:28:37,21-03-2025 11:28:41,4.465s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 11:28:41,21-03-2025 11:28:50,8.730s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 11:28:50,21-03-2025 11:28:50,0.620s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 11:28:50,21-03-2025 11:28:57,6.231s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 11:28:57,21-03-2025 11:28:58,1.692s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 11:30:10,21-03-2025 11:30:43,32.898s,FAILED
+"DATA BINDING - {""item"":""pet food"",""category"":""Pet Supplies""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 11:30:10,21-03-2025 11:30:14,3.938s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 11:30:14,21-03-2025 11:30:17,3.373s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 11:30:17,21-03-2025 11:30:26,8.517s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 11:30:26,21-03-2025 11:30:27,1.172s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 11:30:27,21-03-2025 11:30:41,14.158s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 11:30:41,21-03-2025 11:30:43,1.726s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 11:32:38,21-03-2025 11:33:15,36.630s,FAILED
+"DATA BINDING - {""item"":""documentries"",""category"":""Prime Video""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 11:32:38,21-03-2025 11:32:43,4.473s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 11:32:43,21-03-2025 11:32:57,13.939s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 11:32:57,21-03-2025 11:33:02,5.099s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 11:33:02,21-03-2025 11:33:02,0.632s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 11:33:02,21-03-2025 11:33:12,9.529s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 11:33:12,21-03-2025 11:33:15,2.945s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 11:34:28,21-03-2025 11:34:56,27.853s,FAILED
+"DATA BINDING - {""item"":""sneakers"",""category"":""Shoes \u0026 Handbags""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 11:34:28,21-03-2025 11:34:34,5.413s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 11:34:34,21-03-2025 11:34:39,4.781s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 11:34:39,21-03-2025 11:34:43,4.802s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 11:34:43,21-03-2025 11:34:44,0.638s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 11:34:44,21-03-2025 11:34:53,8.880s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 11:34:53,21-03-2025 11:34:56,3.325s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 11:36:38,21-03-2025 11:37:02,23.789s,FAILED
+"DATA BINDING - {""item"":""antivirus programs"",""category"":""Software""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 11:36:38,21-03-2025 11:36:43,4.049s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 11:36:43,21-03-2025 11:36:46,3.748s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 11:36:46,21-03-2025 11:36:56,9.468s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 11:36:56,21-03-2025 11:36:56,0.635s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 11:36:56,21-03-2025 11:37:01,4.396s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 11:37:01,21-03-2025 11:37:02,1.482s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 11:38:05,21-03-2025 11:38:39,33.612s,FAILED
+"DATA BINDING - {""item"":""sports apparel"",""category"":""Sports, Fitness \u0026 Outdoors""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 11:38:05,21-03-2025 11:38:09,4.089s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 11:38:09,21-03-2025 11:38:12,2.516s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 11:38:12,21-03-2025 11:38:32,20.033s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 11:38:32,21-03-2025 11:38:33,0.752s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 11:38:33,21-03-2025 11:38:37,4.542s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 11:38:37,21-03-2025 11:38:39,1.667s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 11:39:41,21-03-2025 11:40:13,31.727s,FAILED
+"DATA BINDING - {""item"":""personal care"",""category"":""Subscribe \u0026 Save""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 11:39:41,21-03-2025 11:39:45,4.000s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 11:39:45,21-03-2025 11:39:49,4.115s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 11:39:49,21-03-2025 11:40:01,12.095s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 11:40:01,21-03-2025 11:40:02,0.671s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 11:40:02,21-03-2025 11:40:11,9.117s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 11:40:11,21-03-2025 11:40:13,1.714s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 11:41:37,21-03-2025 11:42:49,1m - 12.163s,FAILED
+"DATA BINDING - {""item"":""toolkits"",""category"":""Tools \u0026 Home Improvement""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 11:41:37,21-03-2025 11:41:41,3.928s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 11:41:41,21-03-2025 11:41:57,16.022s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 11:41:57,21-03-2025 11:42:41,43.924s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 11:42:41,21-03-2025 11:42:41,0.636s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 11:42:41,21-03-2025 11:42:48,6.595s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 11:42:48,21-03-2025 11:42:49,1.044s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 11:44:26,21-03-2025 11:44:47,21.257s,FAILED
+"DATA BINDING - {""item"":""puzzles"",""category"":""Toys \u0026 Games""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 11:44:26,21-03-2025 11:44:29,3.841s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 11:44:29,21-03-2025 11:44:34,4.303s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 11:44:34,21-03-2025 11:44:38,4.067s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 11:44:38,21-03-2025 11:44:39,0.764s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 11:44:39,21-03-2025 11:44:45,6.932s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 11:44:45,21-03-2025 11:44:47,1.337s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 11:45:53,21-03-2025 11:46:13,20.657s,FAILED
+"DATA BINDING - {""item"":""agordable gadgets"",""category"":""Under ₹500""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 11:45:53,21-03-2025 11:45:57,3.879s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 11:45:57,21-03-2025 11:46:02,5.760s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 11:46:02,21-03-2025 11:46:06,3.549s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 11:46:06,21-03-2025 11:46:07,0.839s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 11:46:07,21-03-2025 11:46:12,5.284s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 11:46:12,21-03-2025 11:46:13,1.335s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 11:47:13,21-03-2025 11:47:36,22.848s,FAILED
+"DATA BINDING - {""item"":""gaming accessories"",""category"":""Video Games""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 11:47:13,21-03-2025 11:47:17,3.857s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 11:47:17,21-03-2025 11:47:21,4.096s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 11:47:21,21-03-2025 11:47:28,6.779s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 11:47:28,21-03-2025 11:47:29,0.641s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 11:47:29,21-03-2025 11:47:35,6.142s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 11:47:35,21-03-2025 11:47:36,1.320s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_003,Firefox 136.0.2,,,21-03-2025 11:48:45,21-03-2025 11:49:14,28.993s,FAILED
+"DATA BINDING - {""item"":""smartwatches"",""category"":""Watches""}",,,,,,,
+"openBrowser("""")",Firefox 136.0.2,,,21-03-2025 11:48:45,21-03-2025 11:48:49,3.857s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Firefox 136.0.2,,,21-03-2025 11:48:49,21-03-2025 11:48:53,4.741s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), category, true)",Firefox 136.0.2,,,21-03-2025 11:48:53,21-03-2025 11:49:02,8.424s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), item)",Firefox 136.0.2,,,21-03-2025 11:49:02,21-03-2025 11:49:03,0.638s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Firefox 136.0.2,,,21-03-2025 11:49:03,21-03-2025 11:49:13,10.045s,PASSED
+closeBrowser(),Firefox 136.0.2,,,21-03-2025 11:49:13,21-03-2025 11:49:14,1.276s,PASSED

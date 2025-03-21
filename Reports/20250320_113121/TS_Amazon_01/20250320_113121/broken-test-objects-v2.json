@@ -1,0 +1,54 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_NewUserRegistration_OR/Page_Amazon Registration/input_Your name_customerName",
+      "brokenLocator": "//input[@id\u003d\u0027ap_customer_name\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250320_113121/TS_Amazon_01/20250320_113121/Object Repository/Amazon_NewUserRegistration_OR/Page_Amazon Registration/input_Your name_customerName_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_NewUserRegistration_OR/Page_Amazon Registration/input_Passwords must be at least 6 characters_continue",
+      "brokenLocator": "//input[@id\u003d\u0027continue\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250320_113121/TS_Amazon_01/20250320_113121/Object Repository/Amazon_NewUserRegistration_OR/Page_Amazon Registration/input_Passwords must be at least 6 characters_continue_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_Login_OR/Page_/input_IN 91_email",
+      "brokenLocator": "//input[@id\u003d\u0027ap_email_login\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250320_113121/TS_Amazon_01/20250320_113121/Object Repository/Amazon_Login_OR/Page_/input_IN 91_email_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_PasswordReset_OR/Page_/input_IN 91_email",
+      "brokenLocator": "//input[@id\u003d\u0027ap_email_login\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250320_113121/TS_Amazon_01/20250320_113121/Object Repository/Amazon_PasswordReset_OR/Page_/input_IN 91_email_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_PasswordReset_OR/Page_Amazon/input_Type your password again_continue",
+      "brokenLocator": "//input[@id\u003d\u0027continue\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span[@id\u003d\u0027a-autoid-0\u0027]/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250320_113121/TS_Amazon_01/20250320_113121/Object Repository/Amazon_PasswordReset_OR/Page_Amazon/input_Type your password again_continue_idRelative.png"
+    }
+  ]
+}

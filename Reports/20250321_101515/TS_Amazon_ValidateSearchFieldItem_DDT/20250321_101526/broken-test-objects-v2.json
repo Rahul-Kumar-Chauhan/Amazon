@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button",
+      "brokenLocator": "//input[@id\u003d\u0027nav-search-submit-button\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "internal:role\u003dbutton[name\u003d\"Go\"s]",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/20250321_101515/TS_Amazon_ValidateSearchFieldItem_DDT/20250321_101526/Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button_SMART_LOCATOR.png"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_View or edit order</name>
+   <tag></tag>
+   <elementGuidId>7fdcf75f-bac8-4561-b2e6-aa2e2ee675f4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#a-autoid-3-announce</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='a-autoid-3-announce']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;View or edit order&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>5cc1be8d-671b-4799-a615-162d8374db77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/gp/css/order-details?orderID=407-9204132-8266715&amp;ref=ppx_yo2ov_dt_b_fed_veo</value>
+      <webElementGuid>a1c8aa8f-dc0a-47d8-8135-caff1eeef34f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-button-text</value>
+      <webElementGuid>39badb68-a5d2-468e-aeb1-73e91083eb8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>13eff26d-0b70-4585-b1b5-30644cd59a15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>a-autoid-3-announce</value>
+      <webElementGuid>3d862811-a17a-4b24-912e-55e8c031e57a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            View or edit order
+        </value>
+      <webElementGuid>96be0442-2950-4fac-a64d-b5310bba3763</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a-autoid-3-announce&quot;)</value>
+      <webElementGuid>ee1775e5-d458-45e3-a7b3-49cad3881f3b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='a-autoid-3-announce']</value>
+      <webElementGuid>d99788d8-a364-4ea8-b2fb-e24f701f3f53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='a-autoid-3']/span/a</value>
+      <webElementGuid>91602fc8-9670-4d5e-aff6-09308c638dc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'View or edit order')]</value>
+      <webElementGuid>25206aca-da85-44a8-8485-7f486431394b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Track package'])[1]/following::a[1]</value>
+      <webElementGuid>e6cfed61-0c75-472a-8f5b-57f63f731c0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dopamine Detox : A Short Guide to Remove Distractions and Get Your Brain to Do Hard Things'])[1]/following::a[2]</value>
+      <webElementGuid>63b18b19-adf3-45cc-aa2f-c14a918bbf19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Write a product review'])[1]/preceding::a[1]</value>
+      <webElementGuid>cd0a494c-b0ae-4776-9677-817d92f21e78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Archive order'])[1]/preceding::a[2]</value>
+      <webElementGuid>e7a27769-e890-4eea-ae90-0e6adcaeadda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='View or edit order']/parent::*</value>
+      <webElementGuid>1116315b-d586-4944-a7c1-ea1df5887abc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/gp/css/order-details?orderID=407-9204132-8266715&amp;ref=ppx_yo2ov_dt_b_fed_veo')]</value>
+      <webElementGuid>e6cffc5d-d045-4fb0-9d8b-ad2e21aa59b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/span/span/span/a</value>
+      <webElementGuid>b0ae8852-ad01-4639-b484-d24f513be0ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/gp/css/order-details?orderID=407-9204132-8266715&amp;ref=ppx_yo2ov_dt_b_fed_veo' and @id = 'a-autoid-3-announce' and (text() = '
+            View or edit order
+        ' or . = '
+            View or edit order
+        ')]</value>
+      <webElementGuid>d36112aa-6de8-49a6-89de-6132f475c606</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,1528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Amazon_ValidateSearchFieldItem_DDT" time="1691.161" tests="43" failures="0" errors="0">
+   <testsuite name="TS_Amazon_ValidateSearchFieldItem_DDT" tests="43" failures="0" errors="0" time="1691.161" skipped="0" timestamp="20-03-2025T11:02:33" hostname="R.K.Chauhan - RahulPC" id="Test Suites/TS_Amazon_ValidateSearchFieldItem_DDT">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="E:\\Software Automation Testing\\Amazon\\Reports\\20250320_110226\\TS_Amazon_ValidateSearchFieldItem_DDT\\20250320_110226"/>
+         <property name="logFiles" value="E:\\Software Automation Testing\\Amazon\\Reports\\20250320_110226\\TS_Amazon_ValidateSearchFieldItem_DDT\\20250320_110226\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="R.K.Chauhan - RahulPC"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Edge Chromium 134.0.3124.72"/>
+         <property name="hostAddress" value="192.168.114.167"/>
+         <property name="sessionId" value="a94c00f6bc9914983bf21909a251e0c9"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="42.541" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"smart home control","category":"Alexa Skills"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:02:34 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:02:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:02:35 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:02:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:02:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:02:41 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:02:44 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:02:44 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Alexa Skills' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:02:52 - [MESSAGE][PASSED] - All options with label 'Alexa Skills' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:02:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'smart home control' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:02:54 - [MESSAGE][PASSED] - Text 'smart home control' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:02:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:03:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:03:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:03:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="28.069" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"fire stick","category":"Amazon Devices"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:03:16 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:03:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:03:16 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:03:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:03:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:03:20 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:03:29 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:03:29 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Amazon Devices' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:03:36 - [MESSAGE][PASSED] - All options with label 'Amazon Devices' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:03:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'fire stick' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:03:37 - [MESSAGE][PASSED] - Text 'fire stick' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:03:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:03:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:03:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:03:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="26.004" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"shoes","category":"Amazon Fashion"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:03:44 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:03:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:03:44 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:03:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:03:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:03:48 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:03:55 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:03:55 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Amazon Fashion' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:04:02 - [MESSAGE][PASSED] - All options with label 'Amazon Fashion' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:04:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'shoes' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:04:03 - [MESSAGE][PASSED] - Text 'shoes' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:04:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:04:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:04:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:04:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="25.649" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"health supplements","category":"Amazon Pharmacy"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:04:10 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:04:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:04:10 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:04:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:04:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:04:14 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:04:23 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:04:23 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Amazon Pharmacy' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:04:29 - [MESSAGE][PASSED] - All options with label 'Amazon Pharmacy' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:04:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'health supplements' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:04:30 - [MESSAGE][PASSED] - Text 'health supplements' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:04:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:04:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:04:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:04:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="24.597" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"refrigerators","category":"Appliances"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:04:36 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:04:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:04:36 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:04:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:04:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:04:40 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:04:46 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:04:46 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Appliances' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:04:53 - [MESSAGE][PASSED] - All options with label 'Appliances' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:04:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'refrigerators' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:04:54 - [MESSAGE][PASSED] - Text 'refrigerators' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:04:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:04:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:04:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:05:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="36.63" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"pc games","category":"Apps \u0026 Games"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:05:01 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:05:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:05:01 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:05:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:05:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:05:04 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:05:12 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:05:12 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Apps & Games' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:05:24 - [MESSAGE][PASSED] - All options with label 'Apps & Games' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:05:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'pc games' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:05:24 - [MESSAGE][PASSED] - Text 'pc games' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:05:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:05:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:05:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:05:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="55.125" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"self-help books","category":"Audible Audiobooks"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:05:38 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:05:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:05:38 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:05:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:05:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:05:41 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:06:06 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:06:06 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Audible Audiobooks' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:06:20 - [MESSAGE][PASSED] - All options with label 'Audible Audiobooks' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:06:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'self-help books' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:06:21 - [MESSAGE][PASSED] - Text 'self-help books' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:06:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:06:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:06:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:06:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="67.204" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"baby clothes","category":"Baby"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:06:33 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:06:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:06:33 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:06:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:06:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:06:36 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:06:53 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:06:53 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Baby' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:07:15 - [MESSAGE][PASSED] - All options with label 'Baby' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:07:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'baby clothes' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:07:16 - [MESSAGE][PASSED] - Text 'baby clothes' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:07:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:07:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:07:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="154.503" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"perfumes","category":"Beauty"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:07:40 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:07:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:07:40 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:07:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:07:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:07:44 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:09:12 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:09:12 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Beauty' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:09:28 - [MESSAGE][PASSED] - All options with label 'Beauty' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:09:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'perfumes' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:09:30 - [MESSAGE][PASSED] - Text 'perfumes' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:09:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:10:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:10:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:10:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="100.427" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"fiction","category":"Books"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:10:15 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:10:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:10:15 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:10:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:10:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:10:18 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:10:59 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:10:59 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Books' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:11:33 - [MESSAGE][PASSED] - All options with label 'Books' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:11:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'fiction' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:11:34 - [MESSAGE][PASSED] - Text 'fiction' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:11:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:11:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:11:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:11:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="61.372" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"bike accessories","category":"Car \u0026 Motorbike"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:11:55 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:11:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:11:55 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:11:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:11:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:11:58 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:12:22 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:12:22 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Car & Motorbike' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:12:34 - [MESSAGE][PASSED] - All options with label 'Car & Motorbike' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:12:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'bike accessories' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:12:35 - [MESSAGE][PASSED] - Text 'bike accessories' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:12:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:12:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:12:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:12:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="56.62" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"sunglasses","category":"Clothing \u0026 Accessories"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:12:56 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:12:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:12:56 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:12:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:13:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:13:00 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:13:19 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:13:19 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Clothing & Accessories' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:13:27 - [MESSAGE][PASSED] - All options with label 'Clothing & Accessories' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:13:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'sunglasses' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:13:29 - [MESSAGE][PASSED] - Text 'sunglasses' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:13:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:13:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:13:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:13:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="40.735" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"coins","category":"Collectibles"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:13:53 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:13:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:13:53 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:13:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:13:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:13:57 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:14:06 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:14:06 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Collectibles' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:14:14 - [MESSAGE][PASSED] - All options with label 'Collectibles' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:14:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'coins' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:14:15 - [MESSAGE][PASSED] - Text 'coins' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:14:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:14:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:14:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:14:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="27.291" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"laptops","category":"Computers \u0026 Accessories"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:14:34 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:14:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:14:34 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:14:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:14:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:14:37 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:14:49 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:14:49 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Computers & Accessories' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:14:54 - [MESSAGE][PASSED] - All options with label 'Computers & Accessories' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:14:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'laptops' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:14:55 - [MESSAGE][PASSED] - Text 'laptops' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:14:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:14:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:14:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:15:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="34.158" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"combo offers","category":"Deals"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:15:01 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:15:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:15:01 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:15:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:15:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:15:04 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:15:11 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:15:11 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Deals' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:15:20 - [MESSAGE][PASSED] - All options with label 'Deals' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:15:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'combo offers' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:15:21 - [MESSAGE][PASSED] - Text 'combo offers' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:15:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:15:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:15:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:15:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="78.06" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"TVs","category":"Electronics"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:15:35 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:15:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:15:35 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:15:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:15:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:15:38 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:15:51 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:15:51 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Electronics' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:15:57 - [MESSAGE][PASSED] - All options with label 'Electronics' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:15:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'TVs' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:15:59 - [MESSAGE][PASSED] - Text 'TVs' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:15:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:16:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:16:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:16:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="26.118" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"study tables","category":"Furniture"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:16:54 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:16:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:16:54 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:16:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:16:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:16:57 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:17:07 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:17:07 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Furniture' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:17:12 - [MESSAGE][PASSED] - All options with label 'Furniture' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:17:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'study tables' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:17:13 - [MESSAGE][PASSED] - Text 'study tables' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:17:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:17:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:17:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:17:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="33.028" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"outdoor furniture","category":"Garden \u0026 Outdoors"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:17:20 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:17:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:17:20 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:17:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:17:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:17:23 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:17:34 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:17:34 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Garden & Outdoors' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:17:40 - [MESSAGE][PASSED] - All options with label 'Garden & Outdoors' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:17:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'outdoor furniture' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:17:41 - [MESSAGE][PASSED] - Text 'outdoor furniture' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:17:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:17:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:17:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:17:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="35.901" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"physical gift cards","category":"Gift Cards"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:17:53 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:17:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:17:53 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:17:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:17:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:17:56 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:18:06 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:18:06 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Gift Cards' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:18:12 - [MESSAGE][PASSED] - All options with label 'Gift Cards' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:18:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'physical gift cards' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:18:17 - [MESSAGE][PASSED] - Text 'physical gift cards' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:18:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:18:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:18:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:18:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="23.886" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"organic foods","category":"Grocery \u0026 Gourmet Foods"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:18:29 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:18:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:18:29 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:18:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:18:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:18:32 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:18:37 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:18:37 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Grocery & Gourmet Foods' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:18:43 - [MESSAGE][PASSED] - All options with label 'Grocery & Gourmet Foods' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:18:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'organic foods' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:18:44 - [MESSAGE][PASSED] - Text 'organic foods' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:18:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:18:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:18:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:18:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="27.225" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"first aid kits","category":"Health \u0026 Personal Care"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:18:53 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:18:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:18:53 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:18:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:18:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:18:56 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:19:06 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:19:06 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Health & Personal Care' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:19:12 - [MESSAGE][PASSED] - All options with label 'Health & Personal Care' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:19:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'first aid kits' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:19:13 - [MESSAGE][PASSED] - Text 'first aid kits' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:19:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:19:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:19:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:19:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="25.171" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"Cookware","category":"Home \u0026 Kitchen"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:19:20 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:19:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:19:20 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:19:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:19:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:19:23 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:19:31 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:19:31 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Home & Kitchen' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:19:38 - [MESSAGE][PASSED] - All options with label 'Home & Kitchen' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:19:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'Cookware' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:19:39 - [MESSAGE][PASSED] - Text 'Cookware' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:19:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:19:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:19:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:19:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="27.292" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"measuring tools","category":"Industrial \u0026 Scientific"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:19:45 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:19:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:19:45 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:19:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:19:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:19:49 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:19:52 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:19:52 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Industrial & Scientific' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:19:59 - [MESSAGE][PASSED] - All options with label 'Industrial & Scientific' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:19:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'measuring tools' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:20:02 - [MESSAGE][PASSED] - Text 'measuring tools' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:20:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:20:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:20:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:20:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="29.353" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"earring","category":"Jewellery"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:20:12 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:20:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:20:12 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:20:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:20:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:20:16 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:20:21 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:20:21 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Jewellery' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:20:26 - [MESSAGE][PASSED] - All options with label 'Jewellery' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:20:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'earring' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:20:27 - [MESSAGE][PASSED] - Text 'earring' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:20:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:20:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:20:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:20:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="25.109" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"magazines","category":"Kindle Store"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:20:42 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:20:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:20:42 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:20:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:20:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:20:45 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:20:51 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:20:51 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Kindle Store' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:20:56 - [MESSAGE][PASSED] - All options with label 'Kindle Store' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:20:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'magazines' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:20:57 - [MESSAGE][PASSED] - Text 'magazines' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:20:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:21:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:21:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:21:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="93.707" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"wallets","category":"Luggage \u0026 Bags"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:21:07 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:21:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:21:07 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:21:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:21:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:21:10 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:21:48 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:21:48 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Luggage & Bags' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:22:03 - [MESSAGE][PASSED] - All options with label 'Luggage & Bags' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:22:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'wallets' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:22:05 - [MESSAGE][PASSED] - Text 'wallets' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:22:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:22:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:22:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:22:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="75.469" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"Luxury skincare","category":"Luxury Beauty"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:22:41 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:22:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:22:41 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:22:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:22:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:22:44 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:23:11 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:23:11 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Luxury Beauty' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:23:31 - [MESSAGE][PASSED] - All options with label 'Luxury Beauty' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:23:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'Luxury skincare' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:23:39 - [MESSAGE][PASSED] - Text 'Luxury skincare' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:23:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:23:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:23:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:23:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="27.105" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"Blu-rays","category":"Movies \u0026 TV Shows"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:23:56 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:23:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:23:56 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:23:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:23:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:23:59 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:24:03 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:24:03 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Movies & TV Shows' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:24:09 - [MESSAGE][PASSED] - All options with label 'Movies & TV Shows' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:24:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'Blu-rays' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:24:10 - [MESSAGE][PASSED] - Text 'Blu-rays' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:24:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:24:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:24:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:24:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="20.238" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"popular songs","category":"MP3 Music"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:24:23 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:24:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:24:23 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:24:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:24:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:24:27 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:24:30 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:24:30 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'MP3 Music' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:24:36 - [MESSAGE][PASSED] - All options with label 'MP3 Music' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:24:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'popular songs' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:24:37 - [MESSAGE][PASSED] - Text 'popular songs' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:24:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:24:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:24:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:24:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="19.802" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"vinyl records","category":"Music"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:24:44 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:24:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:24:44 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:24:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:24:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:24:47 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:24:52 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:24:52 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Music' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:24:57 - [MESSAGE][PASSED] - All options with label 'Music' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:24:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'vinyl records' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:24:58 - [MESSAGE][PASSED] - Text 'vinyl records' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:24:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:25:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:25:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:25:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="35.763" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"Guitars","category":"Musical Instruments"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:25:04 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:25:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:25:04 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:25:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:25:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:25:07 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:25:11 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:25:11 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Musical Instruments' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:25:18 - [MESSAGE][PASSED] - All options with label 'Musical Instruments' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:25:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'Guitars' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:25:20 - [MESSAGE][PASSED] - Text 'Guitars' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:25:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:25:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:25:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:25:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="25.653" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"office chairs","category":"Office Products"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:25:39 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:25:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:25:39 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:25:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:25:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:25:43 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:25:46 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:25:46 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Office Products' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:25:52 - [MESSAGE][PASSED] - All options with label 'Office Products' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:25:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'office chairs' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:25:53 - [MESSAGE][PASSED] - Text 'office chairs' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:25:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:26:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:26:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:26:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="21.19" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"pet food","category":"Pet Supplies"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:26:05 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:26:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:26:05 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:26:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:26:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:26:08 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:26:14 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:26:14 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Pet Supplies' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:26:19 - [MESSAGE][PASSED] - All options with label 'Pet Supplies' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:26:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'pet food' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:26:20 - [MESSAGE][PASSED] - Text 'pet food' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:26:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:26:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:26:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:26:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="21.453" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"documentries","category":"Prime Video"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:26:26 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:26:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:26:26 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:26:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:26:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:26:30 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:26:36 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:26:36 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Prime Video' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:26:41 - [MESSAGE][PASSED] - All options with label 'Prime Video' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:26:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'documentries' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:26:43 - [MESSAGE][PASSED] - Text 'documentries' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:26:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:26:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:26:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:26:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="26.041" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"sneakers","category":"Shoes \u0026 Handbags"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:26:48 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:26:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:26:48 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:26:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:26:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:26:51 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:26:59 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:26:59 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Shoes & Handbags' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:27:05 - [MESSAGE][PASSED] - All options with label 'Shoes & Handbags' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:27:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'sneakers' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:27:07 - [MESSAGE][PASSED] - Text 'sneakers' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:27:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:27:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:27:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:27:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="30.736" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"antivirus programs","category":"Software"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:27:14 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:27:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:27:14 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:27:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:27:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:27:17 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:27:24 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:27:24 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Software' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:27:30 - [MESSAGE][PASSED] - All options with label 'Software' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:27:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'antivirus programs' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:27:31 - [MESSAGE][PASSED] - Text 'antivirus programs' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:27:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:27:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:27:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:27:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="25.279" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"sports apparel","category":"Sports, Fitness \u0026 Outdoors"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:27:45 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:27:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:27:45 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:27:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:27:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:27:48 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:27:53 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:27:53 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Sports, Fitness & Outdoors' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:28:01 - [MESSAGE][PASSED] - All options with label 'Sports, Fitness & Outdoors' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:28:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'sports apparel' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:28:02 - [MESSAGE][PASSED] - Text 'sports apparel' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:28:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:28:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:28:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:28:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="24.953" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"personal care","category":"Subscribe \u0026 Save"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:28:10 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:28:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:28:10 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:28:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:28:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:28:13 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:28:18 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:28:18 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Subscribe & Save' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:28:25 - [MESSAGE][PASSED] - All options with label 'Subscribe & Save' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:28:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'personal care' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:28:27 - [MESSAGE][PASSED] - Text 'personal care' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:28:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:28:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:28:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:28:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="21.728" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"toolkits","category":"Tools \u0026 Home Improvement"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:28:35 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:28:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:28:35 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:28:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:28:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:28:38 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:28:45 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:28:45 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Tools & Home Improvement' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:28:50 - [MESSAGE][PASSED] - All options with label 'Tools & Home Improvement' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:28:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'toolkits' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:28:51 - [MESSAGE][PASSED] - Text 'toolkits' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:28:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:28:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:28:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:28:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="22.898" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"puzzles","category":"Toys \u0026 Games"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:28:57 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:28:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:28:57 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:28:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:29:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:29:00 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:29:05 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:29:05 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Toys & Games' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:29:10 - [MESSAGE][PASSED] - All options with label 'Toys & Games' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:29:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'puzzles' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:29:11 - [MESSAGE][PASSED] - Text 'puzzles' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:29:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:29:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:29:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:29:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="38.622" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"agordable gadgets","category":"Under ₹500"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:29:20 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:29:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:29:20 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:29:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:29:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:29:23 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:29:41 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:29:41 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Under ₹500' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:29:48 - [MESSAGE][PASSED] - All options with label 'Under ₹500' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:29:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'agordable gadgets' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:29:49 - [MESSAGE][PASSED] - Text 'agordable gadgets' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:29:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:29:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:29:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:29:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="26.731" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"gaming accessories","category":"Video Games"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:29:58 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:29:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:29:58 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:29:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:30:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:30:01 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:30:05 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:30:05 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Video Games' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:30:10 - [MESSAGE][PASSED] - All options with label 'Video Games' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:30:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'gaming accessories' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:30:11 - [MESSAGE][PASSED] - Text 'gaming accessories' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:30:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:30:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:30:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:30:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" time="19.333" classname="Test Cases/TC_Amazon_ValidateSearchFieldItem_003" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"item":"smartwatches","category":"Watches"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-03-2025T11:30:25 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_ValidateSearchFieldItem_003: Test Cases/TC_Amazon_ValidateSearchFieldItem_003
+
+20-03-2025T11:30:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-03-2025T11:30:25 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-03-2025T11:30:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-03-2025T11:30:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-03-2025T11:30:28 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:30:32 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+20-03-2025T11:30:32 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), category, true): All options with label 'Watches' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:30:37 - [MESSAGE][PASSED] - All options with label 'Watches' are selected in object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+20-03-2025T11:30:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), item): Text 'smartwatches' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:30:38 - [MESSAGE][PASSED] - Text 'smartwatches' is set on object 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+20-03-2025T11:30:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:30:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchFieldItem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+20-03-2025T11:30:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-03-2025T11:30:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[20-03-2025T11:02:33 - [TEST_SUITE][PASSED] - TS_Amazon_ValidateSearchFieldItem_DDT: Test Cases/TC_Amazon_ValidateSearchFieldItem_003]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

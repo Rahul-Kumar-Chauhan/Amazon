@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_This is a gift_a-icon a-icon-small-trash</name>
+   <tag></tag>
+   <elementGuidId>1193ed4c-4dea-4a42-8efa-95744dbf7c8f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.a-icon.a-icon-small-trash</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sc-active-0ea97f9d-5e10-4078-b03e-3c61ddd1aee9']/div[4]/div/div[3]/div/span/span/div/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Delete Advanced Software Testing Volume 1: Guide to the Istqb Advanced Certification as an Advanced Test Analyst&quot;i >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>acc73237-b21b-4ca4-add5-a1be41fea8b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-a-selector</name>
+      <type>Main</type>
+      <value>decrement-icon</value>
+      <webElementGuid>17f3d6d9-ac71-4bcf-bc50-9928ecb13c00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-icon a-icon-small-trash</value>
+      <webElementGuid>95f9241e-b2c0-46ef-97f1-60bf2094e6a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sc-active-0ea97f9d-5e10-4078-b03e-3c61ddd1aee9&quot;)/div[@class=&quot;sc-list-item-content&quot;]/div[@class=&quot;a-row a-grid-vertical-align a-grid-top sc-list-item-content-inner&quot;]/div[@class=&quot;sc-item-content-group&quot;]/div[@class=&quot;a-row sc-action-links&quot;]/span[@class=&quot;sc-action-quantity&quot;]/span[@class=&quot;sc-quantity-stepper&quot;]/div[@class=&quot;a-declarative&quot;]/button[@class=&quot;a-declarative&quot;]/span[@class=&quot;a-icon a-icon-small-trash&quot;]</value>
+      <webElementGuid>40fa49ec-8171-4796-ba27-99a8afae2def</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sc-active-0ea97f9d-5e10-4078-b03e-3c61ddd1aee9']/div[4]/div/div[3]/div/span/span/div/button/span</value>
+      <webElementGuid>d3891681-6c3e-40e4-b3c9-c9d729c31904</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/span</value>
+      <webElementGuid>d847241b-702c-4df4-8029-aa473ce17351</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
